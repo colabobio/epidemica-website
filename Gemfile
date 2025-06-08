@@ -1,33 +1,45 @@
-source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", "~> 4.4.1"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+require 'json'
+require 'net/http'
+
+source 'https://rubygems.org'
+
+
+begin
+  versions_url = 'https://pages.github.com/versions.json'
+  versions     = JSON.parse(Net::HTTP.get(URI(versions_url)))
+
+  # Ensure matching of the local gems with the production version of Github Pages.
+  gem 'github-pages', versions['github-pages'], group: :jekyll_plugins  # Maintenance mode instructions: lock down the version by replacing “versions['github-pages']” with '~> X.Y.Z'. The version number should be the one in `grep github-pages Gemfile.lock`.
+
+  # Ensure matching of the local Ruby version with the production version of GitHub Pages.
+  # ruby versions['ruby']  # Maintenance mode instructions: remove this check entirely, as it is already locked in the CI image
+
+# If the GitHub Pages versions endpoint is unreacheable, assume offline development.
+rescue SocketError => socket_error
+  # If in CI, this means we can't validate version match, and there is no reason to be offline. Abort.
+  raise socket_error if ENV['CI']
+
+  puts "Couldn't reach #{versions_url}, assuming you're offline."
+
+  # Use whichever version is already installed without checking production version match.
+  gem 'github-pages'
+
+# Provide a fallback scenario if for any other reason the production versions check fails.
+rescue => standard_error
+  # If in CI, this means we can't validate version match. Abort.
+  raise standard_error if ENV['CI']
+
+  puts <<-MESSAGE
+    Something went wrong trying to parse production versions: #{standard_error.class.name}
+    ---
+    #{standard_error.message}
+    ---
+  MESSAGE
+
+  # Use whichever version is already installed without checking production version match.
+  gem 'github-pages'
 end
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
+group :test do
+  gem 'html-proofer', ">= 4.4",  "< 5"  # v5 depends on Ruby v3, which is not supported by GitHub Pages
 end
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-# do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]

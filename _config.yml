@@ -1,55 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# This file is *NOT* reloaded automatically when you use 'jekyll serve'.
+# If you change this file, you will have to restart the server process.
 
 title: Epidemica
-email: andres.colubri@umassmed.edu 
-description: >- # this means to ignore newlines until "baseurl:"
-  Epidemica is a platform for infectious disease research.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://epidemica.info" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+baseurl: ""  # with leading slash, without trailing slash; should be the name of the repo if serving on GitHub Pages; use the empty string (""), not a slash, if you host on root; see https://github.com/github/pages-gem/issues/350
+url: https://epidemica.info  # no trailing slash, see https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+email: colabo@umassmed.edu
+repository: colabobio/epidemica-website
+description: Epidemica is a platform for infectious disease research.
+lang: en  # set the language of your website with its ISO code in order to improve indexation and automated translation
+# twitter_username: colabobio  # associate a Twitter username with this website
 github_username: colabobio
 
-# Build settings
-#theme: minima
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-  - jekyll-remote-theme
-  # - jekyll-feed
+collections:
+  toplevel:
+    output: true
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+defaults:  # rather than repeating config in all YAML front matters, use defaults for each type of content you have in your website
+  -
+    scope:
+      path: ""  # means "all files"
+    values:
+      layout: default
+  -
+    scope:
+      path: toplevel  # despite the property name, this is the name of a collection, not a folder path, so there is no leading underscore
+    values:
+      layout: default
+
+exclude:
+  - .circleci
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+  - vendor
