@@ -1,0 +1,117 @@
+# CircleCI 2.0 configuration file. See <https://circleci.com/docs/2.0/language-ruby/>.
+version: 2
+jobs:
+  build:
+    docker:
+       - image: cimg/ruby:2.7.4-browsers  # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Restore bundle cache
+          command: bundle config set path vendor/bundle
+
+      - run:
+          name: Update bundler
+          command: gem install bundler  # Maintenance mode instructions: lock down this version with the suffix `-v X.Y.Z`. The version number should be the one in `tail -2 Gemfile.lock`.
+
+      - run:
+          name: Install Ruby dependencies
+          command: bundle install --jobs=4 --retry=3
+
+      - run:
+          name: Install html5validator
+          command: |
+            sudo apt-get update
+            sudo apt-get install -y python3-pip
+            pip install --user --upgrade html5validator  # will install in $HOME/.local
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+          paths:
+            - ./vendor/bundle
+            - $HOME/.local
+
+      - run:
+          name: Check Jekyll configuration
+          command: bundle exec jekyll doctor
+
+      - run:
+          name: Compile website with GitHub Pages options
+          command: bundle exec jekyll build --safe --strict_front_matter
+
+      - run:
+          name: Check homepage was compiled
+          command: test -s _site/index.html
+
+      - run:
+          name: Check HTML common mistakes
+          command: bundle exec htmlproofer ./_site --assume-extension .html --check-sri true --disable-external true --ignore-empty-alt true --swap-urls '^/jekyll-template:../_site'
+
+      - run:
+          name: Validate HTML spec compliance
+          command: $HOME/.local/bin/html5validator --root _site
+
+      - run:
+          name: Start server
+          command: bundle exec jekyll serve --no-watch --skip-initial-build
+          background: true
+
+      - run:
+          name: Wait for server to start
+          command: |
+            while ! curl --silent http://localhost:4000
+            do sleep 1
+            done
+
+# Uncomment the lines below if you want to deploy to GitHub Pages only after compiling in CI.
+# Delete these commented lines if you want to always deploy when merging on `main`, no matter what if CI succeeds or not.
+#
+#   deploy:
+#     docker:
+#        - image: cimg/ruby:2.7.4-browsers  # use the same docker image used for testing
+#
+#     steps:
+#       - checkout
+#       - restore_cache:
+#           key: dependency-cache-{{ checksum "Gemfile.lock" }}
+#
+#       - run:
+#           name: Restore bundle cache
+#           command: bundle config set path vendor/bundle
+#
+#       - run:
+#           name: Update bundler
+#           command: gem install bundler  # Maintenance mode instructions: lock down this version with the suffix `-v X.Y.Z`. The version number should be the one in `tail -2 Gemfile.lock`.
+#
+#       - run:
+#           name: Install Ruby dependencies
+#           command: bundle install --jobs=4 --retry=3
+#
+#       - save_cache:
+#           key: dependency-cache-{{ checksum "Gemfile.lock" }}
+#           paths:
+#             - ./vendor/bundle
+#
+#       - run:
+#           name: Compile website
+#           command: bundle exec jekyll build
+#
+#       - run:
+#           name: Deploy site to GitHub Pages
+#           command: bash _scripts/deploy.sh
+#
+# workflows:
+#   version: 2
+#   build-and-deploy:
+#     jobs:
+#       - build
+#       - deploy:
+#           requires:
+#             - build
+#           filters:
+#             branches:
+#               only: main

@@ -33,7 +33,7 @@ Epigames in an infectious disease preparation, education, and data generation pl
 
 We will share your information with the University of Massachusetts Chan Medical School and The Broad Institute, Inc. (https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website). We share your information with a third party, Amazon Web Services (AWS), to provide infrastructure on which we store our data. Information shared with AWS is stored in a AWS S3 database. This database is encrypted using server-side encryption with either Amazon S3-managed keys (SSE-S3) or customer master keys (CMKs) stored in AWS Key Management Service (AWS KMS). Read this AWS Data Privacy FAQ (https://aws.amazon.com/compliance/data-privacy-faq/) for more information.
 
-We may also share your personal data with government and law enforcement agencies or regulators to 1) comply with a legal process, subpoena, order or other legal or regulatory requirement applicable to us; 2) enforce our terms of use or other policies; or 3) pursue available legal remedies or defend against legal claims.
+We may also share your personal data with government and law enforcement agencies or regulators to (1) comply with a legal process, subpoena, order or other legal or regulatory requirement applicable to us; (2) enforce our terms of use or other policies; or (3) pursue available legal remedies or defend against legal claims.
 
 ### How do I consent?
 
@@ -61,8 +61,8 @@ Epigames reserves the right to change, modify, or otherwise amend this Privacy N
 
 ### How can you contact us?
 
-If you have questions about this Privacy Notice, please contact the University of Massachusetts Chan Medical School’s Office of Management at [privacyandcompliance@umassmed.edu](privacyandcompliance@umassmed.edu)
+If you have questions about this Privacy Notice, please contact the University of Massachusetts Chan Medical School’s Office of Management at [privacyandcompliance@umassmed.edu](mailto:privacyandcompliance@umassmed.edu)
 
-If you have any questions about Epigames mobile application or website, please contact Andres Colubri at [andres.colubri@umassmed.edu](andres.colubri@umassmed.edu)
+If you have any questions about Epigames mobile application or website, please contact Andres Colubri at [andres.colubri@umassmed.edu](mailto:andres.colubri@umassmed.edu)
 
 
