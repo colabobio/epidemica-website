@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ site.baseurl }}/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="{{ site.baseurl }}/assets/css/{{ page.layout }}.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
 
     {% for file in page.additional_css %}
       <link rel="stylesheet" type="text/css" href="{% if file contains '://' %}{{ file }}{% else %}{{ site.baseurl }}/assets/css/{{ file }}{% endif %}"/>
