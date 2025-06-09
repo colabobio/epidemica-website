@@ -5,7 +5,7 @@ permalink: /privacy
 
 ## PRIVACY NOTICE FOR EPIGAMES
 
-Date of latest revision: June 4, 2025
+Date of latest revision: June 9, 2025
 
 We take your privacy seriously, and we want you to know how we collect, use, share and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use and share certain information about you and your usage of the Epigames mobile application software (app).
 
@@ -20,18 +20,20 @@ This data makes possible subsequent visualization and analysis of the outbreak. 
 * Optimizing the performance and user experience of the app
 * Operating, evaluating and improving the app
 * Conducting research and analysis
-* How do we collect the information?
+
+### How do we collect the information?
 
 Bluetooth proximity sensing: Proximity sensing information comprising strength of Bluetooth signal and duration of contacts is collected using a secured backend REST API.
 Simulation events: This information is collected using the same secured backend REST API used to collect Bluetooth proximity sensing data.
 App usage analytics: This information is collected automatically by Apple and Google with the purpose of measuring number of users across countries, app retention over time, and frequency of app malfunctions such as crashes. This information is anonymized and available to us as aggregate counts.
-What do we do with the information?
+
+### What do we do with the information?
 
 Epigames in an infectious disease preparation, education, and data generation platform. The Epigames app keeps track of the dynamics of a simulated outbreak by generating anonymous data: random identifiers for all participants, transmission events between those identifiers, total number of infected participants, and their simulated health status. We apply computational methods on some or all this information to generate graphical representations of the events that took place during the simulations, such transmissions and number of cases over time. We may also create mathematical models that represent the properties of the simulations with the goal of understanding the features that drive transmission during an outbreak and making predictions about future outbreaks. Epigames does not sell or rent the information to third parties.
 
 ### Who will have access to the information?
 
-We will share your information with the University of Massachusetts Chan Medical School and The Broad Institute, Inc. (https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website). We share your information with a third party, Amazon Web Services (AWS), to provide infrastructure on which we store our data. Information shared with AWS is stored in a AWS S3 database. This database is encrypted using server-side encryption with either Amazon S3-managed keys (SSE-S3) or customer master keys (CMKs) stored in AWS Key Management Service (AWS KMS). Read this AWS Data Privacy FAQ (https://aws.amazon.com/compliance/data-privacy-faq/) for more information.
+We will share your information with the University of Massachusetts Chan Medical School and The Broad Institute, Inc. (https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website). We share your information with a third party, Amazon Web Services (AWS), to provide infrastructure on which we store our data. Information shared with AWS is stored in a AWS S3 database. This database is encrypted using server-side encryption with either Amazon S3-managed keys (SSE-S3) or customer master keys (CMKs) stored in AWS Key Management Service (AWS KMS). Read [this AWS Data Privacy FAQ](https://aws.amazon.com/compliance/data-privacy-faq/) for more information.
 
 We may also share your personal data with government and law enforcement agencies or regulators to (1) comply with a legal process, subpoena, order or other legal or regulatory requirement applicable to us; (2) enforce our terms of use or other policies; or (3) pursue available legal remedies or defend against legal claims.
 
@@ -57,7 +59,7 @@ We keep your information for as long as needed to fulfill the particular purpose
 
 ### How will you be notified if our Privacy Notice changes?
 
-Epigames reserves the right to change, modify, or otherwise amend this Privacy Notice at its sole discretion and at any time as it deems circumstances warrant. If the Privacy Notice changes, Epigames will post an updated privacy statement with a modification date. Please check back often for the most current version. Your continued use of our application after any change in the Privacy Notice will constitute your acceptance of such changes.
+We reserve the right to change, modify, or otherwise amend this Privacy Notice at our sole discretion and at any time as we deem circumstances warrant. If the Privacy Notice changes, we will post an updated privacy statement with a modification date. Please check back often for the most current version. Your continued use of our application after any change in the Privacy Notice will constitute your acceptance of such changes.
 
 ### How can you contact us?
 
