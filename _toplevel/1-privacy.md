@@ -100,4 +100,4 @@ We reserve the right to change, modify, or otherwise amend this Notice at our so
 
 If you have privacy-related questions, please contact the University of Massachusetts Chan Medical School’s Office of Management at [privacyandcompliance@umassmed.edu](mailto:privacyandcompliance@umassmed.edu).
 
-For questions about about the app or research study, please contact Dr. Andres Colubri at [andres.colubri@umassmed.edu](mailto:andres.colubri@umassmed.edu).
+For questions about the app or research study, please contact Dr. Andres Colubri at [andres.colubri@umassmed.edu](mailto:andres.colubri@umassmed.edu).
