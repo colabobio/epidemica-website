@@ -5,14 +5,14 @@ permalink: /consent
 
 ## Informed Consent for Participation in Research
 
-Study ID# STUDY00002465\
-Version 06/11/2025
+**Study ID# STUDY00002465**\
+**Version 06/12/2025**
 
 Dear participant,
 
-We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the  Epidemica technology developed by the Colubri Lab.
+We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the Epidemica technology developed by the [Colubri Lab](https://co-labo.org/).
 
-The study is expected to last for two days, and your participation is completely voluntary. You are free to decline or stop at any time by selecting the "Leave Study" option in the app, which will also delete your data from our system.
+The study is expected to last for two days, and your participation is completely voluntary. You are free to decline or stop at any time by selecting the "Leave Study" or "Leave Game" option in the app, which will also delete your data from our system.
 
 **If you agree to participate:**
 - You will take part in a simulated outbreak game that will run for two days.

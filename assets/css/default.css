@@ -7,6 +7,8 @@ main {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 main img {
@@ -55,4 +57,8 @@ nav a:focus,
 header li:first-child a:hover,
 header li:first-child a:focus {
   background-color: #DDD;
+}
+
+body ul {
+  margin-left: 1.5em;
 }
