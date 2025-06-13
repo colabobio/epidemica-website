@@ -67,13 +67,13 @@ We may also share information with government or legal authorities when required
 
 ### How do I consent?
 
-This Privacy Notice is for your information only. Your formal consent to participate in the research study will be obtained separately through an informed consent process within the app.
+This Notice is for your information only. Your formal consent to participate in the research study will be obtained separately through an informed consent process within the app.
 
-By continuing to use the app after providing consent, you acknowledge that you have read and understood this Privacy Notice.
+By continuing to use the app after providing consent, you acknowledge that you have read and understood this Notice.
 
 ### What about users outside the United States?
 
-The app and supporting infrastructure are located within the United States and third parties with whom we share your information are as well. Our servers are located in the United States, and this is where your data and information will be stored. Information provided to us by users outside of the United States will be transferred to the United States, where data protection laws may differ from those of your home country. By using our application or providing us with your information, you acknowledge that your information will be transferred to the United States, processed, and / or stored on servers in the United States. Your information will be used as provided in this Notice and all reasonable steps will be taken to protect your privacy in accordance with the applicable data privacy laws.
+The app and supporting infrastructure are located within the United States and third parties with whom we share your information are as well. Our servers are located in the United States, and this is where your data and information will be stored. Information provided to us by users outside of the United States will be transferred to the United States, where data protection laws may differ from those of your home country. By using our app or providing us with your information, you acknowledge that your information will be transferred to the United States, processed, and / or stored on servers in the United States. Your information will be used as provided in this Notice and all reasonable steps will be taken to protect your privacy in accordance with the applicable data privacy laws.
 
 ### How do we protect your information?
 
@@ -94,7 +94,7 @@ We retain your anonymized data only as long as needed for the purposes described
 
 ### How will you be notified if our Privacy Notice changes?
 
-We reserve the right to change, modify, or otherwise amend this Privacy Notice at our sole discretion and at any time as we deem circumstances warrant. The date of the most recent revision is posted at the top. Continued use of the app after changes are made constitutes acceptance of those changes.
+We reserve the right to change, modify, or otherwise amend this Notice at our sole discretion and at any time as we deem circumstances warrant. The date of the most recent revision is posted at the top. Continued use of the app after changes are made constitutes acceptance of those changes.
 
 ### How can you contact us?
 
