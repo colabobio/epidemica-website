@@ -1,6 +1,7 @@
 ---
 title: Epigames consent
 permalink: /consent
+layout: minimal
 ---
 
 ## Informed Consent for Participation in Research
@@ -10,7 +11,7 @@ permalink: /consent
 
 Dear participant,
 
-We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the Epidemica technology developed by the [Colubri Lab](https://co-labo.org/).
+We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the Epidemica technology developed by the Colubri Lab (https://co-labo.org/).
 
 The study is expected to last for two days, and your participation is completely voluntary. You are free to decline or stop at any time by selecting the "Leave Study" or "Leave Game" option in the app, which will also delete your data from our system.
 
@@ -27,6 +28,6 @@ We will try to limit access to your information to only authorized members of th
 **Compensation:**
 This study does not offer any compensation for participation. 
 
-If you have any questions about this study, you can contact the Principal Investigator, Dr. Andres Colubri, at [Andres.Colubri@umassmed.edu](mailto:Andres.Colubri@umassmed.edu).
+If you have any questions about this study, you can contact the Principal Investigator, Dr. Andres Colubri, at Andres.Colubri@umassmed.edu.
 
 Thank you for considering participation in this study.

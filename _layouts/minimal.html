@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link href="{{ site.baseurl }}/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{{ site.baseurl }}/assets/css/{{ page.layout }}.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+
+    {% for file in page.additional_css %}
+      <link rel="stylesheet" type="text/css" href="{% if file contains '://' %}{{ file }}{% else %}{{ site.baseurl }}/assets/css/{{ file }}{% endif %}"/>
+    {% endfor %}
+
+    {% include metadata.html %}
+  </head>
+  <body {% unless page.layout == 'default' %}class="layout-{{ page.layout }}"{% endunless %}>
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      Copyright 2025 <a href="https://co-labo.org/">&#9998; Colubri Lab</a>
+    </footer>
+  </body>
+</html>

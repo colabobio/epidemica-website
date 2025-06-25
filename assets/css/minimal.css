@@ -1,0 +1,52 @@
+/* Minimal layout styles - for pages without navigation */
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  line-height: 1.6;
+}
+
+/* Add some top margin since there's no header */
+body.layout-minimal main {
+  margin-top: 3rem;
+}
+
+/* Style for consent page content */
+h2 {
+  color: #2c3e50;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Footer styling for minimal layout */
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
