@@ -59,7 +59,21 @@ additional_css: homepage.css
 </div>
 
 <div class="cta-section">
-  <h2>Get Involved</h2>
-  <p>Interested in using Epidemica for your research or participating in studies? Contact our team to learn more about how our platform can support your infectious disease research goals.</p>
-  <p><strong>Contact:</strong> <a href="mailto:colabo@umassmed.edu">colabo@umassmed.edu</a></p>
+  <div class="download-container">
+    <div class="download-left">
+      <img src="/assets/images/epigames-download.png" alt="Download Epigames" class="download-image">
+    </div>
+    <div class="download-right">
+      <div class="qr-codes">
+        <div class="qr-code-item">
+          <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
+          <p>App Store</p>
+        </div>
+        <div class="qr-code-item">
+          <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
+          <p>Google Play</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
