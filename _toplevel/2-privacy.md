@@ -1,13 +1,13 @@
 ---
-title: Epigames Privacy
+title: Privacy
 permalink: /privacy
 ---
 
-## PRIVACY NOTICE FOR EPIGAMES
+## PRIVACY NOTICE FOR EPIDEMICA APPS
 
-**Date of latest revision: June 12, 2025**
+**Date of latest revision: June 25, 2025**
 
-We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of the Epigames mobile application (app).
+We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of an Epidemica-based mobile application (app).
 
 ### What types of information do we collect?
 
@@ -23,7 +23,7 @@ Specifically, we collect:
 - Environmental data: Anonymous sensor data (e.g., temperature, ambient light) from your device, used to understand how environmental context may influence behavior.
 - System analytics: Aggregated, anonymized diagnostics collected automatically by Apple and Google, such as crash reports and app retention statistics.
 
-Note: Location services may need to be enabled during a simulation on some devices due to system requirements for Bluetooth sensing. **However, no location data is collected or stored** by Epigames.
+Note: Location services may need to be enabled during a simulation on some devices due to system requirements for Bluetooth sensing. **However, no location data is collected or stored** by Epidemica-based apps.
 
 ### Why do we collect this information?
 
@@ -43,7 +43,7 @@ We collect data to:
 
 ### What do we do with the information?
 
-The Epigames app is used to carry our research studies through experimental epidemic games. The anonymized data we collect during these games is used to:
+The Epidemica-based apps are used to carry our research studies through experimental epidemic games. The anonymized data we collect during these games is used to:
 
 - Apply computational methods to preprocess data, generate descriptive statistics, and summarize key events from the games
 - Analyze patterns of interaction, risk perception, and decision-making
