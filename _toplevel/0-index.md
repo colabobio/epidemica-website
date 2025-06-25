@@ -4,49 +4,58 @@ permalink: /
 additional_css: homepage.css
 ---
 
-<div class="hero-section">
-  <img src="/assets/images/lettermark.png" alt="Epidemica Logo" class="hero-logo" width="200">
-  <h1>Epidemica</h1>
-  <p class="hero-subtitle">A cutting-edge platform for infectious disease research using digital experimentation</p>
+<div class="hero-title">
+  <h1>What if playing a game on your phone could help scientists understand how diseases spread—and even prevent the next pandemic?</h1>
 </div>
 
-<div class="intro-section">
-  <h2>Understanding Disease Spread Through Digital Innovation</h2>
-  <p>Epidemica revolutionizes infectious disease research by combining mobile technology, Bluetooth sensing, and behavioral analysis to create realistic simulations of disease transmission. Our platform enables researchers to study how people interact, make decisions, and respond to health threats in controlled digital environments.</p>
-</div>
-
-<div class="features-section">
-  <h2>Key Features</h2>
-  <div class="feature-grid">
-    <div class="feature-item">
-      <h3>🔬 Digital Experimentation</h3>
-      <p>Conduct controlled experiments that simulate real-world infectious disease scenarios using mobile applications and proximity sensing.</p>
-    </div>
-    <div class="feature-item">
-      <h3>📱 Mobile Technology</h3>
-      <p>Leverage Bluetooth technology to track anonymous proximity data and study transmission patterns in real-time.</p>
-    </div>
-    <div class="feature-item">
-      <h3>🧠 Behavioral Analysis</h3>
-      <p>Analyze decision-making processes, risk perception, and behavioral responses during simulated outbreak conditions.</p>
-    </div>
-    <div class="feature-item">
-      <h3>🔒 Privacy-First</h3>
-      <p>All data collection is completely anonymous, with no personally identifiable information collected or stored.</p>
+<div class="introducing-section">
+  <div class="introducing-content">
+    <h2>Introducing</h2>
+    <div class="epigames-showcase">
+      <img src="/assets/images/epigames.png" alt="Epigames App" class="epigames-image">
+      <p class="epigames-description">a new kind of app built on the Epidemica platform from the Colubri Lab at the University of Massachusetts Chan Medical School, co-creators and developers of the award-winning Operation Outbreak app.</p>
+      <a href="/about" class="learn-more-btn">Learn more about Epidemica</a>
     </div>
   </div>
 </div>
 
-<div class="applications-section">
-  <h2>Research Applications</h2>
-  <p>Epidemica supports a wide range of infectious disease research, from understanding transmission dynamics to evaluating public health interventions. Our platform has been used to study:</p>
-  <ul>
-    <li>Contact tracing effectiveness</li>
-    <li>Social distancing behaviors</li>
-    <li>Vaccination decision-making</li>
-    <li>Risk communication strategies</li>
-    <li>Community response to health threats</li>
+<div class="gameplay-section">
+  <p class="gameplay-main">You'll make decisions, interact with others, and see the spread of a digital "pathogen" play out in front of your eyes.</p>
+  <p class="gameplay-sub">But don't worry—there's no real virus involved. Just a unique opportunity to be part of cutting-edge science while having fun.</p>
+</div>
+
+<div class="how-it-works-section">
+  <h2>How it works</h2>
+  <div class="steps-container">
+    <div class="step">
+      <p>Download Epigames, enter the join code and join a simulated outbreak together with other participants</p>
+    </div>
+    <div class="step">
+      <p>Make decisions about who to interact with, how to protect yourself, and how to earn points.</p>
+    </div>
+    <div class="step">
+      <p>Watch your actions shape the outcome.</p>
+    </div>
+  </div>
+</div>
+
+<div class="privacy-section">
+  <h2>Designed for your privacy</h2>
+  <h3>Epigames is built with privacy and security at its core:</h3>
+  <ul class="privacy-list">
+    <li>No personal or identifiable information is collected.</li>
+    <li>Your phone communicates only with nearby devices via anonymous Bluetooth signals.</li>
+    <li>All data is securely stored using encrypted, cloud-based infrastructure.</li>
   </ul>
+  <p class="privacy-control">You are always in control and can leave the simulated outbreak at any time.</p>
+</div>
+
+<div class="upcoming-event-section">
+  <h2>Upcoming Event</h2>
+  <h3>MERSX Epigames simulation at the Pandemic Sciences conference</h3>
+  <p>What would happen if MERSX gets introduced at an international conference? Ever wondered how quickly it would spread globally? If you're attending the conference join the Epigames simulation at the event find out! A live dashboard will keep you updated at the venue, and the forecast of global spread will be revealed at the end of the conference.</p>
+  <a href="https://web.cvent.com/event/23fd6429-eed3-4ac2-b0fa-c754b4efd001/websitePage:7b10eb3b-a0d3-4405-bb22-aed8da783e2d" class="event-btn" target="_blank">Epigames at PSI Conference</a>
+  <p class="contact-info">Questions/Concerns? Please feel free to contact the Principal Investigator, Dr. Andres Colubri (<a href="mailto:Andres.Colubri@umassmed.edu">Andres.Colubri@umassmed.edu</a>)</p>
 </div>
 
 <div class="cta-section">
