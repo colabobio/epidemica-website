@@ -1,5 +1,10 @@
 /* About page styles - Two-column Q&A layout */
 
+/* Highlight Text Styling */
+.highlight-text {
+  color: #7294BB;
+}
+
 /* Override default main styles for about page */
 main {
   max-width: 1200px !important;

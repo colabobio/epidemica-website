@@ -5,7 +5,7 @@ additional_css: homepage.css
 ---
 
 <div class="hero-title">
-  <h1>What if playing a game on your phone could help scientists understand how diseases spread—and even prevent the next pandemic?</h1>
+  <h1>What if playing a game on your phone could <span class="highlight-text">help scientists understand how diseases spread</span>—and even prevent the next pandemic?</h1>
 </div>
 
 <div class="main-sections-wrapper">

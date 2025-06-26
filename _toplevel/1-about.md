@@ -9,7 +9,7 @@ additional_css: about.css
 <div class="qa-container">
   <div class="qa-item">
     <div class="question">
-      <h2>What is Epidemica?</h2>
+      <h2>What is <span class="highlight-text">Epidemica</span>?</h2>
     </div>
     <div class="answer">
       <p>Epidemica is an open-source, modular experimentation platform designed to transform how we study and manage infectious disease transmission in real-world settings. To be developed by the Colubri Lab at UMass Chan Medical School, Epidemica will enable researchers to rapidly design, implement, and deploy mobile applications that integrate proximity sensing, behavioral tracking, digital contact tracing, and biological reporting.</p>

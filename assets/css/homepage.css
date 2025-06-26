@@ -1,5 +1,10 @@
 /* Homepage styles - Updated design */
 
+/* Highlight Text Styling */
+.highlight-text {
+  color: #7294BB;
+}
+
 /* Main Sections Wrapper with Common Gradient Background */
 .main-sections-wrapper {
   background: linear-gradient(203deg, rgba(255, 131, 65, 0.50) 0.12%, rgba(245, 136, 77, 0.00) 55.52%), linear-gradient(174deg, rgba(56, 103, 213, 0.45) 4.9%, rgba(0, 137, 233, 0.00) 93.9%), linear-gradient(180deg, rgba(25, 71, 125, 0.95) -2.5%, rgba(31, 88, 155, 0.67) 24.37%, rgba(45, 129, 227, 0.00) 70.37%);
