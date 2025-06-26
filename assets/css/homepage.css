@@ -9,6 +9,7 @@
 }
 
 .hero-title h1 {
+  text-align: left;
   font-size: 2.5rem;
   color: #2c3e50;
   line-height: 1.3;
@@ -75,10 +76,27 @@
 
 /* Gameplay Section */
 .gameplay-section {
-  text-align: center;
   padding: 3rem 2rem;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto 3rem auto;
+}
+
+.gameplay-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.gameplay-image {
+  text-align: center;
+}
+
+.app-interface-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .gameplay-main {
@@ -124,6 +142,17 @@
   border-radius: 10px;
   text-align: center;
   border-left: 4px solid #667eea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-image {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .step p {
@@ -141,15 +170,22 @@
   border-radius: 10px;
 }
 
+.privacy-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .privacy-section h2 {
-  text-align: center;
   color: #2c3e50;
   font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 
 .privacy-section h3 {
-  text-align: center;
   color: #555;
   font-size: 1.3rem;
   font-weight: 400;
@@ -157,8 +193,8 @@
 }
 
 .privacy-list {
-  max-width: 700px;
-  margin: 0 auto 2rem auto;
+  max-width: none;
+  margin: 0 0 2rem 0;
   list-style: none;
   padding: 0;
 }
@@ -182,11 +218,21 @@
 }
 
 .privacy-control {
-  text-align: center;
   font-size: 0.95rem;
   color: #666;
   font-style: italic;
   margin: 0;
+}
+
+.privacy-image {
+  text-align: center;
+}
+
+.privacy-illustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 /* Upcoming Event Section */
@@ -195,8 +241,27 @@
   margin-bottom: 3rem;
   background: linear-gradient(135deg, #ff9a56 0%, #ff6b6b 100%);
   border-radius: 15px;
-  text-align: center;
   color: white;
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.event-image {
+  text-align: center;
+}
+
+.psi-illustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .upcoming-event-section h2 {
@@ -215,8 +280,7 @@
 .upcoming-event-section p {
   font-size: 1.1rem;
   line-height: 1.6;
-  max-width: 700px;
-  margin: 0 auto 2rem auto;
+  margin: 0 0 2rem 0;
   color: rgba(255,255,255,0.95);
 }
 
@@ -329,9 +393,52 @@
     max-width: 200px;
   }
   
+  /* Gameplay section responsive */
+  .gameplay-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
   .steps-container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  
+  /* Privacy section responsive */
+  .privacy-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .privacy-section h2 {
+    text-align: center;
+  }
+  
+  .privacy-section h3 {
+    text-align: center;
+  }
+  
+  .privacy-control {
+    text-align: center;
+  }
+  
+  /* Event section responsive */
+  .event-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .upcoming-event-section h2 {
+    text-align: center;
+  }
+  
+  .upcoming-event-section h3 {
+    text-align: center;
+  }
+  
+  .upcoming-event-section p {
+    text-align: center;
   }
   
   .upcoming-event-section h2,
@@ -372,6 +479,11 @@
   
   .gameplay-section {
     padding: 2rem 1rem;
+  }
+  
+  /* Step images responsive */
+  .step-image {
+    max-width: 100px;
   }
   
   /* Download section mobile */
