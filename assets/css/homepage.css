@@ -206,19 +206,13 @@
 }
 
 .privacy-list li {
-  background: white;
-  padding: 1rem 1.5rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  border-left: 4px solid #28a745;
   font-size: 1.1rem;
-  line-height: 1.5;
-  color: #444;
+  color: #0D3F6B;
 }
 
 .privacy-list li:before {
-  content: "✓ ";
-  color: #28a745;
+  content: "• ";
+  color: #0D3F6B;
   font-weight: bold;
   margin-right: 0.5rem;
 }
