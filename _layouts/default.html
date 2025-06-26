@@ -18,6 +18,9 @@
   </head>
   <body {% unless page.layout == 'default' %}class="layout-{{ page.layout }}"{% endunless %}>
     <header>
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">Epidemica</a>
+      </div>
       <nav>
         <ul>
           {% for page in site.toplevel %}

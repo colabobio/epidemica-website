@@ -20,6 +20,27 @@ main img {
 header {
   background-color: white;
   padding: .5em;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header .logo a {
+  display: block;
+  width: 5em;
+  height: 2.5em;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 header nav ul {
