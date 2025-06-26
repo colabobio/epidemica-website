@@ -333,14 +333,27 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
 .contact-info {
-  font-size: 0.9rem !important;
-  color: rgba(255,255,255,0.8) !important;
-  margin: 0 !important;
+  font-family: "Roboto", "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .contact-info a {
-  color: white;
+  color: #667eea;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
   text-decoration: underline;
 }
 
