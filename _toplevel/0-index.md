@@ -70,12 +70,12 @@ additional_css: homepage.css
 </div>
 
 <div class="upcoming-event-section">
+  <h2>Upcoming Event</h2>
   <div class="event-container">
     <div class="event-image">
       <img src="/assets/images/epigames-psi.webp" alt="PSI Conference Event" class="psi-illustration">
     </div>
     <div class="event-content">
-      <h2>Upcoming Event</h2>
       <h3>MERSX Epigames simulation at the Pandemic Sciences conference</h3>
       <p>What would happen if MERSX gets introduced at an international conference? Ever wondered how quickly it would spread globally? If you're attending the conference join the Epigames simulation at the event find out! A live dashboard will keep you updated at the venue, and the forecast of global spread will be revealed at the end of the conference.</p>
       <a href="https://web.cvent.com/event/23fd6429-eed3-4ac2-b0fa-c754b4efd001/websitePage:7b10eb3b-a0d3-4405-bb22-aed8da783e2d" class="event-btn" target="_blank">Epigames at PSI Conference</a>
