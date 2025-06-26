@@ -35,7 +35,7 @@ nav a,
 nav a:visited {
   text-decoration: none;
   color: inherit;
-  background-color: #EEE;
+  background-color: transparent;
   border-radius: .2em;
   padding: .5em;
   margin-left: 1em;
@@ -43,7 +43,12 @@ nav a:visited {
 
 nav a:hover,
 nav a:focus {
-  background-color: #DDD;
+  text-decoration: underline;
+}
+
+nav a.current {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 body ul {
