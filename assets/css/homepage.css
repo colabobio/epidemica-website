@@ -146,27 +146,22 @@
 }
 
 .step {
-  background: #f8f9fa;
   padding: 2rem;
-  border-radius: 10px;
   text-align: center;
-  border-left: 4px solid #667eea;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .step-image {
-  max-width: 120px;
+  max-width: 160px;
   height: auto;
   margin-bottom: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .step p {
   color: #444;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   margin: 0;
 }
