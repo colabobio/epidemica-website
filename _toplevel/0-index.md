@@ -95,10 +95,14 @@ additional_css: homepage.css
     <div class="download-right">
       <div class="qr-codes">
         <div class="qr-code-item">
-          <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
+          <a href="https://apps.apple.com/us/app/epigames/id6459734012" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
+          </a>
         </div>
         <div class="qr-code-item">
-          <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
+          <a href="https://play.google.com/store/apps/details?id=info.epidemica.epigamez&hl=en_CA" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
+          </a>
         </div>
       </div>
     </div>

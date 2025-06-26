@@ -367,6 +367,12 @@
   text-align: center;
 }
 
+.qr-code-item a {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+}
+
 .qr-code {
   width: 240px;
   transition: transform 0.3s ease;
