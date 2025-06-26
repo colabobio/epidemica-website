@@ -44,8 +44,8 @@
   height: auto;
   margin: 2rem auto;
   display: block;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  /* border-radius: 15px; */
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.3); */
 }
 
 .epigames-description {
@@ -118,8 +118,6 @@
 .app-interface-image {
   max-width: 100%;
   height: auto;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .gameplay-main {
@@ -258,8 +256,6 @@
 .privacy-illustration {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 /* Upcoming Event Section */
@@ -357,7 +353,7 @@
   text-decoration: underline;
 }
 
-/* CTA Section - Download Section */
+/* Download Section */
 .cta-section {
   background: #34495e;
   padding: 3rem 2rem;
@@ -381,8 +377,6 @@
 .download-image {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .download-right {
@@ -403,7 +397,7 @@
 
 .qr-code {
   width: 120px;
-  height: 120px;
+  /* height: 120px; */
   border-radius: 10px;
   background: white;
   padding: 10px;
@@ -503,7 +497,7 @@
   
   .qr-code {
     width: 100px;
-    height: 100px;
+    /* height: 100px; */
   }
 }
 
@@ -538,6 +532,6 @@
   
   .qr-code {
     width: 120px;
-    height: 120px;
+    /* height: 120px; */
   }
 }
