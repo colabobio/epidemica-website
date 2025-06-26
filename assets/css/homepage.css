@@ -1,5 +1,13 @@
 /* Homepage styles - Updated design */
 
+/* Main Sections Wrapper with Common Gradient Background */
+.main-sections-wrapper {
+  background: linear-gradient(203deg, rgba(255, 131, 65, 0.50) 0.12%, rgba(245, 136, 77, 0.00) 55.52%), linear-gradient(174deg, rgba(56, 103, 213, 0.45) 4.9%, rgba(0, 137, 233, 0.00) 93.9%), linear-gradient(180deg, rgba(25, 71, 125, 0.95) -2.5%, rgba(31, 88, 155, 0.67) 24.37%, rgba(45, 129, 227, 0.00) 70.37%);
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-radius: 20px;
+}
+
 /* Hero Title */
 .hero-title {
   text-align: center;
@@ -17,12 +25,10 @@
   margin: 0;
 }
 
-/* Introducing Section with Gradient Background */
+/* Introducing Section */
 .introducing-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 4rem 2rem;
-  margin-bottom: 3rem;
-  border-radius: 15px;
+  padding: 4rem 2rem 2rem 2rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -78,33 +84,13 @@
 
 /* Gameplay Section */
 .gameplay-section {
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
   max-width: 1000px;
-  margin: 0 auto 3rem auto;
-  background-image: url('/assets/images/network.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: local;
-  border-radius: 15px;
+  margin: 0 auto 2rem auto;
   position: relative;
-}
-
-.gameplay-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 15px;
-  z-index: 1;
 }
 
 .gameplay-container {
-  position: relative;
-  z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
@@ -139,8 +125,8 @@
 
 /* How It Works Section */
 .how-it-works-section {
-  padding: 3rem 2rem;
-  margin-bottom: 3rem;
+  padding: 2rem 2rem 4rem 2rem;
+  margin-bottom: 0;
 }
 
 .how-it-works-section h2 {

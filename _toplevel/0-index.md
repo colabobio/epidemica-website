@@ -8,6 +8,7 @@ additional_css: homepage.css
   <h1>What if playing a game on your phone could help scientists understand how diseases spread—and even prevent the next pandemic?</h1>
 </div>
 
+<div class="main-sections-wrapper">
 <div class="introducing-section">
   <div class="introducing-content">
     <h2>Introducing</h2>
@@ -47,6 +48,7 @@ additional_css: homepage.css
       <p>Watch your actions shape the outcome.</p>
     </div>
   </div>
+</div>
 </div>
 
 <div class="privacy-section">
