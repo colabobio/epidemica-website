@@ -91,6 +91,11 @@
   max-width: 1000px;
   margin: 0 auto 2rem auto;
   position: relative;
+  background-image: url('/assets/images/network.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
 .gameplay-container {
