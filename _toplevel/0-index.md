@@ -96,11 +96,9 @@ additional_css: homepage.css
       <div class="qr-codes">
         <div class="qr-code-item">
           <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
-          <p>App Store</p>
         </div>
         <div class="qr-code-item">
           <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
-          <p>Google Play</p>
         </div>
       </div>
     </div>

@@ -50,8 +50,6 @@
   height: auto;
   margin: 2rem auto;
   display: block;
-  /* border-radius: 15px; */
-  /* box-shadow: 0 10px 30px rgba(0,0,0,0.3); */
 }
 
 .epigames-description {
@@ -238,8 +236,6 @@
 .upcoming-event-section {
   padding: 3rem 2rem;
   margin-bottom: 3rem;
-  /* background: linear-gradient(135deg, #ff9a56 0%, #ff6b6b 100%); */
-  /* border-radius: 15px; */
   color: white;
 }
 
@@ -268,20 +264,17 @@
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  /* box-shadow: 0 10px 30px rgba(0,0,0,0.3); */
 }
 
 .upcoming-event-section h3 {
   color: black;
   font-size: 1.2rem;
   font-weight: 700;
-  /* margin-bottom: 2rem; */
   font-family: "Poppins", "Inter", sans-serif;
 }
 
 .upcoming-event-section p {
   font-size: 0.9rem;
-  /* line-height: 1.6; */
   margin: 0 0 2rem 0;
   color: #6D6D6D;
 }
@@ -334,7 +327,7 @@
 
 /* Download Section */
 .cta-section {
-  background: #34495e;
+  background: linear-gradient(93deg, rgba(147, 190, 255, 0.20) 7.97%, rgba(245, 136, 77, 0.20) 96.2%), #F5F8FB;
   padding: 3rem 2rem;
   border-radius: 15px;
   margin-bottom: 2rem;
@@ -375,24 +368,12 @@
 }
 
 .qr-code {
-  width: 120px;
-  /* height: 120px; */
-  border-radius: 10px;
-  background: white;
-  padding: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 240px;
   transition: transform 0.3s ease;
 }
 
 .qr-code:hover {
   transform: scale(1.05);
-}
-
-.qr-code-item p {
-  color: white;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  font-weight: 500;
 }
 
 /* Responsive Design */
@@ -475,8 +456,7 @@
   }
   
   .qr-code {
-    width: 100px;
-    /* height: 100px; */
+    width: 240px;
   }
 }
 
@@ -510,7 +490,6 @@
   }
   
   .qr-code {
-    width: 120px;
-    /* height: 120px; */
+    width: 240px;
   }
 }
