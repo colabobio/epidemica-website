@@ -84,7 +84,7 @@ additional_css: homepage.css
 </div>
 
 <div class="contact-section">
-  <p class="contact-info">Questions/Concerns? Please feel free to contact the Principal Investigator, Dr. Andres Colubri (<a href="mailto:Andres.Colubri@umassmed.edu">Andres.Colubri@umassmed.edu</a>)</p>
+  <p class="contact-info"><strong>Questions/Concerns?</strong> Please feel free to contact the Principal Investigator, Dr. Andres Colubri (<a href="mailto:Andres.Colubri@umassmed.edu">Andres.Colubri@umassmed.edu</a>)</p>
 </div>
 
 <div class="cta-section">
