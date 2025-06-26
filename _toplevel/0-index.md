@@ -22,7 +22,7 @@ additional_css: homepage.css
 <div class="gameplay-section">
   <div class="gameplay-container">
     <div class="gameplay-image">
-      <img src="/assets/images/epigames-app.png" alt="Epigames App Interface" class="app-interface-image">
+      <img src="/assets/images/epigames-app.webp" alt="Epigames App Interface" class="app-interface-image">
     </div>
     <div class="gameplay-text">
       <p class="gameplay-main">You'll make decisions, interact with others, and see the spread of a digital "pathogen" play out in front of your eyes.</p>
@@ -70,7 +70,7 @@ additional_css: homepage.css
 <div class="upcoming-event-section">
   <div class="event-container">
     <div class="event-image">
-      <img src="/assets/images/epigames-psi.png" alt="PSI Conference Event" class="psi-illustration">
+      <img src="/assets/images/epigames-psi.webp" alt="PSI Conference Event" class="psi-illustration">
     </div>
     <div class="event-content">
       <h2>Upcoming Event</h2>

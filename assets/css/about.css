@@ -124,8 +124,40 @@ h1 {
   color: #444;
   font-size: 1.1rem;
   line-height: 1.7;
-  margin: 0;
+  margin: 0 0 1.5rem 0;
   text-align: justify;
+}
+
+/* Diagram styling */
+.diagram-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.epidemica-diagram {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Project images styling */
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-image-container {
+  text-align: center;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 /* Responsive Design - Fine-tuning for smaller screens */
@@ -163,6 +195,11 @@ h1 {
   .answer p {
     font-size: 0.95rem;
     line-height: 1.6;
+  }
+  
+  /* Diagram responsive */
+  .diagram-container {
+    margin: 1.5rem 0;
   }
   
   h1 {
