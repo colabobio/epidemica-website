@@ -73,12 +73,12 @@ additional_css: homepage.css
   <h2>Upcoming Event</h2>
   <div class="event-container">
     <div class="event-image">
-      <img src="/assets/images/epigames-psi.webp" alt="PSI Conference Event" class="psi-illustration">
+      <img src="/assets/images/epigames-mu.webp" alt="PSI Conference Event" class="psi-illustration">
     </div>
     <div class="event-content">
-      <h3>MERSX Epigames simulation at the Pandemic Sciences conference</h3>
-      <p>What would happen if MERSX gets introduced at an international conference? Ever wondered how quickly it would spread globally? If you're attending the conference join the Epigames simulation at the event find out! A live dashboard will keep you updated at the venue, and the forecast of global spread will be revealed at the end of the conference.</p>
-      <a href="https://web.cvent.com/event/23fd6429-eed3-4ac2-b0fa-c754b4efd001/websitePage:7b10eb3b-a0d3-4405-bb22-aed8da783e2d" class="event-btn" target="_blank">Epigames at PSI Conference</a>
+      <h3>Simulation of a foodborne outbreak at Murdoch University</h3>
+      <p>In collaboration with Bethany Jackson, Mieghan Bruce, Shakeel Mowlaboccus, and Amanda Duarte Barbosa from Murdoch University in Perth, Australia, we created a foodborne disease outbreak scenario for the students in the VET392 class from their Veterinary Science program. The data from this scenario will be then reviewed using a case-control approach to establish where food safety/hygiene measures broke down. This scenario, analysis, and parameters are based on a real-world campylobacteriosis outbreak at a wedding in Melbourne (<a href="https://www1.health.gov.au/internet/main/publishing.nsf/Content/458DD8840E8C9332CA25891F0015C89D/$File/a_foodborne_outbreak_of_campylobacteriosis_at_a_wedding__melbourne_australia_2022.pdf" target="_blank">link</a>).</p>
+      <a href="https://www.murdoch.edu.au/study/courses/study-areas/veterinary-science" class="event-btn" target="_blank">Veterinary Science at Murdoch University</a>
     </div>
   </div>
 </div>
