@@ -14,6 +14,9 @@ github_username: colabobio
 collections:
   toplevel:
     output: true
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
 
 defaults:  # rather than repeating config in all YAML front matters, use defaults for each type of content you have in your website
   -
@@ -26,6 +29,12 @@ defaults:  # rather than repeating config in all YAML front matters, use default
       path: toplevel  # despite the property name, this is the name of a collection, not a folder path, so there is no leading underscore
     values:
       layout: default
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: post
+      additional_css: post.css
 
 exclude:
   - .circleci

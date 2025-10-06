@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="news-post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time class="post-date">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.external_url %}
+      <span class="external-link-notice">
+        → <a href="{{ page.external_url }}" target="_blank" rel="noopener noreferrer">View original article</a>
+      </span>
+      {% endif %}
+    </div>
+  </header>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+  
+  <footer class="post-footer">
+    <nav class="post-nav">
+      <a href="{{ '/news' | relative_url }}" class="back-to-news">← Back to News</a>
+    </nav>
+  </footer>
+</article>
