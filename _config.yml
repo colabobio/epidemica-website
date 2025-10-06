@@ -34,7 +34,6 @@ defaults:  # rather than repeating config in all YAML front matters, use default
       path: "_posts"
     values:
       layout: post
-      additional_css: post.css
 
 exclude:
   - .circleci
