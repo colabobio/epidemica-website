@@ -95,7 +95,7 @@ additional_css: homepage.css
     <div class="download-right">
       <div class="qr-codes">
         <div class="qr-code-item">
-          <a href="https://apps.apple.com/us/app/epigames/id6459734012" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/us/app/epigames/id6746726345" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
           </a>
         </div>
