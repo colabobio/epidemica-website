@@ -73,12 +73,12 @@ additional_css: homepage.css
   <h2>Upcoming Event</h2>
   <div class="event-container">
     <div class="event-image">
-      <img src="/assets/images/epigames-mu.webp" alt="PSI Conference Event" class="psi-illustration">
+      <img src="/assets/images/epigames-auib.webp" alt="PSI Conference Event" class="psi-illustration">
     </div>
     <div class="event-content">
-      <h3>Simulation of a foodborne outbreak at Murdoch University</h3>
-      <p>In collaboration with Bethany Jackson, Mieghan Bruce, Shakeel Mowlaboccus, and Amanda Duarte Barbosa from Murdoch University in Perth, Australia, we created a foodborne disease outbreak scenario for the students in the VET392 class from their Veterinary Science program. The data from this scenario will be then reviewed using a case-control approach to establish where food safety/hygiene measures broke down. This scenario, analysis, and parameters are based on a real-world campylobacteriosis outbreak at a wedding in Melbourne (<a href="https://www1.health.gov.au/internet/main/publishing.nsf/Content/458DD8840E8C9332CA25891F0015C89D/$File/a_foodborne_outbreak_of_campylobacteriosis_at_a_wedding__melbourne_australia_2022.pdf" target="_blank">link</a>).</p>
-      <a href="https://www.murdoch.edu.au/study/courses/study-areas/veterinary-science" class="event-btn" target="_blank">Veterinary Science at Murdoch University</a>
+      <h3>Epidemic game at AUIB</h3>
+      <p>This will be a two-week epidemic game to take place in the campus of the <a href="https://auib.edu.iq/" target="_blank">American University of Iraq - Baghdag</a> (AUIB). Participating students will receive information about the fictional epidemic unfolding around them through the Epigames app and decide to whether adopt protective measures and earn points in the app based on those decisions. The resulting data from this app-based game will contribute to our research on the spread of infectious agents through contact networks.</p>
+      <a href="https://auib25.epidemica.info/" class="event-btn" target="_blank">Learn more about this epigame</a>
     </div>
   </div>
 </div>
