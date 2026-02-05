@@ -29,7 +29,7 @@
   	flex: 1;
   	display: flex;
   	align-items: center;
-  	justify-content: space-between;
+  	justify-content: center;
   	gap: 20px;
   	max-width: 100%;
 }
@@ -64,7 +64,7 @@
   	align-self: stretch;
   	display: flex;
   	flex-direction: column;
-  	align-items: flex-start;
+  	align-items: center;
   	padding: 104px 120px 40px;
   	position: relative;
   	isolation: isolate;
@@ -77,23 +77,23 @@
   	position: absolute;
   	margin: 0 !important;
   	top: 0px;
-  	left: 0px;
+  	left: 50%;
+  	transform: translateX(-50%);
   	max-height: 100%;
   	object-fit: cover;
   	z-index: 0;
   	flex-shrink: 0;
 }
 .div {
-  	align-self: stretch;
-  	height: 414px;
+  	width: 100%;
+  	max-width: 1200px;
   	position: relative;
   	z-index: 1;
   	flex-shrink: 0;
 }
 .heading {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
+  	width: 100%;
+  	max-width: 1200px;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
@@ -128,8 +128,8 @@
   	display: inline-block;
 }
 .div2 {
-  	align-self: stretch;
-  	height: 120px;
+  	width: 100%;
+  	max-width: 1200px;
   	position: relative;
   	z-index: 2;
   	flex-shrink: 0;
@@ -137,9 +137,6 @@
   	font-family: Poppins;
 }
 .its-time-to-container {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
   	font-weight: 500;
   	display: inline-block;
   	width: 538px;
@@ -281,7 +278,7 @@
   	height: 358px;
   	display: flex;
   	flex-direction: column;
-  	align-items: flex-start;
+  	align-items: center;
   	padding: 64px 120px;
   	box-sizing: border-box;
   	position: relative;
@@ -295,20 +292,20 @@
   	position: absolute;
   	margin: 0 !important;
   	top: 0.06px;
-  	left: 0px;
+  	left: 50%;
+  	transform: translateX(-50%);
   	max-height: 100%;
   	object-fit: cover;
   	z-index: 0;
   	flex-shrink: 0;
 }
 .container3 {
-  	align-self: stretch;
-  	height: 230px;
+  	width: 100%;
+  	max-width: 1200px;
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
   	justify-content: center;
-  	padding: 0px 120px;
   	box-sizing: border-box;
   	z-index: 1;
   	flex-shrink: 0;
