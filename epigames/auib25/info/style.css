@@ -85,11 +85,11 @@
   	flex-shrink: 0;
 }
 .hero-foreground-icon {
-  	width: 600px;
+  	width: 420px;
   	position: absolute;
   	margin: 0 !important;
   	top: 10%;
-  	right: 10%;
+  	right: calc(50% - 600px);
   	max-height: 80%;
   	object-fit: contain;
   	z-index: 1;
@@ -311,22 +311,22 @@
   	flex-shrink: 0;
 }
 .footer-apple-qr-icon {
-  	width: 200px;
+  	width: 120px;
   	position: absolute;
   	margin: 0 !important;
   	top: 50%;
-  	right: 15%;
+  	right: calc(50% - 530px);
   	transform: translateY(-50%);
   	object-fit: contain;
   	z-index: 1;
   	flex-shrink: 0;
 }
 .footer-google-qr-icon {
-  	width: 200px;
+  	width: 120px;
   	position: absolute;
   	margin: 0 !important;
   	top: 50%;
-  	right: 2%;
+  	right: calc(50% - 670px);
   	transform: translateY(-50%);
   	object-fit: contain;
   	z-index: 1;
