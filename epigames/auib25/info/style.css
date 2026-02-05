@@ -338,7 +338,8 @@
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
-  	justify-content: center;
+  	justify-content: flex-start;
+  	padding-top: 40px;
   	box-sizing: border-box;
   	z-index: 2;
   	flex-shrink: 0;
@@ -386,5 +387,227 @@
 .by-the-colubri {
   	position: relative;
   	line-height: 150%;
+}
+
+/* Mobile QR codes container - hidden on desktop */
+.qr-codes-mobile {
+  	display: none;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  	/* Navigation */
+  	.nav-bar {
+    		width: 100%;
+    		padding: 8px 20px;
+  	}
+  	
+  	/* Hero Section */
+  	.main {
+    		padding: 40px 20px;
+    		gap: 24px;
+  	}
+  	
+  	.hero-bg-icon {
+    		width: 100%;
+    		height: auto;
+  	}
+  	
+  	.hero-foreground-icon {
+    		position: relative;
+    		right: auto;
+    		top: auto;
+    		width: 80%;
+    		max-width: 300px;
+    		margin: 20px auto;
+    		display: block;
+  	}
+  	
+  	.div {
+    		width: 100%;
+    		max-width: 100%;
+    		padding: 0 10px;
+  	}
+  	
+  	.heading {
+    		width: 100%;
+    		max-width: 100%;
+  	}
+  	
+  	.epigames-at-the {
+    		width: 100%;
+    		font-size: 32px;
+  	}
+  	
+  	.container {
+    		width: 100%;
+    		font-size: 20px;
+  	}
+  	
+  	.use-the-code {
+    		width: 100%;
+  	}
+  	
+  	.div2 {
+    		width: 100%;
+    		max-width: 100%;
+    		padding: 0 10px;
+  	}
+  	
+  	.its-time-to-container {
+    		width: 100%;
+    		font-size: 18px;
+  	}
+  	
+  	/* About Section */
+  	.about2 {
+    		padding: 16px 20px;
+  	}
+  	
+  	.heading2 {
+    		width: 100%;
+    		flex-direction: column;
+    		gap: 24px;
+  	}
+  	
+  	.about-the-epidemic {
+    		width: 100%;
+    		font-size: 28px;
+  	}
+  	
+  	.this-epidemic-game {
+    		width: 100%;
+  	}
+  	
+  	/* How to Play Section */
+  	.how-to-play {
+    		padding: 0 20px;
+  	}
+  	
+  	.heading3 {
+    		width: 100%;
+    		flex-direction: column;
+    		gap: 24px;
+  	}
+  	
+  	.container2 {
+    		order: 2;
+    		width: 100%;
+  	}
+  	
+  	.app-illustration-icon {
+    		width: 100%;
+    		max-width: 300px;
+  	}
+  	
+  	.all-user-data-is-secure-and-an-parent {
+    		width: 100%;
+  	}
+  	
+  	.all-user-data {
+    		width: 100%;
+  	}
+  	
+  	.your-mission-stay-healthy-and-parent {
+    		order: 1;
+    		width: 100%;
+  	}
+  	
+  	.your-mission-stay {
+    		width: 100%;
+    		font-size: 32px;
+  	}
+  	
+  	.how-to-play-container {
+    		width: 100%;
+  	}
+  	
+  	/* Footer Section */
+  	.main2 {
+    		height: auto;
+    		padding: 30px 20px;
+    		gap: 16px;
+  	}
+  	
+  	.footer-bg-icon {
+    		width: 100%;
+    		height: auto;
+  	}
+  	
+  	.footer-apple-qr-icon,
+  	.footer-google-qr-icon {
+    		display: none;
+  	}
+  	
+  	.qr-codes-mobile {
+    		display: flex;
+    		flex-direction: column;
+    		align-items: center;
+    		justify-content: center;
+    		gap: 20px;
+    		padding: 20px;
+    		background-color: #fff;
+    		width: 100%;
+    		margin: 0 auto;
+  	}
+  	
+  	.qr-mobile-apple,
+  	.qr-mobile-google {
+    		width: 150px;
+    		height: auto;
+    		display: block;
+    		margin: 0 auto;
+  	}
+  	
+  	.container3 {
+    		width: 100%;
+    		max-width: 100%;
+    		align-items: center;
+    		padding: 0;
+    		margin-top: -40px;
+  	}
+  	
+  	.content {
+    		flex-direction: column;
+    		align-items: center;
+    		height: auto;
+    		padding-top: 30px;
+  	}
+  	
+  	.text {
+    		width: 100%;
+    		align-items: center;
+    		text-align: center;
+    		max-width: 90%;
+    		margin: 0 auto;
+  	}
+  	
+  	.epigames-at-the {
+    		font-size: 32px;
+  	}
+  	
+  	.use-the-code {
+    		width: 100%;
+  	}
+  	
+  	.text .epigames-at-the {
+    		font-size: 28px;
+    		margin-bottom: 8px;
+  	}
+  	
+  	.text .use-the-code {
+    		font-size: 16px;
+  	}
+  	
+  	/* Footnote */
+  	.footnote {
+    		padding: 8px 20px;
+  	}
+  	
+  	/* Spacers */
+  	.spacer,
+  	.spacer2 {
+    		width: 100%;
+  	}
 }
 
