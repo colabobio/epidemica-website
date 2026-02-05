@@ -1,0 +1,360 @@
+.epidemica-epigames-auib {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	text-align: left;
+  	font-size: 14px;
+  	color: #001e4a;
+  	font-family: Inter;
+}
+.nav-bar {
+  	width: 1440px;
+  	height: 64px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  	background-color: #fff;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 120px;
+  	box-sizing: border-box;
+  	min-height: 56px;
+  	color: #262626;
+}
+.logo-horizontal-parent {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	max-width: 100%;
+}
+.logo-horizontal-icon {
+  	width: 164.1px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.nav-items {
+  	align-self: stretch;
+  	width: 365px;
+  	border-radius: 16px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 0px 8px;
+  	box-sizing: border-box;
+  	gap: 32px;
+}
+.home {
+  	position: relative;
+  	line-height: 100%;
+}
+.about {
+  	position: relative;
+  	text-decoration: underline;
+  	line-height: 100%;
+  	font-weight: 500;
+}
+.main {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 104px 120px 40px;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 48px;
+  	font-size: 44px;
+  	font-family: 'Space Grotesk';
+}
+.hero-bg-image-1-icon {
+  	width: 1440px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	max-height: 100%;
+  	object-fit: cover;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.div {
+  	align-self: stretch;
+  	height: 414px;
+  	position: relative;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.heading {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.epigames-at-the-american-unive-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 48px;
+}
+.epigames-at-the {
+  	width: 323px;
+  	position: relative;
+  	display: inline-block;
+}
+.container {
+  	width: 589px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	font-size: 26px;
+}
+.time-nov-container {
+  	position: relative;
+}
+.use-the-code {
+  	width: 339px;
+  	position: relative;
+  	font-size: 14px;
+  	font-family: Inter;
+  	display: inline-block;
+}
+.div2 {
+  	align-self: stretch;
+  	height: 120px;
+  	position: relative;
+  	z-index: 2;
+  	flex-shrink: 0;
+  	font-size: 20px;
+  	font-family: Poppins;
+}
+.its-time-to-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 538px;
+}
+.colubri-lab {
+  	color: inherit;
+}
+.colubri-lab2 {
+  	text-decoration: underline;
+}
+.spacer {
+  	width: 1440px;
+  	height: 48px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 8px;
+  	box-sizing: border-box;
+}
+.about2 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 16px 120px;
+  	font-size: 36px;
+  	font-family: 'Space Grotesk';
+}
+.heading2 {
+  	width: 1200px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 48px;
+}
+.about-the-epidemic {
+  	width: 384px;
+  	position: relative;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.this-epidemic-game-epigame-wrapper {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 16px;
+  	font-family: Inter;
+}
+.this-epidemic-game {
+  	width: 440px;
+  	position: relative;
+  	line-height: 150%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.spacer2 {
+  	width: 1440px;
+  	height: 88px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 24px 8px;
+  	box-sizing: border-box;
+}
+.how-to-play {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 0px 120px;
+}
+.heading3 {
+  	width: 1200px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 40px;
+}
+.container2 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+.app-illustration-icon {
+  	width: 442.6px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.all-user-data-is-secure-and-an-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.all-user-data {
+  	width: 440px;
+  	position: relative;
+  	line-height: 160%;
+  	display: inline-block;
+}
+.your-mission-stay-healthy-and-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 8px;
+  	font-size: 44px;
+  	font-family: 'Space Grotesk';
+}
+.your-mission-stay {
+  	width: 463px;
+  	position: relative;
+  	display: inline-block;
+}
+.how-to-play-container {
+  	width: 440px;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 160%;
+  	font-family: Inter;
+  	display: inline-block;
+}
+.how-to-play2 {
+  	margin: 0;
+}
+.install-the-app-and-enter-usin {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 21px;
+}
+.install-the-app {
+  	margin-bottom: 0px;
+}
+.main2 {
+  	align-self: stretch;
+  	height: 358px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 64px 120px;
+  	box-sizing: border-box;
+  	position: relative;
+  	isolation: isolate;
+  	gap: 48px;
+  	font-size: 44px;
+  	font-family: 'Space Grotesk';
+}
+.footer-qr-code-bgimage-1-icon {
+  	width: 1440px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0.06px;
+  	left: 0px;
+  	max-height: 100%;
+  	object-fit: cover;
+  	z-index: 0;
+  	flex-shrink: 0;
+}
+.container3 {
+  	align-self: stretch;
+  	height: 230px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 120px;
+  	box-sizing: border-box;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.content {
+  	align-self: stretch;
+  	height: 230px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+}
+.text {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 8px;
+}
+.qr {
+  	height: 230px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-end;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #b5472b;
+  	font-family: Inter;
+}
+.if-you-install {
+  	width: 434px;
+  	position: relative;
+  	display: inline-block;
+}
+.footnote {
+  	align-self: stretch;
+  	background-color: #000;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 8px 120px;
+  	font-size: 16px;
+  	color: #fff;
+}
+.by-the-colubri {
+  	position: relative;
+  	line-height: 150%;
+}
+
