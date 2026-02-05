@@ -72,7 +72,7 @@
   	font-size: 44px;
   	font-family: 'Space Grotesk';
 }
-.hero-bg-image-1-icon {
+.hero-bg-icon {
   	width: 1440px;
   	position: absolute;
   	margin: 0 !important;
@@ -84,11 +84,22 @@
   	z-index: 0;
   	flex-shrink: 0;
 }
+.hero-foreground-icon {
+  	width: 600px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 10%;
+  	right: 10%;
+  	max-height: 80%;
+  	object-fit: contain;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
 .div {
   	width: 100%;
   	max-width: 1200px;
   	position: relative;
-  	z-index: 1;
+  	z-index: 2;
   	flex-shrink: 0;
 }
 .heading {
@@ -131,7 +142,7 @@
   	width: 100%;
   	max-width: 1200px;
   	position: relative;
-  	z-index: 2;
+  	z-index: 3;
   	flex-shrink: 0;
   	font-size: 20px;
   	font-family: Poppins;
@@ -287,7 +298,7 @@
   	font-size: 44px;
   	font-family: 'Space Grotesk';
 }
-.footer-qr-code-bgimage-1-icon {
+.footer-bg-icon {
   	width: 1440px;
   	position: absolute;
   	margin: 0 !important;
@@ -299,6 +310,28 @@
   	z-index: 0;
   	flex-shrink: 0;
 }
+.footer-apple-qr-icon {
+  	width: 200px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 50%;
+  	right: 15%;
+  	transform: translateY(-50%);
+  	object-fit: contain;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
+.footer-google-qr-icon {
+  	width: 200px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 50%;
+  	right: 2%;
+  	transform: translateY(-50%);
+  	object-fit: contain;
+  	z-index: 1;
+  	flex-shrink: 0;
+}
 .container3 {
   	width: 100%;
   	max-width: 1200px;
@@ -307,7 +340,7 @@
   	align-items: flex-start;
   	justify-content: center;
   	box-sizing: border-box;
-  	z-index: 1;
+  	z-index: 2;
   	flex-shrink: 0;
 }
 .content {
