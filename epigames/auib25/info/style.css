@@ -315,7 +315,7 @@
   	position: absolute;
   	margin: 0 !important;
   	top: 50%;
-  	right: calc(50% - 530px);
+  	right: max(200px, calc(50% - 520px));
   	transform: translateY(-50%);
   	object-fit: contain;
   	z-index: 1;
@@ -326,7 +326,7 @@
   	position: absolute;
   	margin: 0 !important;
   	top: 50%;
-  	right: calc(50% - 670px);
+  	right: max(50px, calc(50% - 670px));
   	transform: translateY(-50%);
   	object-fit: contain;
   	z-index: 1;
