@@ -26,10 +26,11 @@
       </div>
       <nav>
         <ul>
+          {% assign skip_titles = "Epigames consent,Epigames landing,Epigames manual" | split: "," %}
           {% for page in site.toplevel %}
-          {% if page.title != "Epigames consent" %}          
+          {% unless skip_titles contains page.title %}
           <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-          {% endif %}
+          {% endunless %}
           {% endfor %}
         </ul>
       </nav>
