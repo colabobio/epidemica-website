@@ -1,6 +1,6 @@
 .oo-sim-manual-english {
   	width: 100%;
-  	height: 1692px;
+  	height: 1800px;
   	position: relative;
   	background-color: #fff;
   	overflow: hidden;
@@ -12,12 +12,13 @@
 .frame-parent {
   	position: absolute;
   	top: 252px;
-  	left: 32px;
+  	left: 50%;
+  	transform: translateX(-50%);
   	width: 728px;
   	height: 1284px;
   	display: flex;
   	flex-direction: column;
-  	align-items: flex-start;
+  	align-items: center;
   	justify-content: space-between;
   	gap: 20px;
   	font-size: 15px;
@@ -348,7 +349,7 @@
 }
 .frame-parent5 {
   	position: absolute;
-  	top: 1644px;
+  	top: 1720px;
   	left: calc(50% - 364px);
   	width: 728px;
   	display: flex;
@@ -368,9 +369,9 @@
   	object-fit: cover;
 }
 .auib-icon {
-  	height: 24px;
-  	width: 64.2px;
-  	object-fit: cover;
+  	height: auto;
+  	width: 180px;
+  	object-fit: contain;
 }
 .a-collaboration-between {
   	flex: 1;
@@ -438,11 +439,13 @@
 .auib-simulation-manual-parent {
   	position: absolute;
   	top: 108px;
-  	left: 32px;
+  	left: 50%;
+  	transform: translateX(-50%);
   	width: 728px;
   	display: flex;
   	flex-direction: column;
-  	align-items: flex-start;
+  	align-items: center;
+  	text-align: center;
   	font-size: 60px;
   	color: #040077;
   	font-family: Noka;
@@ -464,12 +467,15 @@
 .attention-parent {
   	position: absolute;
   	top: 1576px;
-  	left: 32px;
+  	left: 50%;
+  	transform: translateX(-50%);
   	width: 727px;
   	display: flex;
-  	align-items: flex-start;
-  	justify-content: flex-end;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
   	gap: 16px;
+  	text-align: center;
 }
 .attention {
   	position: relative;
