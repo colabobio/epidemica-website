@@ -94,12 +94,12 @@ additional_css: homepage.css
     </div>
     <div class="download-right">
       <div class="qr-codes">
-        <div class="qr-code-item">
+        <div class="qr-code-item" id="ios-download">
           <a href="https://apps.apple.com/us/app/epigames/id6746726345" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
           </a>
         </div>
-        <div class="qr-code-item">
+        <div class="qr-code-item" id="android-download">
           <a href="https://play.google.com/store/apps/details?id=info.epidemica.epigamez&hl=en_CA" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
           </a>
@@ -108,3 +108,24 @@ additional_css: homepage.css
     </div>
   </div>
 </div>
+
+<script>
+  // Hide platform-specific download options based on device
+  const userAgent = navigator.userAgent;
+  
+  // Hide Google Play on iOS devices
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    const androidDownload = document.getElementById('android-download');
+    if (androidDownload) {
+      androidDownload.style.display = 'none';
+    }
+  }
+  
+  // Hide App Store on Android devices
+  if (/Android/.test(userAgent)) {
+    const iosDownload = document.getElementById('ios-download');
+    if (iosDownload) {
+      iosDownload.style.display = 'none';
+    }
+  }
+</script>
