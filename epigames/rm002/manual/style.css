@@ -1,0 +1,837 @@
+.oo-sim-manual-english {
+  	width: 100%;
+  	height: 1800px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 14px;
+  	color: #18174d;
+  	font-family: 'IBM Plex Mono';
+}
+.frame-parent {
+  	position: absolute;
+  	top: 252px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	width: 728px;
+  	height: 1284px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	font-size: 15px;
+}
+.frame-group {
+  	align-self: stretch;
+  	height: 140px;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	font-size: 7px;
+  	color: #6947cc;
+  	font-family: Roboto;
+}
+.frame-container {
+  	height: 136px;
+  	width: 232px;
+  	position: relative;
+}
+.group-parent {
+  	position: absolute;
+  	top: 95.44px;
+  	left: calc(50% - 54.5px);
+  	display: flex;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 11px;
+}
+.ios-link-parent {
+  	height: 22px;
+  	width: 49px;
+  	position: relative;
+}
+.ios-link {
+  	position: absolute;
+  	top: 0px;
+  	left: 11px;
+  	text-decoration: underline;
+  	line-height: 22px;
+  	font-weight: 600;
+  	color: inherit;
+}
+.group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 2px;
+  	border: 1px solid #6947cc;
+  	box-sizing: border-box;
+  	width: 49px;
+  	height: 21px;
+}
+.android-link {
+  	position: absolute;
+  	top: 0px;
+  	left: 4px;
+  	text-decoration: underline;
+  	line-height: 22px;
+  	font-weight: 600;
+  	color: inherit;
+}
+.download-icon-1 {
+  	position: absolute;
+  	top: 21px;
+  	left: calc(50% - 20px);
+  	width: 40px;
+  	height: 50.5px;
+  	object-fit: cover;
+}
+.div {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+  	font-size: 24px;
+  	color: #fff;
+  	font-family: Noka;
+}
+.heading {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+  	flex-shrink: 0;
+}
+.number {
+  	border-radius: 100px;
+  	background-color: #bd355f;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 10px;
+}
+.div2 {
+  	position: relative;
+  	font-weight: 600;
+}
+.join-the-simulation {
+  	position: relative;
+  	text-transform: uppercase;
+  	font-weight: 600;
+  	color: #18174d;
+}
+.download-the-latest-container {
+  	width: 487px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 22px;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	color: #000;
+  	font-family: Roboto;
+}
+.download-the-latest-version-of {
+  	margin: 0;
+  	font-size: inherit;
+  	padding-left: 19px;
+}
+.download-the-latest {
+  	font-family: Roboto;
+}
+.of-the {
+  	font-weight: 300;
+}
+.open-the-app-and-enter-your-jo {
+  	margin-bottom: 0px;
+}
+.and-enter-your {
+  	font-weight: 300;
+  	font-family: Roboto;
+}
+.on-the-sign-in-page {
+  	color: #000;
+}
+.home-page-ui-transparent-1-parent {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	font-size: 24px;
+  	color: #fff;
+  	font-family: Noka;
+}
+.home-page-ui-transparent-1-icon {
+  	width: 232px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.div3 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.heading2 {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 8px;
+}
+.text {
+  	width: 480px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 15px;
+  	font-size: 15px;
+  	color: #18174d;
+  	font-family: 'IBM Plex Mono';
+}
+.container {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.avatar-status {
+  	position: relative;
+  	line-height: 22px;
+  	text-transform: uppercase;
+}
+.your-avatar-can-container {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 22px;
+  	color: #000;
+  	font-family: Roboto;
+}
+.avatar-status-1-icon {
+  	width: 479px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.frame-div {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+}
+.frame-child {
+  	height: 163px;
+  	width: 232px;
+  	position: relative;
+  	object-fit: cover;
+}
+.monitor-the-outbreak-parent {
+  	width: 480px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.ui-1-wrapper {
+  	height: 176px;
+  	width: 232px;
+  	position: relative;
+}
+.ui-1-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 5px;
+  	width: 222px;
+  	height: 200px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.frame-wrapper {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.the-point-system {
+  	position: relative;
+  	line-height: 22px;
+  	text-transform: uppercase;
+  	flex-shrink: 0;
+}
+.each-day-between-container {
+  	width: 482px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 22px;
+  	display: inline-block;
+  	flex-shrink: 0;
+  	color: #000;
+  	font-family: Roboto;
+}
+.am1pm {
+  	color: #bd355f;
+}
+.ui-1-container {
+  	height: 89px;
+  	width: 232px;
+  	position: relative;
+}
+.ui-1-icon2 {
+  	position: absolute;
+  	top: 2.5px;
+  	left: calc(50% - 105px);
+  	width: 209.8px;
+  	height: 85px;
+  	object-fit: cover;
+}
+.notifications-parent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+}
+.you-may-receive-container {
+  	width: 437px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 22px;
+  	color: #000;
+  	display: inline-block;
+  	font-family: Roboto;
+}
+.quizzes {
+  	font-weight: 500;
+}
+.rewards-1-parent {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	gap: 17px;
+  	font-size: 24px;
+  	color: #fff;
+  	font-family: Noka;
+}
+.rewards-1-icon {
+  	width: 230px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.heading-parent {
+  	width: 480px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 16px;
+}
+.frame-parent4 {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	gap: 24px;
+  	font-size: 15px;
+  	color: #18174d;
+  	font-family: 'IBM Plex Mono';
+}
+.every-day-all-container {
+  	width: 462px;
+  	position: relative;
+  	font-size: 14px;
+  	line-height: 22px;
+  	color: #000;
+  	display: inline-block;
+  	font-family: Roboto;
+}
+.frame-parent5 {
+  	position: absolute;
+  	top: 1720px;
+  	left: calc(50% - 364px);
+  	width: 728px;
+  	display: flex;
+  	align-items: center;
+  	gap: 60px;
+  	font-size: 11px;
+}
+.frame {
+  	display: flex;
+  	align-items: center;
+  	gap: 22px;
+}
+.umasschan-horizontal-2color-cm-icon {
+  	width: 101.7px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.auib-icon {
+  	height: auto;
+  	width: 180px;
+  	object-fit: contain;
+}
+.a-collaboration-between {
+  	flex: 1;
+  	position: relative;
+  	text-transform: capitalize;
+}
+.header {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 364px);
+  	width: 728px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 20px;
+  	color: #000;
+}
+.logo-horizontal-2-icon {
+  	width: 191.4px;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.join-code-parent {
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 18px;
+}
+.join-code {
+  	align-self: stretch;
+  	width: 94px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.join-code2 {
+  	position: relative;
+  	text-transform: uppercase;
+  	font-weight: 300;
+}
+.auib25 {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 18px;
+  	color: #9e2a59;
+}
+.time {
+  	height: 44px;
+  	width: 167px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: space-between;
+  	gap: 3px;
+}
+.time2 {
+  	align-self: stretch;
+  	position: relative;
+  	text-transform: uppercase;
+  	font-weight: 300;
+}
+.auib-simulation-manual-parent {
+  	position: absolute;
+  	top: 108px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	width: 728px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	text-align: center;
+  	font-size: 60px;
+  	color: #040077;
+  	font-family: Noka;
+}
+.auib-simulation-manual {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 60px;
+  	font-weight: 600;
+}
+.join-the-epidemica {
+  	width: 697px;
+  	position: relative;
+  	font-size: 16px;
+  	font-family: 'IBM Plex Mono';
+  	color: #18174d;
+  	display: inline-block;
+}
+.attention-parent {
+  	position: absolute;
+  	top: 1576px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	width: 727px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 16px;
+  	text-align: center;
+}
+.attention {
+  	position: relative;
+  	line-height: 22px;
+  	text-transform: uppercase;
+  	font-weight: 600;
+}
+.keep-the-epigames {
+  	width: 479px;
+  	position: relative;
+  	line-height: 22px;
+  	display: inline-block;
+  	font-weight: 300;
+  	font-family: Roboto;
+  	color: #000;
+  	flex-shrink: 0;
+}
+
+/* Mobile responsive styles */
+.mobile-image {
+  	display: none;
+}
+
+.desktop-image {
+  	display: block;
+}
+
+.mobile-only {
+  	display: none;
+}
+
+.desktop-only {
+  	display: block;
+}
+
+@media screen and (max-width: 768px) {
+  	.oo-sim-manual-english {
+    		height: auto;
+    		min-height: 100vh;
+    		overflow: visible;
+    		padding-bottom: 40px;
+    		display: flex;
+    		flex-direction: column;
+  	}
+  	
+  	.frame-parent {
+    		position: static;
+    		width: 90%;
+    		max-width: 500px;
+    		padding: 0 20px;
+    		margin: 20px auto 0;
+    		box-sizing: border-box;
+    		height: auto;
+    		transform: none;
+    		order: 4;
+  	}
+  	
+  	.frame-group {
+    		flex-direction: column;
+    		height: auto;
+    		gap: 20px;
+  	}
+  	
+  	.frame-container {
+    		width: 100%;
+    		height: auto;
+    		display: flex;
+    		flex-direction: column;
+    		align-items: center;
+    		margin-top: 20px;
+    		position: static;
+  	}
+  	
+  	.desktop-only {
+    		display: none;
+  	}
+  	
+  	.mobile-only {
+    		display: flex;
+  	}
+  	
+  	.frame-container .download-icon-1 {
+    		position: static;
+    		width: 18%;
+    		max-width: 80px;
+    		height: auto;
+    		margin: 0 auto 15px;
+  	}
+  	
+  	.group-parent {
+    		position: static;
+    		display: flex;
+    		flex-direction: row;
+    		gap: 11px;
+    		justify-content: center;
+  	}
+  	
+  	.ios-link-parent {
+    		height: 29px;
+    		width: 64px;
+    		position: relative;
+    		display: flex;
+    		align-items: center;
+    		justify-content: center;
+  	}
+  	
+  	.ios-link,
+  	.android-link {
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		transform: translate(-50%, -50%);
+    		z-index: 1;
+    		color: #6947cc;
+    		font-size: 8px;
+    		line-height: 1;
+    		text-align: center;
+    		text-decoration: underline;
+    		font-weight: 600;
+    		white-space: nowrap;
+  	}
+  	
+  	.group-child {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100%;
+    		border-radius: 2px;
+    		border: 1px solid #6947cc;
+    		box-sizing: border-box;
+  	}
+  	
+  	.div {
+    		width: 100%;
+  	}
+  	
+  	.div .mobile-image {
+    		display: none;
+  	}
+  	
+  	.download-the-latest-container {
+    		width: 100%;
+  	}
+  	
+  	.home-page-ui-transparent-1-parent {
+    		flex-direction: column;
+    		gap: 20px;
+  	}
+  	
+  	.home-page-ui-transparent-1-icon {
+    		width: 100%;
+    		max-width: 300px;
+    		margin: 0 auto;
+  	}
+  	
+  	.div3 {
+    		width: 100%;
+  	}
+  	
+  	.text {
+    		width: 100%;
+  	}
+  	
+  	.avatar-status-1-icon {
+    		width: 100%;
+    		max-width: 400px;
+  	}
+  	
+  	.frame-div {
+    		flex-direction: column;
+    		gap: 20px;
+  	}
+  	
+  	.frame-child {
+    		width: 100%;
+    		max-width: 300px;
+    		height: auto;
+    		margin: 0 auto;
+  	}
+  	
+  	.monitor-the-outbreak-parent {
+    		width: 100%;
+  	}
+  	
+  	.ui-1-wrapper {
+    		width: 100%;
+    		height: auto;
+    		display: none;
+  	}
+  	
+  	.ui-1-icon {
+    		position: static;
+    		width: 100%;
+    		max-width: 300px;
+    		height: auto;
+    		margin: 20px auto 0;
+  	}
+  	
+  	.frame-wrapper {
+    		width: 100%;
+  	}
+  	
+  	.each-day-between-container {
+    		width: 100%;
+  	}
+  	
+  	.ui-1-container {
+    		width: 100%;
+    		height: auto;
+    		display: none;
+  	}
+  	
+  	.ui-1-icon2 {
+    		position: static;
+    		width: 100%;
+    		max-width: 300px;
+    		height: auto;
+    		margin: 20px auto 0;
+  	}
+  	
+  	.notifications-parent {
+    		width: 100%;
+  	}
+  	
+  	.you-may-receive-container {
+    		width: 100%;
+  	}
+  	
+  	.rewards-1-parent {
+    		flex-direction: column;
+    		gap: 20px;
+  	}
+  	
+  	.rewards-1-icon {
+    		width: 100%;
+    		max-width: 300px;
+    		margin: 0 auto;
+  	}
+  	
+  	.heading-parent {
+    		width: 100%;
+  	}
+  	
+  	.every-day-all-container {
+    		width: 100%;
+  	}
+  	
+  	.frame-parent5 {
+    		position: static;
+    		width: 90%;
+    		max-width: 500px;
+    		padding: 20px;
+    		margin: 40px auto 0;
+    		box-sizing: border-box;
+    		flex-direction: column;
+    		gap: 20px;
+    		left: auto;
+    		transform: none;
+    		order: 6;
+  	}
+  	
+  	.frame {
+    		flex-direction: column;
+    		gap: 15px;
+  	}
+  	
+  	.auib-icon {
+    		width: 100%;
+    		max-width: 200px;
+  	}
+  	
+  	.a-collaboration-between {
+    		text-align: center;
+  	}
+  	
+  	.header {
+    		position: static;
+    		width: 90%;
+    		max-width: 500px;
+    		padding: 10px 20px 20px;
+    		padding-top: 0;
+    		margin: 0 auto;
+    		box-sizing: border-box;
+    		display: flex;
+    		flex-direction: column;
+    		gap: 15px;
+    		align-items: center;
+    		left: auto;
+    		transform: none;
+    		order: 3;
+  	}
+  	
+  	.logo-horizontal-2-icon {
+    		width: 150px;
+    		position: absolute;
+    		top: 20px;
+    		left: 50%;
+    		transform: translateX(-50%);
+    		z-index: 10;
+  	}
+  	
+  	.join-code-parent {
+    		flex-direction: row;
+    		gap: 10px;
+    		align-items: center;
+  	}
+  	
+  	.auib-simulation-manual-parent {
+    		position: static;
+    		width: 90%;
+    		max-width: 500px;
+    		padding: 20px;
+    		padding-top: 90px;
+    		margin: 0 auto;
+    		box-sizing: border-box;
+    		left: auto;
+    		transform: none;
+    		order: 1;
+  	}
+  	
+  	.auib-simulation-manual {
+    		font-size: 36px;
+    		line-height: 40px;
+  	}
+  	
+  	.join-the-epidemica {
+    		width: 100%;
+    		font-size: 14px;
+  	}
+  	
+  	.attention-parent {
+    		position: static;
+    		width: 90%;
+    		max-width: 500px;
+    		padding: 20px;
+    		margin: 40px auto 20px;
+    		box-sizing: border-box;
+    		left: auto;
+    		transform: none;
+    		order: 5;
+  	}
+  	
+  	.keep-the-epigames {
+    		width: 100%;
+  	}
+  	
+  	/* Show mobile images, hide desktop images */
+  	.mobile-image {
+    		display: block;
+    		width: 100%;
+    		max-width: 300px;
+    		margin: 20px auto 0;
+  	}
+  	
+  	.desktop-image {
+    		display: none;
+  	}
+}
