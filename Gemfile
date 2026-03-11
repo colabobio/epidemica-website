@@ -9,7 +9,7 @@ begin
   versions     = JSON.parse(Net::HTTP.get(URI(versions_url)))
 
   # Ensure matching of the local gems with the production version of Github Pages.
-  gem 'github-pages', '~> 232', group: :jekyll_plugins  # Maintenance mode instructions: lock down the version by replacing "versions['github-pages']" with '~> X.Y.Z'. The version number should be the one in `grep github-pages Gemfile.lock`.
+  gem 'github-pages', versions['github-pages'], group: :jekyll_plugins  # Maintenance mode instructions: lock down the version by replacing “versions['github-pages']” with '~> X.Y.Z'. The version number should be the one in `grep github-pages Gemfile.lock`.
 
   # Ensure matching of the local Ruby version with the production version of GitHub Pages.
   # ruby versions['ruby']  # Maintenance mode instructions: remove this check entirely, as it is already locked in the CI image
@@ -22,7 +22,7 @@ rescue SocketError => socket_error
   puts "Couldn't reach #{versions_url}, assuming you're offline."
 
   # Use whichever version is already installed without checking production version match.
-  gem 'github-pages', '~> 232'
+  gem 'github-pages'
 
 # Provide a fallback scenario if for any other reason the production versions check fails.
 rescue => standard_error
@@ -37,7 +37,7 @@ rescue => standard_error
   MESSAGE
 
   # Use whichever version is already installed without checking production version match.
-  gem 'github-pages', '~> 232'
+  gem 'github-pages'
 end
 
 group :test do
