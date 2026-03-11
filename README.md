@@ -5,6 +5,16 @@ Website of the Epidemica project by the Colubri Lab.
 Based on the [Jekyll lean startup template](https://github.com/MattiSG/jekyll-template) from [Matti Schneider](https://mattischneider.fr/).
 
 
+## Development Environment Setup
+
+**Working behind a firewall?** We have comprehensive guides to help you configure GitHub Copilot:
+- 📋 **[Setup Summary](FIREWALL_SETUP_SUMMARY.md)** - Overview of all resources
+- 🚀 **[Quick Start for Mac](QUICKSTART_MAC.md)** - 2-minute setup guide
+- 📚 **[Comprehensive Setup Guide](DEVELOPMENT_SETUP.md)** - Detailed documentation for proxy/firewall configuration
+
+These guides help you configure GitHub Copilot and development tools to work behind corporate firewalls.
+
+
 ## Local usage
 
 - [Install Jekyll](https://jekyllrb.com/docs/installation/)

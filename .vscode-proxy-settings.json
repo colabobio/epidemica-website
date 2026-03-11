@@ -1,0 +1,10 @@
+{
+  "http.proxy": "http://proxy.company.com:8080",
+  "http.proxyStrictSSL": false,
+  "http.proxySupport": "on",
+  "http.proxyAuthorization": null,
+  "github.copilot.advanced": {
+    "debug.overrideProxyUrl": "http://proxy.company.com:8080",
+    "debug.testOverrideProxyUrl": "http://proxy.company.com:8080"
+  }
+}
