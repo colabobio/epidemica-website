@@ -1,129 +1,103 @@
 ---
 title: Privacy
 permalink: /privacy
-additional_css: privacy.css
 ---
 
-## <span data-en="PRIVACY NOTICE FOR EPIDEMICA APPS" data-vn="THÔNG BÁO QUYỀN RIÊNG TƯ CHO ỨNG DỤNG EPIDEMICA">PRIVACY NOTICE FOR EPIDEMICA APPS</span>
+## PRIVACY NOTICE FOR EPIDEMICA APPS
 
-**<span style="color: #000080" data-en="Date of latest revision: March 03, 2026" data-vn="Ngày sửa đổi gần nhất: 03 tháng 3, 2026">Date of latest revision: March 03, 2026</span>**
+**Date of latest revision: June 25, 2025**
 
-<p data-en="We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of an Epidemica-based mobile application (app)." data-vn="Chúng tôi rất coi trọng quyền riêng tư của bạn và muốn bạn biết cách chúng tôi thu thập, sử dụng, chia sẻ và bảo vệ thông tin của bạn. Thông báo Quyền riêng tư này (Thông báo) mô tả cách chúng tôi có thể thu thập, lưu trữ, sử dụng và chia sẻ thông tin về bạn và việc sử dụng ứng dụng di động dựa trên Epidemica (ứng dụng) của bạn.">We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of an Epidemica-based mobile application (app).</p>
+We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of an Epidemica-based mobile application (app).
 
-<p data-en="This study is conducted by <span style='color:#800020'>VinUniversity (College of Health Sciences)</span> in collaboration with the <span style='color:#800020'>Colubri Lab, UMass Chan Medical School.</span> Participation in this simulation is voluntary." data-vn="Nghiên cứu này được thực hiện bởi <span style='color:#800020'>VinUniversity (Trường Khoa học Sức khỏe)</span> hợp tác với <span style='color:#800020'>Colubri Lab, UMass Chan Medical School.</span> Việc tham gia vào mô phỏng này là tự nguyện.">This study is conducted by <span style='color:#800020'>VinUniversity (College of Health Sciences)</span> in collaboration with the <span style='color:#800020'>Colubri Lab, UMass Chan Medical School.</span> Participation in this simulation is voluntary.</p>
+### What types of information do we collect?
 
-### <span data-en="Institutional Oversight" data-vn="Giám sát Thể chế">Institutional Oversight</span>
+We collect information that you voluntarily provide through the app, as well as data generated through app-based simulations. **We do not collect any personally identifiable information.**
 
-<p data-en="The VinUni 2026 Epigame is conducted under the academic oversight of the <span style='color:#800020'>College of Health Sciences, VinUniversity</span>. All participants provide <span style='color:#800020'>informed consent</span> before participation. This study has been reviewed and approved by the VinUniversity Institutional Review Board (IRB). [IRB reference number]" data-vn="VinUni 2026 Epigame được thực hiện dưới sự giám sát học thuật của <span style='color:#800020'>Trường Khoa học Sức khỏe, VinUniversity</span>. Tất cả người tham gia cung cấp <span style='color:#800020'>sự đồng ý có thông tin</span> trước khi tham gia. Nghiên cứu này đã được xem xét và phê duyệt bởi Hội đồng Đánh giá Thể chế của VinUniversity (IRB). [Số tham chiếu IRB]">The VinUni 2026 Epigame is conducted under the academic oversight of the <span style='color:#800020'>College of Health Sciences, VinUniversity</span>. All participants provide <span style='color:#800020'>informed consent</span> before participation. This study has been reviewed and approved by the VinUniversity Institutional Review Board (IRB). [IRB reference number]</p>
+Specifically, we collect:
+- Proximity data: A list of physical proximity contacts between participants and the duration of these contacts, collected via Bluetooth.
+- UUID: Each participant is assigned a randomly generated 128-bit Universally Unique Identifier (UUID) upon joining a simulation. This UUID cannot be linked back to your identity.
+- Simulation data: Events that occur during a simulation, including the “health state” of your avatar (e.g., “susceptible,” “infected,” “recovered”), and transmission of the digital pathogen between participants.
+- Behavioral choice data: Actions you take during gameplay, such as using points to purchase virtual items like masks or PPE. These choices are recorded with timestamps and linked to your anonymous UUID. This helps researchers study how people make decisions under simulated outbreak conditions.
+- Attitudinal survey data: Responses to brief, multiple-choice surveys administered during the study. These questions may ask about your perceptions of infectious diseases or protective behaviors. No free-text responses are allowed, and no personal or identifying information is requested.
+- App usage data: Anonymous metrics such as the number of sessions, duration of participation, and use of in-app features (e.g., help screens or menus).
+- Environmental data: Anonymous sensor data (e.g., temperature, ambient light) from your device, used to understand how environmental context may influence behavior.
+- System analytics: Aggregated, anonymized diagnostics collected automatically by Apple and Google, such as crash reports and app retention statistics.
 
-### <span data-en="What types of information do we collect?" data-vn="Chúng tôi thu thập những loại thông tin nào?">What types of information do we collect?</span>
+Note: Location services may need to be enabled during a simulation on some devices due to system requirements for Bluetooth sensing. **However, no location data is collected or stored** by Epidemica-based apps.
 
-<p data-en="We collect information that you voluntarily provide through the app, as well as data generated through app-based simulations." data-vn="Chúng tôi thu thập thông tin mà bạn tự nguyện cung cấp thông qua ứng dụng, cũng như dữ liệu được tạo ra thông qua các mô phỏng dựa trên ứng dụng.">We collect information that you voluntarily provide through the app, as well as data generated through app-based simulations.</p>
+### Why do we collect this information?
 
-<p style="color: #800020" data-en="We DO NOT collect any personally identifiable information." data-vn="Chúng tôi KHÔNG thu thập bất kỳ thông tin nhận dạng cá nhân nào.">We DO NOT collect any personally identifiable information.</p>
+We collect data to:
 
-<p style="color: #000080" data-en="Specifically, we collect:" data-vn="Cụ thể, chúng tôi thu thập:">Specifically, we collect:</p>
-<li data-en="<span style='color:#800020'>Proximity data:</span> A list of physical proximity contacts between participants and the duration of these contacts, collected via Bluetooth." data-vn="<span style='color:#800020'>Dữ liệu khoảng cách:</span> Danh sách các liên hệ gần gũi vật lý giữa những người tham gia và thời lượng của các liên hệ này, được thu thập qua Bluetooth."><span style='color:#800020'>Proximity data:</span> A list of physical proximity contacts between participants and the duration of these contacts, collected via Bluetooth.</li>
-<li data-en="<span style='color:#800020'>UUID:</span> Each participant is assigned a randomly generated 128-bit Universally Unique Identifier (UUID) upon joining a simulation. This UUID cannot be linked back to your identity." data-vn="<span style='color:#800020'>UUID:</span> Mỗi người tham gia được chỉ định một Mã định danh duy nhất toàn cầu (UUID) 128-bit được tạo ngẫu nhiên khi tham gia mô phỏng. UUID này không thể được liên kết trở lại với danh tính của bạn."><span style='color:#800020'>UUID:</span> Each participant is assigned a randomly generated 128-bit Universally Unique Identifier (UUID) upon joining a simulation. This UUID cannot be linked back to your identity.</li>
-<li data-en="<span style='color:#800020'>Simulation data:</span> Events that occur during a simulation, including the &quot;health state&quot; of your avatar (e.g., &quot;susceptible,&quot; &quot;infected,&quot; &quot;recovered&quot;), and transmission of the digital pathogen between participants." data-vn="<span style='color:#800020'>Dữ liệu mô phỏng:</span> Các sự kiện xảy ra trong quá trình mô phỏng, bao gồm &quot;trạng thái sức khỏe&quot; của hình đại diện của bạn (ví dụ: &quot;dễ bị nhiễm&quot;, &quot;bị nhiễm&quot;, &quot;đã hồi phục&quot;) và việc lây truyền mầm bệnh kỹ thuật số giữa những người tham gia."><span style='color:#800020'>Simulation data:</span> Events that occur during a simulation, including the "health state" of your avatar (e.g., "susceptible," "infected," "recovered"), and transmission of the digital pathogen between participants.</li>
-<li data-en="<span style='color:#800020'>Behavioral choice data:</span> Actions you take during gameplay, such as using points to purchase virtual items like masks or PPE. These choices are recorded with timestamps and linked to your anonymous UUID. This helps researchers study how people make decisions under simulated outbreak conditions." data-vn="<span style='color:#800020'>Dữ liệu lựa chọn hành vi:</span> Các hành động bạn thực hiện trong quá trình chơi game, chẳng hạn như sử dụng điểm để mua các vật phẩm ảo như khẩu trang hoặc thiết bị bảo vệ cá nhân. Những lựa chọn này được ghi lại với dấu thời gian và liên kết với UUID ẩn danh của bạn. Điều này giúp các nhà nghiên cứu nghiên cứu cách mọi người đưa ra quyết định trong điều kiện bùng phát mô phỏng."><span style='color:#800020'>Behavioral choice data:</span> Actions you take during gameplay, such as using points to purchase virtual items like masks or PPE. These choices are recorded with timestamps and linked to your anonymous UUID. This helps researchers study how people make decisions under simulated outbreak conditions.</li>
-<li data-en="<span style='color:#800020'>Attitudinal survey data:</span> Responses to brief, multiple-choice surveys administered during the study. These questions may ask about your perceptions of infectious diseases or protective behaviors. No free-text responses are allowed, and no personal or identifying information is requested." data-vn="<span style='color:#800020'>Dữ liệu khảo sát thái độ:</span> Các câu trả lời cho các cuộc khảo sát trắc nghiệm ngắn được thực hiện trong nghiên cứu. Những câu hỏi này có thể hỏi về nhận thức của bạn về các bệnh truyền nhiễm hoặc hành vi bảo vệ. Không cho phép trả lời văn bản tự do và không yêu cầu thông tin cá nhân hoặc nhận dạng."><span style='color:#800020'>Attitudinal survey data:</span> Responses to brief, multiple-choice surveys administered during the study. These questions may ask about your perceptions of infectious diseases or protective behaviors. No free-text responses are allowed, and no personal or identifying information is requested.</li>
-<li data-en="<span style='color:#800020'>App usage data:</span> Anonymous metrics such as the number of sessions, duration of participation, and use of in-app features (e.g., help screens or menus)." data-vn="<span style='color:#800020'>Dữ liệu sử dụng ứng dụng:</span> Các chỉ số ẩn danh như số phiên, thời lượng tham gia và việc sử dụng các tính năng trong ứng dụng (ví dụ: màn hình trợ giúp hoặc menu)."><span style='color:#800020'>App usage data:</span> Anonymous metrics such as the number of sessions, duration of participation, and use of in-app features (e.g., help screens or menus).</li>
-<li data-en="<span style='color:#800020'>Environmental data:</span> Anonymous sensor data (e.g., temperature, ambient light) from your device, used to understand how environmental context may influence behavior." data-vn="<span style='color:#800020'>Dữ liệu môi trường:</span> Dữ liệu cảm biến ẩn danh (ví dụ: nhiệt độ, ánh sáng xung quanh) từ thiết bị của bạn, được sử dụng để hiểu cách bối cảnh môi trường có thể ảnh hưởng đến hành vi."><span style='color:#800020'>Environmental data:</span> Anonymous sensor data (e.g., temperature, ambient light) from your device, used to understand how environmental context may influence behavior.</li>
-<li data-en="<span style='color:#800020'>System analytics:</span> Aggregated, anonymized diagnostics collected automatically by Apple and Google, such as crash reports and app retention statistics." data-vn="<span style='color:#800020'>Phân tích hệ thống:</span> Các chẩn đoán được tổng hợp, ẩn danh được thu thập tự động bởi Apple và Google, chẳng hạn như báo cáo sự cố và thống kê giữ chân ứng dụng."><span style='color:#800020'>System analytics:</span> Aggregated, anonymized diagnostics collected automatically by Apple and Google, such as crash reports and app retention statistics.</li>
+- Visualize and analyze simulated outbreaks
+- Measure behavioral and attitudinal responses during simulations
+- Improve app performance and user experience
+- Conduct scientific research on infectious disease dynamics and human behavior
 
-<p data-en="<span style='color:#000080'>* Note:</span> Location services may need to be <span style='color:#800020'>enabled</span> during a simulation on some devices due to system requirements for Bluetooth sensing. <span style='color:#800020'>However, no location data is collected or stored</span> by Epidemica-based apps." data-vn="<span style='color:#000080'>* Lưu ý:</span> Dịch vụ vị trí có thể cần được <span style='color:#800020'>bật</span> trong quá trình mô phỏng trên một số thiết bị do yêu cầu hệ thống để cảm biến Bluetooth. <span style='color:#800020'>Tuy nhiên, không có dữ liệu vị trí nào được thu thập hoặc lưu trữ</span> bởi các ứng dụng dựa trên Epidemica."><span style='color:#000080'>* Note:</span> Location services may need to be <span style='color:#800020'>enabled</span> during a simulation on some devices due to system requirements for Bluetooth sensing. <span style='color:#800020'>However, no location data is collected or stored</span> by Epidemica-based apps.</p>
+### How do we collect the information?
 
-### <span data-en="Why do we collect this information?" data-vn="Tại sao chúng tôi thu thập thông tin này?">Why do we collect this information?</span>
+- Bluetooth sensing: Strength and duration of Bluetooth signals with nearby devices
+- Simulation logging: In-app decisions and events (e.g., item use, transmission) recorded via secure API
+- Survey responses: Captured through in-app multiple-choice questionnaires
+- System diagnostics: Collected automatically by platform providers (Apple/Google), anonymized and aggregated
 
-<p data-en="We collect data to:" data-vn="Chúng tôi thu thập dữ liệu để:">We collect data to:</p>
+### What do we do with the information?
 
-<ul>
-<li data-en="Visualise and analyse simulated outbreaks" data-vn="Hình dung và phân tích các đợt bùng phát mô phỏng">Visualise and analyse simulated outbreaks</li>
-<li data-en="Measure behavioural and attitudinal responses during simulations" data-vn="Đo lường phản ứng hành vi và thái độ trong quá trình mô phỏng">Measure behavioural and attitudinal responses during simulations</li>
-<li data-en="Improve app performance and user experience" data-vn="Cải thiện hiệu suất ứng dụng và trải nghiệm người dùng">Improve app performance and user experience</li>
-<li data-en="Conduct scientific research on infectious disease dynamics and human behaviour" data-vn="Tiến hành nghiên cứu khoa học về động lực bệnh truyền nhiễm và hành vi con người">Conduct scientific research on infectious disease dynamics and human behaviour</li>
-</ul>
+The Epidemica-based apps are used to carry our research studies through experimental epidemic games. The anonymized data we collect during these games is used to:
 
-### <span data-en="How do we collect the information?" data-vn="Chúng tôi thu thập thông tin như thế nào?">How do we collect the information?</span>
+- Apply computational methods to preprocess data, generate descriptive statistics, and summarize key events from the games
+- Analyze patterns of interaction, risk perception, and decision-making
+- Develop visualizations (e.g., graphs of transmission events or behavior trends)
+- Improve models of epidemic spread and inform future research
 
-<ul>
-<li data-en="<span style='color:#800020'>Bluetooth sensing:</span> Strength and duration of Bluetooth signals with nearby devices" data-vn="<span style='color:#800020'>Cảm biến Bluetooth:</span> Cường độ và thời lượng của tín hiệu Bluetooth với các thiết bị gần đó"><span style='color:#800020'>Bluetooth sensing:</span> Strength and duration of Bluetooth signals with nearby devices</li>
-<li data-en="<span style='color:#800020'>Simulation logging:</span> In-app decisions and events (e.g., item use, transmission) recorded via secure API" data-vn="<span style='color:#800020'>Ghi nhật ký mô phỏng:</span> Các quyết định và sự kiện trong ứng dụng (ví dụ: sử dụng vật phẩm, truyền tải) được ghi lại qua API an toàn"><span style='color:#800020'>Simulation logging:</span> In-app decisions and events (e.g., item use, transmission) recorded via secure API</li>
-<li data-en="<span style='color:#800020'>Survey responses:</span> Captured through in-app multiple-choice questionnaires" data-vn="<span style='color:#800020'>Câu trả lời khảo sát:</span> Được ghi lại thông qua bảng câu hỏi trắc nghiệm trong ứng dụng"><span style='color:#800020'>Survey responses:</span> Captured through in-app multiple-choice questionnaires</li>
-<li data-en="<span style='color:#800020'>System diagnostics:</span> Collected automatically by platform providers (Apple/Google), anonymized and aggregated" data-vn="<span style='color:#800020'>Chẩn đoán hệ thống:</span> Được thu thập tự động bởi các nhà cung cấp nền tảng (Apple/Google), ẩn danh và tổng hợp"><span style='color:#800020'>System diagnostics:</span> Collected automatically by platform providers (Apple/Google), anonymized and aggregated</li>
-</ul>
+We may also use attitudinal survey data to evaluate how knowledge, beliefs, or values shape behavior in outbreak scenarios.
 
-### <span data-en="What do we do with the information?" data-vn="Chúng tôi làm gì với thông tin?">What do we do with the information?</span>
+We do **not** sell or rent your information to any third parties.
 
-<p data-en="The Epidemica-based apps are used to <span style='color:#800020'>carry out our research studies through experimental epidemic games.</span> The anonymised data we collect during these games is used to:" data-vn="Các ứng dụng dựa trên Epidemica được sử dụng để <span style='color:#800020'>thực hiện các nghiên cứu của chúng tôi thông qua các trò chơi dịch bệnh thực nghiệm.</span> Dữ liệu ẩn danh mà chúng tôi thu thập trong các trò chơi này được sử dụng để:">The Epidemica-based apps are used to <span style='color:#800020'>carry out our research studies through experimental epidemic games.</span> The anonymised data we collect during these games is used to:</p>
-<ul>
-<li data-en="Apply computational methods to preprocess data, generate descriptive statistics, and summarise key events from the games" data-vn="Áp dụng các phương pháp tính toán để xử lý trước dữ liệu, tạo thống kê mô tả và tóm tắt các sự kiện chính từ các trò chơi">Apply computational methods to preprocess data, generate descriptive statistics, and summarise key events from the games</li>
-<li data-en="Analyse patterns of interaction, risk perception, and decision-making" data-vn="Phân tích các mô hình tương tác, nhận thức rủi ro và ra quyết định">Analyse patterns of interaction, risk perception, and decision-making</li>
-<li data-en="Develop visualisations (e.g., graphs of transmission events or behaviour trends)" data-vn="Phát triển trực quan hóa (ví dụ: biểu đồ về các sự kiện lây truyền hoặc xu hướng hành vi)">Develop visualisations (e.g., graphs of transmission events or behaviour trends)</li>
-<li data-en="Improve models of epidemic spread and inform future research" data-vn="Cải thiện các mô hình lây lan dịch bệnh và cung cấp thông tin cho nghiên cứu trong tương lai">Improve models of epidemic spread and inform future research</li>
-</ul>
+### Who will have access to the information?
 
-<p data-en="We may also use <span style='color:#800020'>attitudinal survey data</span> to evaluate how knowledge, beliefs, or values shape behaviour in outbreak scenarios." data-vn="Chúng tôi cũng có thể sử dụng <span style='color:#800020'>dữ liệu khảo sát thái độ</span> để đánh giá cách kiến thức, niềm tin hoặc giá trị định hình hành vi trong các tình huống bùng phát dịch bệnh.">We may also use <span style='color:#800020'>attitudinal survey data</span> to evaluate how knowledge, beliefs, or values shape behaviour in outbreak scenarios.</p>
+We may share your information with:
+- The University of Massachusetts Chan Medical School
+- The Broad Institute, Inc. ([Privacy Policy](https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website))
+- Amazon Web Services (AWS), which hosts our encrypted cloud-based storage
 
-<p style="color: #800020" data-en="We DO NOT sell or rent your information to any third parties." data-vn="Chúng tôi KHÔNG bán hoặc cho thuê thông tin của bạn cho bất kỳ bên thứ ba nào.">We DO NOT sell or rent your information to any third parties.</p>
+Data is stored securely using AWS S3 with server-side encryption (SSE-S3 or AWS KMS). Read more in the [AWS Data Privacy FAQ](https://aws.amazon.com/compliance/data-privacy-faq/).
 
-### <span data-en="Who will have access to the information?" data-vn="Ai sẽ có quyền truy cập thông tin?">Who will have access to the information?</span>
+We may also share information with government or legal authorities when required by law or legal process.
 
-<p data-en="We may share your information with:" data-vn="Chúng tôi có thể chia sẻ thông tin của bạn với:">We may share your information with:</p>
+### How do I consent?
 
-<ul>
-<li data-en="Epidemica research personnel from VinUniversity (College of Health Sciences)" data-vn="Nhân viên nghiên cứu Epidemica từ VinUniversity (Trường Khoa học Sức khỏe)">Epidemica research personnel from VinUniversity (College of Health Sciences)</li>
-<li data-en="The University of Massachusetts Chan Medical School" data-vn="Trường Y khoa Chan của Đại học Massachusetts">The University of Massachusetts Chan Medical School</li>
-<li data-en='The Broad Institute, Inc. (<a href="https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website" target="_blank" rel="noopener noreferrer">Privacy Policy</a>)' data-vn='Viện Broad, Inc. (<a href="https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website" target="_blank" rel="noopener noreferrer">Chính sách quyền riêng tư</a>)'>The Broad Institute, Inc. (<a href="https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website" target="_blank" rel="noopener noreferrer">Privacy Policy</a>)</li>
-<li data-en="Amazon Web Services (AWS), which hosts our encrypted cloud-based storage" data-vn="Amazon Web Services (AWS), nơi lưu trữ bộ nhớ đám mây được mã hóa của chúng tôi">Amazon Web Services (AWS), which hosts our encrypted cloud-based storage</li>
-</ul>
+This Notice is for your information only. Your formal consent to participate in the research study will be obtained separately through an informed consent process within the app.
 
-<p data-en='Data is stored securely using AWS S3 with server-side encryption (SSE-S3 or AWS KMS). Read more in the <a href="https://aws.amazon.com/compliance/data-privacy-faq/" target="_blank" rel="noopener noreferrer">AWS Data Privacy FAQ</a>.' data-vn='Dữ liệu được lưu trữ an toàn bằng AWS S3 với mã hóa phía máy chủ (SSE-S3 hoặc AWS KMS). Đọc thêm trong <a href="https://aws.amazon.com/compliance/data-privacy-faq/" target="_blank" rel="noopener noreferrer">Câu hỏi thường gặp về Quyền riêng tư Dữ liệu AWS</a>.'>Data is stored securely using AWS S3 with server-side encryption (SSE-S3 or AWS KMS). Read more in the <a href="https://aws.amazon.com/compliance/data-privacy-faq/" target="_blank" rel="noopener noreferrer">AWS Data Privacy FAQ</a>.</p>
+By continuing to use the app after providing consent, you acknowledge that you have read and understood this Notice.
 
-<p data-en="We may also share information with government or legal authorities when required by law or legal process." data-vn="Chúng tôi cũng có thể chia sẻ thông tin với chính phủ hoặc cơ quan pháp luật khi được yêu cầu bởi luật pháp hoặc quy trình pháp lý.">We may also share information with government or legal authorities when required by law or legal process.</p>
+### What about users outside the United States?
 
-### <span data-en="How do I consent?" data-vn="Làm thế nào để tôi đồng ý?">How do I consent?</span>
+The app and supporting infrastructure are located within the United States and third parties with whom we share your information are as well. Our servers are located in the United States, and this is where your data and information will be stored. Information provided to us by users outside of the United States will be transferred to the United States, where data protection laws may differ from those of your home country. By using our app or providing us with your information, you acknowledge that your information will be transferred to the United States, processed, and / or stored on servers in the United States. Your information will be used as provided in this Notice and all reasonable steps will be taken to protect your privacy in accordance with the applicable data privacy laws.
 
-<p data-en="This Notice is for your information only. Your formal consent to participate in the research study will be obtained separately through an informed consent process within the app." data-vn="Thông báo này chỉ để cung cấp thông tin cho bạn. Sự đồng ý chính thức của bạn để tham gia nghiên cứu sẽ được thu thập riêng thông qua quy trình đồng ý có thông tin trong ứng dụng.">This Notice is for your information only. Your formal consent to participate in the research study will be obtained separately through an informed consent process within the app.</p>
+### How do we protect your information?
 
-<p data-en="By continuing to use the app after providing consent, you acknowledge that you have read and understood this Notice." data-vn="Bằng cách tiếp tục sử dụng ứng dụng sau khi đồng ý, bạn xác nhận rằng bạn đã đọc và hiểu Thông báo này.">By continuing to use the app after providing consent, you acknowledge that you have read and understood this Notice.</p>
+We protect your data through:
 
-### <span data-en="What about users outside the United States?" data-vn="Còn người dùng bên ngoài Hoa Kỳ thì sao?">What about users outside the United States?</span>
+- Use of random, non-identifiable UUIDs
+- End-to-end encryption of transmitted data
+- Secure server infrastructure with access controls
+- Collection of only non-personally identifiable information
 
-<p data-en="The app and supporting infrastructure are located within the United States, and third parties with whom we share your information are as well. Our servers are located in the United States, and this is where your data and information will be stored. Information provided to us by users outside of the United States will be transferred to the United States, where data protection laws may differ from those of your home country. By using our app or providing us with your information, you acknowledge that your information will be transferred to the United States, processed, and/or stored on servers in the United States. Your information will be used as provided in this Notice, and all reasonable steps will be taken to protect your privacy in accordance with the applicable data privacy laws." data-vn="Ứng dụng và cơ sở hạ tầng hỗ trợ nằm trong Hoa Kỳ và các bên thứ ba mà chúng tôi chia sẻ thông tin của bạn cũng vậy. Máy chủ của chúng tôi nằm ở Hoa Kỳ, và đây là nơi dữ liệu và thông tin của bạn sẽ được lưu trữ. Thông tin do người dùng bên ngoài Hoa Kỳ cung cấp cho chúng tôi sẽ được chuyển đến Hoa Kỳ, nơi luật bảo vệ dữ liệu có thể khác với luật của quốc gia của bạn. Bằng cách sử dụng ứng dụng hoặc cung cấp thông tin của bạn cho chúng tôi, bạn xác nhận rằng thông tin của bạn sẽ được chuyển đến Hoa Kỳ, xử lý và/hoặc lưu trữ trên máy chủ ở Hoa Kỳ. Thông tin của bạn sẽ được sử dụng như được cung cấp trong Thông báo này và tất cả các bước hợp lý sẽ được thực hiện để bảo vệ quyền riêng tư của bạn theo luật bảo vệ dữ liệu hiện hành.">The app and supporting infrastructure are located within the United States, and third parties with whom we share your information are as well. Our servers are located in the United States, and this is where your data and information will be stored. Information provided to us by users outside of the United States will be transferred to the United States, where data protection laws may differ from those of your home country. By using our app or providing us with your information, you acknowledge that your information will be transferred to the United States, processed, and/or stored on servers in the United States. Your information will be used as provided in this Notice, and all reasonable steps will be taken to protect your privacy in accordance with the applicable data privacy laws.</p>
+### Do Not Track Signals
 
-### <span data-en="How do we protect your information?" data-vn="Chúng tôi bảo vệ thông tin của bạn như thế nào?">How do we protect your information?</span>
+Some technologies, such as web browsers or mobile devices, provide a setting that when turned on sends a Do Not Track (DNT) signal when browsing a website or app. Our app does not respond to Do Not Track signals, as there is no standard method of interpreting such signals across devices.
 
-<p data-en="We protect your data through:" data-vn="Chúng tôi bảo vệ dữ liệu của bạn thông qua:">We protect your data through:</p>
+### How long will we retain your information?
 
-<ul>
-<li data-en="Use of random, non-identifiable UUIDs" data-vn="Sử dụng UUID ngẫu nhiên, không thể nhận dạng">Use of random, non-identifiable UUIDs</li>
-<li data-en="End-to-end encryption of transmitted data" data-vn="Mã hóa đầu cuối dữ liệu được truyền tải">End-to-end encryption of transmitted data</li>
-<li data-en="Secure server infrastructure with access controls" data-vn="Cơ sở hạ tầng máy chủ an toàn với kiểm soát truy cập">Secure server infrastructure with access controls</li>
-<li data-en="Collection of only non-personally identifiable information" data-vn="Thu thập chỉ thông tin không thể nhận dạng cá nhân">Collection of only non-personally identifiable information</li>
-</ul>
+We retain your anonymized data only as long as needed for the purposes described in this notice. We may also retain your anonymized data if legally required or to fulfill a legitimate interest.
 
-### <span data-en="Do Not Track Signals" data-vn="Tín hiệu Không theo dõi">Do Not Track Signals</span>
+### How will you be notified if our Privacy Notice changes?
 
-<p data-en="Some technologies, such as web browsers or mobile devices, provide a setting that, when turned on, sends a Do Not Track (DNT) signal when browsing a website or app. Our app does not respond to Do Not Track signals, as there is no standard method of interpreting such signals across devices." data-vn="Một số công nghệ, chẳng hạn như trình duyệt web hoặc thiết bị di động, cung cấp cài đặt khi bật sẽ gửi tín hiệu Không theo dõi (DNT) khi duyệt trang web hoặc ứng dụng. Ứng dụng của chúng tôi không phản hồi các tín hiệu Không theo dõi, vì không có phương pháp tiêu chuẩn để giải thích các tín hiệu như vậy trên các thiết bị.">Some technologies, such as web browsers or mobile devices, provide a setting that, when turned on, sends a Do Not Track (DNT) signal when browsing a website or app. Our app does not respond to Do Not Track signals, as there is no standard method of interpreting such signals across devices.</p>
+We reserve the right to change, modify, or otherwise amend this Notice at our sole discretion and at any time as we deem circumstances warrant. The date of the most recent revision is posted at the top. Continued use of the app after changes are made constitutes acceptance of those changes.
 
-### <span data-en="How long will we retain your information?" data-vn="Chúng tôi sẽ lưu giữ thông tin của bạn trong bao lâu?">How long will we retain your information?</span>
+### How can you contact us?
 
-<p data-en="We retain your anonymized data only as long as needed for the purposes described in this notice. We may also retain your anonymized data if legally required or to fulfil a legitimate interest." data-vn="Chúng tôi chỉ lưu giữ dữ liệu ẩn danh của bạn trong thời gian cần thiết cho các mục đích được mô tả trong thông báo này. Chúng tôi cũng có thể giữ lại dữ liệu ẩn danh của bạn nếu được yêu cầu hợp pháp hoặc để đáp ứng lợi ích hợp pháp.">We retain your anonymized data only as long as needed for the purposes described in this notice. We may also retain your anonymized data if legally required or to fulfil a legitimate interest.</p>
+If you have privacy-related questions, please contact the University of Massachusetts Chan Medical School’s Office of Management at [privacyandcompliance@umassmed.edu](mailto:privacyandcompliance@umassmed.edu).
 
-### <span data-en="How will you be notified if our Privacy Notice changes?" data-vn="Bạn sẽ được thông báo như thế nào nếu Thông báo Quyền riêng tư của chúng tôi thay đổi?">How will you be notified if our Privacy Notice changes?</span>
-
-<p data-en="We reserve the right to change, modify, or otherwise amend this Notice at our sole discretion and at any time as we deem circumstances warrant. The date of the most recent revision is posted at the top. Continued use of the app after changes are made constitutes acceptance of those changes." data-vn="Chúng tôi bảo lưu quyền thay đổi, sửa đổi hoặc điều chỉnh Thông báo này theo quyết định riêng của chúng tôi và bất cứ lúc nào khi chúng tôi cho rằng hoàn cảnh đảm bảo. Ngày của bản sửa đổi gần nhất được đăng ở trên cùng. Việc tiếp tục sử dụng ứng dụng sau khi các thay đổi được thực hiện cấu thành sự chấp nhận những thay đổi đó.">We reserve the right to change, modify, or otherwise amend this Notice at our sole discretion and at any time as we deem circumstances warrant. The date of the most recent revision is posted at the top. Continued use of the app after changes are made constitutes acceptance of those changes.</p>
-
-### <span data-en="How can you contact us?" data-vn="Bạn có thể liên hệ với chúng tôi như thế nào?">How can you contact us?</span>
-
-<p data-en="If you have privacy-related questions, please contact the University of Massachusetts Chan Medical School's Office of Management at <a href='mailto:privacyandcompliance@umassmed.edu'>privacyandcompliance@umassmed.edu</a>." data-vn="Nếu bạn có câu hỏi liên quan đến quyền riêng tư, vui lòng liên hệ với Văn phòng Quản lý của Trường Y khoa Chan thuộc Đại học Massachusetts tại <a href='mailto:privacyandcompliance@umassmed.edu'>privacyandcompliance@umassmed.edu</a>.">If you have privacy-related questions, please contact the University of Massachusetts Chan Medical School's Office of Management at <a href="mailto:privacyandcompliance@umassmed.edu">privacyandcompliance@umassmed.edu</a>.</p>
-
-<p data-en="For questions about the app or research study, please contact:" data-vn="Để có câu hỏi về ứng dụng hoặc nghiên cứu, vui lòng liên hệ:">For questions about the app or research study, please contact:</p>
-
-<ul>
-<li data-en="<span style='color:#800020'>For research and VinUniversity-related concerns:</span> College of Health Sciences, VinUniversity — Dr Woh Pei Yee (Peggy Woh) (<a href='mailto:peiyee.w@vinuni.edu.vn'>peiyee.w@vinuni.edu.vn</a>)" data-vn="<span style='color:#800020'>Về các vấn đề nghiên cứu và liên quan đến VinUniversity:</span> Trường Khoa học Sức khỏe, VinUniversity — TS. Woh Pei Yee (Peggy Woh) (<a href='mailto:peiyee.w@vinuni.edu.vn'>peiyee.w@vinuni.edu.vn</a>)"><span style='color:#800020'>For research and VinUniversity-related concerns:</span> College of Health Sciences, VinUniversity — Dr Woh Pei Yee (Peggy Woh) (<a href="mailto:peiyee.w@vinuni.edu.vn">peiyee.w@vinuni.edu.vn</a>)</li>
-<li data-en="<span style='color:#800020'>For scientific collaboration inquiries:</span> UMass Chan Medical School — Dr. Andrés Colubri (<a href='mailto:andres.colubri@umassmed.edu'>andres.colubri@umassmed.edu</a>)" data-vn="<span style='color:#800020'>Về các câu hỏi hợp tác khoa học:</span> UMass Chan Medical School — TS. Andrés Colubri (<a href='mailto:andres.colubri@umassmed.edu'>andres.colubri@umassmed.edu</a>)"><span style='color:#800020'>For scientific collaboration inquiries:</span> UMass Chan Medical School — Dr. Andrés Colubri (<a href="mailto:andres.colubri@umassmed.edu">andres.colubri@umassmed.edu</a>)</li>
-</ul>
-
+For questions about the app or research study, please contact Dr. Andres Colubri at [andres.colubri@umassmed.edu](mailto:andres.colubri@umassmed.edu).
