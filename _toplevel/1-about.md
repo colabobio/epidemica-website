@@ -4,8 +4,6 @@ permalink: /about
 additional_css: about.css
 ---
 
-<div class="lang-en">
-
 # About Epidemica
 
 <div class="qa-container">
