@@ -72,6 +72,7 @@ additional_css: about.css
     </div>
   </div>
 </div>
+
 </div>
 
 <div class="lang-vi" style="display:none">
