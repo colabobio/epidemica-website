@@ -1,0 +1,14 @@
+.navigation {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navigation a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navigation a:hover {
+    background-color: #e2e6ea;
+}
