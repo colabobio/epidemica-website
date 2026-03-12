@@ -5,9 +5,15 @@ permalink: /privacy
 
 ## PRIVACY NOTICE FOR EPIDEMICA APPS
 
-**Date of latest revision: June 25, 2025**
+**Date of latest revision: March 03, 2026**
 
 We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of an Epidemica-based mobile application (app).
+
+This study is conducted by VinUniversity (College of Health Sciences) in collaboration with the Colubri Lab, UMass Chan Medical School. Participation in this simulation is voluntary.
+
+**Institutional Oversight**
+
+The VinUni 2026 Epigame is conducted under the academic oversight of the College of Health Sciences, VinUniversity. All participants provide informed consent before participation. This study has been reviewed and approved by the VinUniversity Institutional Review Board (IRB). [IRB reference number]
 
 ### What types of information do we collect?
 
@@ -57,6 +63,7 @@ We do **not** sell or rent your information to any third parties.
 ### Who will have access to the information?
 
 We may share your information with:
+- Epidemica research personnel from VinUniversity (College of Health Sciences)
 - The University of Massachusetts Chan Medical School
 - The Broad Institute, Inc. ([Privacy Policy](https://www.broadinstitute.org/contact-us/privacy-policy-broad-institute-website))
 - Amazon Web Services (AWS), which hosts our encrypted cloud-based storage
@@ -98,6 +105,10 @@ We reserve the right to change, modify, or otherwise amend this Notice at our so
 
 ### How can you contact us?
 
-If you have privacy-related questions, please contact the University of Massachusetts Chan Medical School’s Office of Management at [privacyandcompliance@umassmed.edu](mailto:privacyandcompliance@umassmed.edu).
+If you have privacy-related questions, please contact the University of Massachusetts Chan Medical School’s Office of Management at <a>privacyandcompliance@umassmed.edu</a>.
 
-For questions about the app or research study, please contact Dr. Andres Colubri at [andres.colubri@umassmed.edu](mailto:andres.colubri@umassmed.edu).
+For questions about the app or research study, please contact:
+
+For research and VinUniversity-related concerns: College of Health Sciences, VinUniversity — Dr Woh Pei Yee (Peggy Woh) (<a>peiyee.w@vinuni.edu.vn</a>)
+
+For scientific collaboration inquiries: UMass Chan Medical School — Dr. Andrés Colubri (<a>andres.colubri@umassmed.edu</a>)
