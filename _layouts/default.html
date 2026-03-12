@@ -32,6 +32,11 @@
           <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
           {% endunless %}
           {% endfor %}
+          <li class="lang-switcher">
+            <button id="lang-toggle" onclick="toggleLanguage()" aria-label="Switch language">
+              <span id="lang-label">Tiếng Việt</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
@@ -44,5 +49,31 @@
       © 2026 VinUniversity × Colubri Lab
 Epidemica – VinUni Edition
     </footer>
+    <script>
+  function toggleLanguage() {
+    var current = localStorage.getItem('lang') || 'en';
+    var next = current === 'en' ? 'vi' : 'en';
+    setLanguage(next);
+  }
+
+  function setLanguage(lang) {
+    localStorage.setItem('lang', lang);
+    document.querySelectorAll('.lang-en').forEach(function(el) {
+      el.style.display = lang === 'en' ? '' : 'none';
+    });
+    document.querySelectorAll('.lang-vi').forEach(function(el) {
+      el.style.display = lang === 'vi' ? '' : 'none';
+    });
+    var label = document.getElementById('lang-label');
+    if (label) {
+      label.textContent = lang === 'en' ? 'Tiếng Việt' : 'English';
+    }
+  }
+
+  (function() {
+    var lang = localStorage.getItem('lang') || 'en';
+    setLanguage(lang);
+  })();
+</script>
   </body>
 </html>

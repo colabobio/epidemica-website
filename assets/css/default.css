@@ -75,3 +75,26 @@ nav a.current {
 body ul {
   margin-left: 1.5em;
 }
+
+/* Language toggle button */
+.lang-switcher {
+  display: inline;
+}
+
+.lang-switcher button {
+  background: #1E61A0;
+  color: white;
+  border: none;
+  border-radius: .2em;
+  padding: .4em .8em;
+  margin-left: 1em;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.lang-switcher button:hover {
+  background: #154d85;
+}

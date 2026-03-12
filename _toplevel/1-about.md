@@ -4,6 +4,8 @@ permalink: /about
 additional_css: about.css
 ---
 
+<div class="lang-en">
+
 # About Epidemica
 
 <div class="qa-container">
@@ -69,4 +71,76 @@ additional_css: about.css
       </div>
     </div>
   </div>
+</div>
+</div>
+
+<div class="lang-vi" style="display:none">
+
+# Giới thiệu về Epidemica
+
+<div class="qa-container">
+  <div class="qa-item">
+    <div class="question">
+      <h2><span class="burgundy-text">GIỚI THIỆU VỀ VINUNI EPIGAME 2026</span></h2>
+    </div>
+    <div class="answer">
+      <p><span class="burgundy-text">VinUni Epigame</span> là một nghiên cứu thực nghiệm trên khuôn viên trường được thiết kế để hiểu cách các cá nhân phản ứng với các rủi ro bệnh truyền nhiễm trong các mạng xã hội thực tế. Sáng kiến này thể hiện một quan hệ đối tác nghiên cứu hợp tác giữa VinUniversity (Khoa Khoa học Sức khỏe) và Colubri Lab, UMass Chan Medical School. Tại VinUniversity, dự án được dẫn dắt bởi Tiến sĩ Woh Pei Yee, với sự tham gia tích cực của các nhà nghiên cứu sinh viên trong CHS, phối hợp với Tiến sĩ Andrés Colubri.</p>
+      <p><span class="navy-text">Nghiên cứu này tập trung vào:</span></p>
+      <ul>
+        <li>Hành vi cách ly tự nguyện</li>
+        <li>Các thông số mô hình niềm tin sức khỏe</li>
+        <li>Các phản ứng hành vi trong các điều kiện chi phí cơ hội khác nhau</li>
+      </ul>
+      <p>Người tham gia được <span class="burgundy-text">phân công ngẫu nhiên</span> vào các điều kiện mô phỏng khác nhau trong một thử nghiệm có kiểm soát ngẫu nhiên.</p>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="question">
+      <h2><span class="navy-text">Giới thiệu về <span class="highlight-text">Nền tảng Epidemica</span></span></h2>
+    </div>
+    <div class="answer">
+      <p>Epidemica là một nền tảng thử nghiệm mô-đun mã nguồn mở được thiết kế để biến đổi cách chúng ta nghiên cứu và quản lý sự lây truyền bệnh truyền nhiễm trong các môi trường thực tế. Được phát triển bởi Colubri Lab tại UMass Chan Medical School, Epidemica sẽ cho phép các nhà nghiên cứu nhanh chóng thiết kế, triển khai và phát hành các ứng dụng di động tích hợp cảm biến tiếp cận, theo dõi hành vi, truy vết tiếp xúc kỹ thuật số và báo cáo sinh học. Mô phỏng VinUni 2026 là một triển khai của nền tảng này trong môi trường đại học.</p>
+      <div class="diagram-container">
+        <img src="/assets/images/epidemica-diagram.png" alt="Kiến trúc Nền tảng Epidemica" class="epidemica-diagram">
+      </div>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="question">
+      <h2><span class="navy-text">Điều gì làm cho Epidemica độc đáo?</span></h2>
+    </div>
+    <div class="answer">
+      <p>Một đổi mới trung tâm của Epidemica là <span class="burgundy-text">thư viện mô hình lây truyền mầm bệnh</span>. Thư viện này cho phép các nhà nghiên cứu thiết kế và thực hiện các đợt bùng phát tổng hợp thực tế - cả ảo và trong môi trường vật lý - cung cấp một khung mạnh mẽ để kiểm tra áp lực các chiến lược y tế công cộng, đánh giá các can thiệp hành vi, mô hình hóa thực nghiệm các mạng lưới lây truyền và tích hợp các khung quyết định kinh tế và tâm lý. Khả năng mô phỏng của nền tảng sẽ được kết hợp với một hệ thống linh hoạt để thiết kế các nghiên cứu dịch tễ học thực địa, với các tùy chọn gamification có thể cấu hình để tích hợp với thư viện lây truyền.</p>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="question">
+      <h2><span class="navy-text">Ai đang dẫn dắt dự án?</span></h2>
+    </div>
+    <div class="answer">
+      <p>Dự án này được đồng dẫn dắt bởi Tiến sĩ Andrés Colubri (andres.colubri@umassmed.edu), Trợ lý Giáo sư về Bộ gen học và Sinh học Tính toán tại UMass Chan Medical School và Lãnh đạo Khoa học của Epidemica, và Tiến sĩ Woh Pei Yee (peiyee.w@vinuni.edu.vn), Trợ lý Giáo sư tại Khoa Khoa học Sức khỏe, VinUniversity và Điều tra viên Chính cho nghiên cứu VinUni. Tại VinUniversity, dự án cũng liên quan đến sự tham gia tích cực của các nhà nghiên cứu sinh viên trong Khoa Khoa học Sức khỏe.</p>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="question">
+      <h2><span class="navy-text">Operation Outbreak là gì và có liên quan gì đến Epidemica?</span></h2>
+    </div>
+    <div class="answer">
+      <p>Epidemica được xây dựng dựa trên <span class="burgundy-text">các dự án mô phỏng bùng phát dịch bệnh kỹ thuật số trước đó</span> như <a href="https://operationoutbreak.org/" target="_blank">Operation Outbreak</a> (OO), được tạo ra bởi Tiến sĩ Colubri cùng với các nhà nghiên cứu tại Broad Institute của Harvard và MIT. Ứng dụng OO truyền mầm bệnh kỹ thuật số giữa điện thoại thông minh của người tham gia qua Bluetooth, cho phép học tập trải nghiệm hấp dẫn về đại dịch tại các trường học, đại học và hội nghị. OO đã được triển khai tại hơn 150 cơ sở giáo dục và đã thu hút hơn 10.000 sinh viên trên toàn cầu trong học tập trải nghiệm về đại dịch. Một dự án liên quan khác, <a href="https://gten.massgeneral.org/projects/travel-healthy-app/" target="_blank">Travel Healthy</a> (TH), là một ứng dụng giám sát có tham gia dành cho khách du lịch quốc tế, được phát triển cùng Massachusetts General Hospital và được đề cử cho Giải thưởng Thiết kế UX năm 2024. <span class="burgundy-text">VinUni Epigame đại diện cho một sự phát triển tập trung vào nghiên cứu, đặc thù khuôn viên trường của các sáng kiến trước đó này.</span></p>
+      <div class="project-images">
+        <div class="project-image-container">
+          <img src="/assets/images/travel-healthy.webp" alt="Ứng dụng Travel Healthy" class="project-image">
+        </div>
+        <div class="project-image-container">
+          <img src="/assets/images/operation-outbreak.webp" alt="Ứng dụng Operation Outbreak" class="project-image">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
