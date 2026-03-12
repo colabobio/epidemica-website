@@ -9,6 +9,22 @@ additional_css: about.css
 <div class="qa-container">
   <div class="qa-item">
     <div class="question">
+      <h2>About the <span class="highlight-text">VinUni Epigame 2026</span></h2>
+    </div>
+    <div class="answer">
+      <p>The VinUni Epigame is a campus-based experimental study designed to understand how individuals respond to infectious disease risks in real-world social networks. This initiative represents a collaborative research partnership between VinUniversity (College of Health Sciences) and Colubri Lab, UMass Chan Medical School. At VinUniversity, the project is led by Dr Woh Pei Yee, with active involvement from student researchers within CHS, in collaboration with Dr Andrés Colubri.</p>
+      <p>This study focuses on:</p>
+      <ul>
+        <li>Voluntary quarantine behaviour</li>
+        <li>Health belief model parameters</li>
+        <li>Behavioural responses under different opportunity-cost conditions</li>
+      </ul>
+      <p>Participants are randomly assigned to different simulation conditions in a randomised controlled trial.</p>
+    </div>
+  </div>
+
+  <div class="qa-item">
+    <div class="question">
       <h2>What is <span class="highlight-text">Epidemica</span>?</h2>
     </div>
     <div class="answer">
