@@ -5,7 +5,7 @@ additional_css: homepage.css
 ---
 
 <div class="hero-title">
-  <h1>What if playing a game on your phone could <span class="highlight-text">help scientists understand how diseases spread</span>—and even prevent the next pandemic?</h1>
+  <h1>What if playing a game on your phone could <span class="highlight-text">help scientists understand how diseases spread</span>—and strengthen future pandemic preparedness at VinUniversity?</h1>
 </div>
 
 <div class="main-sections-wrapper">
@@ -14,7 +14,7 @@ additional_css: homepage.css
     <h2>Introducing</h2>
     <div class="epigames-showcase">
       <img src="/assets/images/epigames.png" alt="Epigames App" class="epigames-image">
-      <p class="epigames-description">a new kind of app built on the Epidemica platform from the Colubri Lab at the University of Massachusetts Chan Medical School, co-creators and developers of the award-winning Operation Outbreak app.</p>
+      <p class="epigames-description">A research app deployed at VinUniversity as part of the Epidemica platform, developed by the Colubri Lab at UMass Chan Medical School.</p>
       <a href="/about" class="learn-more-btn">Learn more about Epidemica</a>
     </div>
   </div>
@@ -27,7 +27,7 @@ additional_css: homepage.css
     </div>
     <div class="gameplay-text">
       <p class="gameplay-main">You'll make decisions, interact with others, and see the spread of a digital "pathogen" play out in front of your eyes.</p>
-      <p class="gameplay-sub">But don't worry—there's no real virus involved. Just a unique opportunity to be part of cutting-edge science while having fun.</p>
+      <p class="gameplay-sub">But don't worry - there is no real virus involved. This is a controlled scientific simulation designed to study behavioral responses in outbreak scenarios.</p>
     </div>
   </div>
 </div>
@@ -76,15 +76,21 @@ additional_css: homepage.css
       <img src="/assets/images/epigames-auib.webp" alt="PSI Conference Event" class="psi-illustration">
     </div>
     <div class="event-content">
-      <h3>Epidemic game at AUIB</h3>
-      <p>This will be a two-week epidemic game to take place in the campus of the <a href="https://auib.edu.iq/" target="_blank">American University of Iraq - Baghdag</a> (AUIB). Participating students will receive information about the fictional epidemic unfolding around them through the Epigames app and decide to whether adopt protective measures and earn points in the app based on those decisions. The resulting data from this app-based game will contribute to our research on the spread of infectious agents through contact networks.</p>
-      <a href="https://auib25.epidemica.info/" class="event-btn" target="_blank">Learn more about this epigame</a>
+      <h3>Epidemica: VinUni 2026 Epigame</h3>
+      <p>This will be a two-week campus-wide epidemic simulation conducted at VinUniversity. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions. The anonymised data generated during this simulation will contribute to research on infectious disease transmission through contact networks, behavioural decision-making under risk, and the impact of opportunity cost on preventive actions.</p>
+      <a href="/epigames/vinuni2026" class="event-btn">Learn more about the VinUni Epigame</a>
     </div>
   </div>
 </div>
 
 <div class="contact-section">
-  <p class="contact-info"><strong>Questions/Concerns?</strong> Please feel free to contact the Principal Investigator, Dr. Andres Colubri (<a href="mailto:Andres.Colubri@umassmed.edu">Andres.Colubri@umassmed.edu</a>)</p>
+  <p class="contact-info"><strong>Questions/Concerns?</strong> For questions about the VinUni 2026 simulation, please feel free to contact:<br><br>
+<strong>VinUni Study Team:</strong><br>
+College of Health Sciences, VinUniversity    
+Dr Woh Pei Yee (<a>peiyee.w@vinuni.edu.vn</a>)<br><br>
+<strong>Scientific collaboration:</strong><br>
+UMass Chan Medical School    
+Dr. Andrés Colubri (<a>andres.colubri@umassmed.edu</a>)</p>
 </div>
 
 <div class="cta-section">

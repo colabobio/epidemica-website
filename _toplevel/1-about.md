@@ -12,7 +12,7 @@ additional_css: about.css
       <h2>What is <span class="highlight-text">Epidemica</span>?</h2>
     </div>
     <div class="answer">
-      <p>Epidemica is an open-source, modular experimentation platform designed to transform how we study and manage infectious disease transmission in real-world settings. To be developed by the Colubri Lab at UMass Chan Medical School, Epidemica will enable researchers to rapidly design, implement, and deploy mobile applications that integrate proximity sensing, behavioral tracking, digital contact tracing, and biological reporting.</p>
+      <p>Epidemica is an open-source, modular experimentation platform designed to transform how we study and manage infectious disease transmission in real-world settings. To be developed by the Colubri Lab at UMass Chan Medical School, Epidemica will enable researchers to rapidly design, implement, and deploy mobile applications that integrate proximity sensing, behavioural tracking, digital contact tracing, and biological reporting. The VinUni 2026 simulation is one deployment of this platform in a university setting.</p>
       <div class="diagram-container">
         <img src="/assets/images/epidemica-diagram.png" alt="Epidemica Platform Architecture" class="epidemica-diagram">
       </div>
@@ -24,7 +24,7 @@ additional_css: about.css
       <h2>What is unique about Epidemica?</h2>
     </div>
     <div class="answer">
-      <p>A central innovation of Epidemica is its pathogen transmission model library. This library allows researchers to design and execute realistic synthetic outbreaks—both virtually and in physical environments—offering a powerful framework for stress-testing public health policies, evaluating behavioral interventions, and advancing experimental epidemiology. The platform's simulation capabilities will be paired with a flexible system for designing field epidemiological studies, with configurable gamification options to be integrated with the transmission library.</p>
+      <p>A central innovation of Epidemica is its library of pathogen transmission models. This library allows researchers to design and execute realistic synthetic outbreaks - both virtually and in physical environments - offering a powerful framework for stress-testing of public health strategies, evaluation of behavioral interventions, experimental modeling of transmission networks, and integration of economic and psychological decision frameworks. The platform's simulation capabilities will be paired with a flexible system for designing field epidemiological studies, with configurable gamification options to be integrated with the transmission library.</p>
     </div>
   </div>
 
@@ -33,7 +33,7 @@ additional_css: about.css
       <h2>Who is leading the project?</h2>
     </div>
     <div class="answer">
-      <p>The lead of the project, Dr. Andrés Colubri, is an assistant professor in the Genomics and Computational Biology department at UMass Chan, with multidisciplinary background in mathematics, arts, and technology. Dr. Colubri has been proposing novel approaches to infectious disease research and response for several years.</p>
+      <p>This project is jointly led by Dr. Andrés Colubri (andres.colubri@umassmed.edu), Assistant Professor in Genomics and Computational Biology at UMass Chan Medical School and Scientific Lead of Epidemica, and Dr. Woh Pei Yee (peiyee.w@vinuni.edu.vn), Assistant Professor at the College of Health Sciences, VinUniversity and Principal Investigator for the VinUni study. At VinUniversity, the project also involves active participation from student researchers within the College of Health Sciences.</p>
     </div>
   </div>
 
@@ -42,7 +42,7 @@ additional_css: about.css
       <h2>What is Operation Outbreak and how is it related to Epidemica?</h2>
     </div>
     <div class="answer">
-      <p>With collaborators at the Broad Institute of Harvard and MIT, Dr. Colubri created the <a href="https://operationoutbreak.org/" target="_blank">Operation Outbreak</a> (OO) project, a predecessor to the Epidemica platform, back in 2018. The OO app spreads a digital pathogen between participants' smartphones via Bluetooth, enabling deeply engaging experiential learning experiences about pandemics in schools, colleges, and conferences. OO has been deployed in over 150 educational institutions involving more than 10,000 students. Another relevant project is <a href="https://gten.massgeneral.org/projects/travel-healthy-app/" target="_blank">Travel Healthy</a> (TH), a mobile app for participatory surveillance by U.S. international travelers that generates high resolution data regarding travel-related illness. TH, launched in 2023 and conducted in a close partnership between the Colubri Lab and Massachusetts General Hospital Travelers' Advice and Immunization Center, was nominated for the UX Design Awards in 2024.</p>
+      <p>Epidemica builds upon prior digital outbreak simulation projects such as <a href="https://operationoutbreak.org/" target="_blank">Operation Outbreak</a> (OO), created by Dr Colubri in collaboration with researchers at the Broad Institute of Harvard and MIT. The OO app transmits a digital pathogen among participants' smartphones via Bluetooth, enabling highly engaging experiential learning about pandemics in schools, colleges, and conferences. OO has been deployed in more than 150 educational institutions and has engaged more than 10,000 students globally in experiential learning on pandemics. Another related project, <a href="https://gten.massgeneral.org/projects/travel-healthy-app/" target="_blank">Travel Healthy</a> (TH), is a mobile participatory surveillance app for international travellers, developed in partnership with Massachusetts General Hospital and was nominated for the UX Design Awards in 2024. The VinUni Epigame represents a research-focused, campus-specific evolution of these earlier initiatives.</p>
       <div class="project-images">
         <div class="project-image-container">
           <img src="/assets/images/travel-healthy.webp" alt="Travel Healthy App" class="project-image">
