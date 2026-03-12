@@ -290,7 +290,7 @@
 }
 
 .upcoming-event-section ul li {
-  color: navy;
+  color: navy !important;
 }
 
 .event-btn {
