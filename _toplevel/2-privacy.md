@@ -1,6 +1,7 @@
 ---
 title: Privacy
 permalink: /privacy
+additional_css: privacy.css
 ---
 
 ## PRIVACY NOTICE FOR EPIDEMICA APPS
