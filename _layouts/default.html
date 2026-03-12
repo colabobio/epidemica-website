@@ -51,8 +51,8 @@ Epidemica – VinUni Edition
     </footer>
     <script>
   function toggleLanguage() {
-    var current = localStorage.getItem('lang') || 'en';
-    var next = current === 'en' ? 'vi' : 'en';
+    const current = localStorage.getItem('lang') || 'en';
+    const next = current === 'en' ? 'vi' : 'en';
     setLanguage(next);
   }
 
@@ -64,14 +64,14 @@ Epidemica – VinUni Edition
     document.querySelectorAll('.lang-vi').forEach(function(el) {
       el.style.display = lang === 'vi' ? '' : 'none';
     });
-    var label = document.getElementById('lang-label');
+    const label = document.getElementById('lang-label');
     if (label) {
       label.textContent = lang === 'en' ? 'Tiếng Việt' : 'English';
     }
   }
 
   (function() {
-    var lang = localStorage.getItem('lang') || 'en';
+    const lang = localStorage.getItem('lang') || 'en';
     setLanguage(lang);
   })();
 </script>

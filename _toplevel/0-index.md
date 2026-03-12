@@ -278,12 +278,12 @@ Dr. Andrés Colubri (<a>andres.colubri@umassmed.edu</a>)</p>
 </div>
 
 <script>
-  const userAgent2 = navigator.userAgent;
-  if (/iPad|iPhone|iPod/.test(userAgent2) && !window.MSStream) {
+  const userAgentVi = navigator.userAgent;
+  if (/iPad|iPhone|iPod/.test(userAgentVi) && !window.MSStream) {
     const androidDownloadVi = document.getElementById('android-download-vi');
     if (androidDownloadVi) { androidDownloadVi.style.display = 'none'; }
   }
-  if (/Android/.test(userAgent2)) {
+  if (/Android/.test(userAgentVi)) {
     const iosDownloadVi = document.getElementById('ios-download-vi');
     if (iosDownloadVi) { iosDownloadVi.style.display = 'none'; }
   }
