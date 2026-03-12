@@ -39,6 +39,7 @@ additional_css: news.css
   </div>
   {% endif %}
 </div>
+
 </div>
 
 <div class="lang-vi" style="display:none">
