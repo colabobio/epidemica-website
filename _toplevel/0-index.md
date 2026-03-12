@@ -15,6 +15,7 @@ additional_css: homepage.css
     <div class="epigames-showcase">
       <img src="/assets/images/epigames.png" alt="Epigames App" class="epigames-image">
       <p class="epigames-description">A research app deployed at VinUniversity as part of the Epidemica platform, developed by the Colubri Lab at UMass Chan Medical School.</p>
+      <p class="epigames-collab">The VinUni 2026 Epigame is a collaborative research initiative between the College of Health Sciences, VinUniversity, and the Colubri Lab, bringing cutting-edge experimental epidemiology to campus.</p>
       <a href="/about" class="learn-more-btn">Learn more about Epidemica</a>
     </div>
   </div>
@@ -26,7 +27,7 @@ additional_css: homepage.css
       <img src="/assets/images/epigames-app.webp" alt="Epigames App Interface" class="app-interface-image">
     </div>
     <div class="gameplay-text">
-      <p class="gameplay-main">You'll make decisions, interact with others, and see the spread of a digital "pathogen" play out in front of your eyes.</p>
+      <p class="gameplay-main">You'll make decisions, interact with others, and see the spread of a digital "pathogen" play out in real time across the VinUni campus network.</p>
       <p class="gameplay-sub">But don't worry - there is no real virus involved. This is a controlled scientific simulation designed to study behavioral responses in outbreak scenarios.</p>
     </div>
   </div>
@@ -77,10 +78,26 @@ additional_css: homepage.css
     </div>
     <div class="event-content">
       <h3>Epidemica: VinUni 2026 Epigame</h3>
-      <p>This will be a two-week campus-wide epidemic simulation conducted at VinUniversity. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions. The anonymised data generated during this simulation will contribute to research on infectious disease transmission through contact networks, behavioural decision-making under risk, and the impact of opportunity cost on preventive actions.</p>
+      <p>This will be a two-week campus-wide epidemic simulation conducted at VinUniversity. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions.</p>
+      <p>The anonymised data generated during this simulation will contribute to research on:</p>
+      <ul>
+        <li>Infectious disease transmission through contact networks</li>
+        <li>Behavioural decision-making under risk</li>
+        <li>The impact of opportunity cost on preventive actions</li>
+      </ul>
       <a href="/epigames/vinuni2026" class="event-btn">Learn more about the VinUni Epigame</a>
     </div>
   </div>
+</div>
+
+<div class="why-participate-section">
+  <h2>Why participate?</h2>
+  <p>Participants who complete the full study may receive:</p>
+  <ul class="why-participate-list">
+    <li>Class credit/token (if approved by instructors)</li>
+    <li>Certificate of participation</li>
+    <li>Raffle entry for gift cards</li>
+  </ul>
 </div>
 
 <div class="contact-section">
