@@ -406,21 +406,19 @@
   	.main {
     		padding: 40px 20px;
     		gap: 24px;
+    		/* Switch to background-image so the section always fully contains it */
+    		background-image: url('/epigames/assets/bg.png');
+    		background-size: cover;
+    		background-position: center top;
   	}
-  	
+
+  	/* Hide the absolutely-positioned <img> on mobile; background-image takes over */
   	.hero-bg-icon {
-    		width: 100%;
-    		height: auto;
+    		display: none;
   	}
   	
   	.hero-foreground-icon {
-    		position: relative;
-    		right: auto;
-    		top: auto;
-    		width: 80%;
-    		max-width: 300px;
-    		margin: 20px auto;
-    		display: block;
+    		display: none;
   	}
   	
   	.div {
