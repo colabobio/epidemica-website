@@ -73,12 +73,12 @@ additional_css: homepage.css
   <h2>Upcoming Event</h2>
   <div class="event-container">
     <div class="event-image">
-      <img src="/assets/images/epigames-auib.webp" alt="PSI Conference Event" class="psi-illustration">
+      <img src="/assets/images/epigames-vinuni.webp" alt="VinUni Epugame" class="upcoming-event-illustration">
     </div>
     <div class="event-content">
-      <h3>Epidemic game at AUIB</h3>
-      <p>This will be a two-week epidemic game to take place in the campus of the <a href="https://auib.edu.iq/" target="_blank">American University of Iraq - Baghdag</a> (AUIB). Participating students will receive information about the fictional epidemic unfolding around them through the Epigames app and decide to whether adopt protective measures and earn points in the app based on those decisions. The resulting data from this app-based game will contribute to our research on the spread of infectious agents through contact networks.</p>
-      <a href="https://auib25.epidemica.info/" class="event-btn" target="_blank">Learn more about this epigame</a>
+      <h3>VinUni 2026 Epigame</h3>
+      <p>This will be a two-week campus-wide epidemic simulation conducted at <a href="https://vinuni.edu.vn/" target="_blank">VinUniversity</a>. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions. The resulting data will contribute to research on transmission of infectious diseases through contact networks and the influence of human behavior.</p>
+      <a href="/epigames/vinuepi26" class="event-btn">Learn more about the VinUni Epigame</a>
     </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ additional_css: homepage.css
           </a>
         </div>
         <div class="qr-code-item" id="android-download">
-          <a href="https://play.google.com/store/apps/details?id=info.epidemica.epigamez&hl=en_CA" target="_blank" rel="noopener noreferrer">
+          <a href="https://play.google.com/store/apps/details?id=info.epidemica.epigamez" target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
           </a>
         </div>
