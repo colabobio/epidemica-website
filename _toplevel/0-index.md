@@ -77,7 +77,7 @@ additional_css: homepage.css
     </div>
     <div class="event-content">
       <h3>VinUni 2026 Epigame</h3>
-      <p>This will be a two-week campus-wide epidemic simulation conducted at <a href="https://vinuni.edu.vn/" target="_blank">VinUniversity</a>. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions. The resulting data will contribute to research on transmission of infectious diseases through contact networks and the influence of human behavior.</p>
+      <p>This will be a two-week campus-wide epidemic game conducted at <a href="https://vinuni.edu.vn/" target="_blank">VinUniversity</a>. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions. The resulting data will contribute to research on transmission of infectious diseases through contact networks and the influence of human behavior.</p>
       <a href="/epigames/vinuepi26" class="event-btn">Learn more about the VinUni Epigame</a>
     </div>
   </div>
