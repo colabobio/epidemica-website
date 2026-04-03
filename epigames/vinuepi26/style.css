@@ -339,7 +339,7 @@
   	flex-direction: column;
   	align-items: flex-start;
   	justify-content: flex-start;
-  	padding-top: 40px;
+  	padding-top: 0;
   	box-sizing: border-box;
   	z-index: 2;
   	flex-shrink: 0;
@@ -348,7 +348,7 @@
   	align-self: stretch;
   	height: 230px;
   	display: flex;
-  	align-items: center;
+  	align-items: flex-start;
   	justify-content: space-between;
   	gap: 20px;
 }
@@ -546,44 +546,41 @@
     		height: auto;
     		padding: 30px 20px;
     		gap: 16px;
+    		/* Same trick as the hero: use background-image so the section
+    		   always fully contains the background regardless of height */
+    		background-image: url('/epigames/assets/footer-bg.png');
+    		background-size: cover;
+    		background-position: center center;
   	}
-  	
+
+  	/* Hide the absolutely-positioned <img>; background-image takes over */
   	.footer-bg-icon {
-    		width: 100%;
-    		height: auto;
-  	}
-  	
-  	.footer-apple-qr-icon,
-  	.footer-google-qr-icon {
     		display: none;
   	}
-  	
-  	.qr-codes-mobile {
-    		display: flex;
-    		flex-direction: column;
-    		align-items: center;
-    		justify-content: center;
-    		gap: 20px;
-    		padding: 20px;
-    		background-color: #fff;
-    		width: 100%;
-    		margin: 0 auto;
-  	}
-  	
-  	.qr-mobile-apple,
-  	.qr-mobile-google {
-    		width: 150px;
-    		height: auto;
-    		display: block;
-    		margin: 0 auto;
-  	}
-  	
+
+  	/* Put the text block first, QR codes below it */
   	.container3 {
     		width: 100%;
     		max-width: 100%;
     		align-items: center;
     		padding: 0;
-    		margin-top: -40px;
+    		margin-top: 0;
+    		order: -1;
+  	}
+
+  	.footer-container a {
+    		display: flex;
+    		justify-content: center;
+  	}
+
+  	.footer-apple-qr-icon,
+  	.footer-google-qr-icon {
+    		position: static;
+    		transform: none;
+    		width: 130px;
+    		height: auto;
+    		object-fit: contain;
+    		z-index: 1;
   	}
   	
   	.content {
