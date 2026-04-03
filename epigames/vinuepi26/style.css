@@ -1,4 +1,4 @@
-.epidemica-epigames-auib {
+.epidemica-epigames-microsite {
   	width: 100%;
   	position: relative;
   	background-color: #fff;
@@ -116,7 +116,7 @@
   	align-items: flex-start;
   	gap: 48px;
 }
-.epigames-at-the {
+.epigames-title {
   	width: 323px;
   	position: relative;
   	display: inline-block;
@@ -128,10 +128,10 @@
   	align-items: flex-start;
   	font-size: 26px;
 }
-.time-nov-container {
+.epigame-info-container {
   	position: relative;
 }
-.use-the-code {
+.install-instructions-container {
   	width: 339px;
   	position: relative;
   	font-size: 14px;
@@ -147,7 +147,7 @@
   	font-size: 20px;
   	font-family: Poppins;
 }
-.its-time-to-container {
+.research-info-container {
   	font-weight: 500;
   	display: inline-block;
   	width: 538px;
@@ -168,7 +168,7 @@
   	padding: 24px 8px;
   	box-sizing: border-box;
 }
-.about2 {
+.about-section {
   	align-self: stretch;
   	display: flex;
   	flex-direction: column;
@@ -184,20 +184,20 @@
   	justify-content: center;
   	gap: 48px;
 }
-.about-the-epidemic {
+.epigame-section-container {
   	width: 384px;
   	position: relative;
   	display: inline-block;
   	flex-shrink: 0;
 }
-.this-epidemic-game-epigame-wrapper {
+.epigame-text-container {
   	display: flex;
   	align-items: center;
   	justify-content: center;
   	font-size: 16px;
   	font-family: Inter;
 }
-.this-epidemic-game {
+.epigame-text-paragraph {
   	width: 440px;
   	position: relative;
   	line-height: 150%;
@@ -228,7 +228,7 @@
   	justify-content: center;
   	gap: 40px;
 }
-.container2 {
+.security-section {
   	display: flex;
   	flex-direction: column;
   	align-items: center;
@@ -250,7 +250,7 @@
   	line-height: 160%;
   	display: inline-block;
 }
-.your-mission-stay-healthy-and-parent {
+.instruction-list-parent {
   	display: flex;
   	flex-direction: column;
   	align-items: center;
@@ -259,7 +259,7 @@
   	font-size: 44px;
   	font-family: 'Space Grotesk';
 }
-.your-mission-stay {
+.title-section {
   	width: 463px;
   	position: relative;
   	display: inline-block;
@@ -272,19 +272,19 @@
   	font-family: Inter;
   	display: inline-block;
 }
-.how-to-play2 {
+.how-to-play-title {
   	margin: 0;
 }
-.install-the-app-and-enter-usin {
+.instruction-list-container {
   	margin: 0;
   	font-family: inherit;
   	font-size: inherit;
   	padding-left: 21px;
 }
-.install-the-app {
+.instruction-item {
   	margin-bottom: 0px;
 }
-.main2 {
+.footer-container {
   	align-self: stretch;
   	height: 358px;
   	display: flex;
@@ -434,7 +434,7 @@
     		max-width: 100%;
   	}
   	
-  	.epigames-at-the {
+  	.epigames-title {
     		width: 100%;
     		font-size: 32px;
   	}
@@ -444,7 +444,7 @@
     		font-size: 20px;
   	}
   	
-  	.use-the-code {
+  	.install-instructions-container {
     		width: 100%;
   	}
   	
@@ -454,13 +454,13 @@
     		padding: 0 10px;
   	}
   	
-  	.its-time-to-container {
+  	.research-info-container {
     		width: 100%;
     		font-size: 18px;
   	}
   	
   	/* About Section */
-  	.about2 {
+  	.about-section {
     		padding: 16px 20px;
   	}
   	
@@ -470,12 +470,12 @@
     		gap: 24px;
   	}
   	
-  	.about-the-epidemic {
+  	.epigame-section-container {
     		width: 100%;
     		font-size: 28px;
   	}
   	
-  	.this-epidemic-game {
+  	.epigame-text-paragraph {
     		width: 100%;
   	}
   	
@@ -490,7 +490,7 @@
     		gap: 24px;
   	}
   	
-  	.container2 {
+  	.security-section {
     		order: 2;
     		width: 100%;
   	}
@@ -508,12 +508,12 @@
     		width: 100%;
   	}
   	
-  	.your-mission-stay-healthy-and-parent {
+  	.instruction-list-parent {
     		order: 1;
     		width: 100%;
   	}
   	
-  	.your-mission-stay {
+  	.title-section {
     		width: 100%;
     		font-size: 32px;
   	}
@@ -523,7 +523,7 @@
   	}
   	
   	/* Footer Section */
-  	.main2 {
+  	.footer-container {
     		height: auto;
     		padding: 30px 20px;
     		gap: 16px;
@@ -582,20 +582,20 @@
     		margin: 0 auto;
   	}
   	
-  	.epigames-at-the {
+  	.epigames-title {
     		font-size: 32px;
   	}
   	
-  	.use-the-code {
+  	.install-instructions-container {
     		width: 100%;
   	}
   	
-  	.text .epigames-at-the {
+  	.text .epigames-title {
     		font-size: 28px;
     		margin-bottom: 8px;
   	}
   	
-  	.text .use-the-code {
+  	.text .install-instructions-container {
     		font-size: 16px;
   	}
   	
