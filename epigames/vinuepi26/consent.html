@@ -3,70 +3,218 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Epigames consent</title>
+    <title>Epigames consent — Epidemica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="/assets/css/minimal.css" rel="stylesheet" type="text/css" media="all"/>
     <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <meta property="og:title" content="Epigames consent — Epidemica">
+    <meta content="Informed Consent for Participation in Research" name="description">
+    <meta content="Informed Consent for Participation in Research" property="og:description">
+    <meta content="http://localhost:4000/assets/images/logo.png" name="thumbnail" />
+    <meta content="http://localhost:4000/assets/images/logo.png" property="og:image" />
+    <link href="http://localhost:4000/consent" rel="canonical">
+    <meta content="http://localhost:4000/consent" property="og:url">
+    <meta content="Epidemica" property="og:site_name" />
+    <meta content="summary" name="twitter:card" />
 
-<title>Epigames consent — Epidemica</title>
-<meta property="og:title" content="Epigames consent — Epidemica">
-
- 
-<meta content="Informed Consent for Participation in Research" name="description">
-<meta content="Informed Consent for Participation in Research" property="og:description">
-
- 
-<meta content="http://localhost:4000/assets/images/logo.png" name="thumbnail" />
-<meta content="http://localhost:4000/assets/images/logo.png" property="og:image" />
-
-
-<link href="http://localhost:4000/consent" rel="canonical">
-<meta content="http://localhost:4000/consent" property="og:url">
-
-
-
-<meta content="Epidemica" property="og:site_name" />
-
-
-
-<meta content="summary" name="twitter:card" />
+    <style>
+      .consent-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 2rem;
+        gap: 16px;
+      }
+      .consent-lang-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .consent-lang-label {
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        color: #555;
+        white-space: nowrap;
+      }
+      .consent-lang-switcher {
+        display: flex;
+        align-items: center;
+        border: 2px solid #001e4a;
+        border-radius: 8px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .consent-lang-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px 20px;
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #001e4a;
+        letter-spacing: 0.04em;
+        transition: background 0.15s, color 0.15s;
+      }
+      .consent-lang-btn:hover {
+        background: #eef2ff;
+      }
+      .consent-lang-btn.active {
+        background: #001e4a;
+        color: #fff;
+      }
+      .consent-lang-divider {
+        width: 2px;
+        align-self: stretch;
+        background: #001e4a;
+        flex-shrink: 0;
+      }
+      body.layout-minimal main {
+        margin-top: 1.5rem;
+      }
+      footer.consent-footer {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1.5rem 2rem;
+        font-size: 14px;
+        color: #666;
+      }
+      @media (max-width: 480px) {
+        .consent-lang-label { display: none; }
+        .consent-lang-btn { padding: 8px 14px; font-size: 14px; }
+      }
+    </style>
 
   </head>
   <body class="layout-minimal">
+
+    <header class="consent-header">
+      <div class="consent-lang-controls">
+        <span class="consent-lang-label" data-i18n="selectLang">Select language:</span>
+        <div class="consent-lang-switcher">
+          <button class="consent-lang-btn" data-lang="en">English</button>
+          <div class="consent-lang-divider"></div>
+          <button class="consent-lang-btn" data-lang="vi">Tiếng Việt</button>
+        </div>
+      </div>
+    </header>
+
     <main>
-      <h2 id="informed-consent-for-participation-in-research">Informed Consent for Participation in Research</h2>
+      <h2 data-i18n="pageTitle">Informed Consent for Participation in Research</h2>
 
-        <p><strong>Study ID# STUDY00002465</strong><br />
-        <strong>Version 11/13/2025</strong></p>
+      <p>
+        <strong data-i18n="studyId">Study ID# STUDY00002465</strong><br />
+        <strong data-i18n="studyVersion">Version 11/13/2025</strong>
+      </p>
 
-        <p>Dear participant,</p>
+      <p data-i18n="dear">Dear participant,</p>
 
-        <p>We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the Epidemica technology developed by the Colubri Lab (https://co-labo.org/).</p>
+      <p data-i18n="intro">We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the Epidemica technology developed by the Colubri Lab (https://co-labo.org/).</p>
 
-        <p>The study is expected to last for two weeks, and your participation is completely voluntary. You are free to decline or stop at any time by selecting the “Leave Study” or “Leave Game” option in the app, which will also delete your data from our system.</p>
+      <p data-i18n="duration">The study is expected to last for two weeks, and your participation is completely voluntary. You are free to decline or stop at any time by selecting the "Leave Study" or "Leave Game" option in the app, which will also delete your data from our system.</p>
 
-        <p><strong>If you agree to participate:</strong></p>
-        <ul>
-          <li>You will take part in a simulated outbreak game that will run for seven days.</li>
-          <li>The app will show you a simulated health status in its main screen. This status may change depending on the spread of the virtual pathogen during the game.</li>
-          <li>You will be asked to respond to anonymous surveys about attitudes regarding infectious diseases and interventions to mitigate disease spread both in real life and during the game.</li>
-          <li>You will be asked to make a daily choice through the app to virtually quarantine or not. This choice will not have any effect on your daily activities. It will only set an internal state in the app that will influence spread of the virtual pathogen.</li>
-          <li>You will interact with other participants through anonymous Bluetooth proximity signals.</li>
-        </ul>
+      <p><strong data-i18n="ifYouAgree">If you agree to participate:</strong></p>
+      <ul>
+        <li data-i18n="li1">You will take part in a simulated outbreak game that will run for fourteen days.</li>
+        <li data-i18n="li2">The app will show you a simulated health status in its main screen. This status may change depending on the spread of the virtual pathogen during the game.</li>
+        <li data-i18n="li3">You will be asked to respond to anonymous surveys about attitudes regarding infectious diseases and interventions to mitigate disease spread both in real life and during the game.</li>
+        <li data-i18n="li4">You will be asked to make a daily choice through the app to virtually quarantine or not. This choice will not have any effect on your daily activities. It will only set an internal state in the app that will influence spread of the virtual pathogen.</li>
+        <li data-i18n="li5">You will interact with other participants through anonymous Bluetooth proximity signals.</li>
+      </ul>
 
-        <p>No identifiable information (like your name, email, or GPS location) will be collected. Instead, your app will be assigned a random code (UUID) that cannot be traced back to you. Your responses and interaction data will be stored securely and used only for research purposes.
-        We will try to limit access to your information to only authorized members of the research team. However, complete privacy cannot be guaranteed. The UMass Chan Medical School, including the Institutional Review Board (IRB) and compliance offices, may access your data if needed.</p>
+      <p data-i18n="privacy">No identifiable information (like your name, email, or GPS location) will be collected. Instead, your app will be assigned a random code (UUID) that cannot be traced back to you. Your responses and interaction data will be stored securely and used only for research purposes. We will try to limit access to your information to only authorized members of the research team. However, complete privacy cannot be guaranteed. The UMass Chan Medical School, including the Institutional Review Board (IRB) and compliance offices, may access your data if needed.</p>
 
-        <p><strong>Compensation:</strong>
-        This study may offer compensation for participation in the form of class credits or other incentives.</p>
+      <p>
+        <strong data-i18n="compensationHeading">Compensation:</strong>
+        <span data-i18n="compensationText">This study may offer compensation for participation in the form of class credits or other incentives.</span>
+      </p>
 
-        <p>If you have any questions about this study, you can contact the Principal Investigator, Dr. Andres Colubri, at Andres.Colubri@umassmed.edu.</p>
+      <p data-i18n="contact">If you have any questions about this study, you can contact the Principal Investigators, Dr. Pei Yee Woh at peiyee.w@vinuni.edu.vn or Dr. Andres Colubri, at Andres.Colubri@umassmed.edu.</p>
 
-        <p>Thank you for considering participation in this study.</p>
+      <p data-i18n="thanks">Thank you for considering participation in this study.</p>
 
     </main>
+
+    <footer class="consent-footer">
+      <span data-i18n="copyright">Copyright 2025-26 Colubri Lab (https://co-labo.org/)</span>
+    </footer>
+
+    <script>
+    const translations = {
+      en: {
+        selectLang: 'Select language:',
+        pageTitle: 'Informed Consent for Participation in Research',
+        studyId: 'Study ID# STUDY00002465',
+        studyVersion: 'Version 11/13/2025',
+        dear: 'Dear participant,',
+        intro: 'We are inviting you to take part in a research study conducted by researchers at UMass Chan Medical School. The purpose of this study is to understand how people behave and interact in situations that simulate the spread of infectious diseases, using this app created with the Epidemica technology developed by the Colubri Lab (https://co-labo.org/).',
+        duration: 'The study is expected to last for two weeks, and your participation is completely voluntary. You are free to decline or stop at any time by selecting the \u201cLeave Study\u201d or \u201cLeave Game\u201d option in the app, which will also delete your data from our system.',
+        ifYouAgree: 'If you agree to participate:',
+        li1: 'You will take part in a simulated outbreak game that will run for fourteen days.',
+        li2: 'The app will show you a simulated health status in its main screen. This status may change depending on the spread of the virtual pathogen during the game.',
+        li3: 'You will be asked to respond to anonymous surveys about attitudes regarding infectious diseases and interventions to mitigate disease spread both in real life and during the game.',
+        li4: 'You will be asked to make a daily choice through the app to virtually quarantine or not. This choice will not have any effect on your daily activities. It will only set an internal state in the app that will influence spread of the virtual pathogen.',
+        li5: 'You will interact with other participants through anonymous Bluetooth proximity signals.',
+        privacy: 'No identifiable information (like your name, email, or GPS location) will be collected. Instead, your app will be assigned a random code (UUID) that cannot be traced back to you. Your responses and interaction data will be stored securely and used only for research purposes. We will try to limit access to your information to only authorized members of the research team. However, complete privacy cannot be guaranteed. The UMass Chan Medical School, including the Institutional Review Board (IRB) and compliance offices, may access your data if needed.',
+        compensationHeading: 'Compensation:',
+        compensationText: 'This study may offer compensation for participation in the form of class credits or other incentives.',
+        contact: 'If you have any questions about this study, you can contact the Principal Investigators, Dr. Pei Yee Woh at peiyee.w@vinuni.edu.vn or Dr. Andres Colubri, at Andres.Colubri@umassmed.edu.',
+        thanks: 'Thank you for considering participation in this study.',
+        copyright: 'Copyright 2025-26 Colubri Lab (https://co-labo.org/)',
+      },
+      vi: {
+        selectLang: 'Chọn ngôn ngữ:',
+        pageTitle: 'Phiếu Đồng Ý Tham Gia Nghiên Cứu',
+        studyId: 'Mã nghiên cứu# STUDY00002465',
+        studyVersion: 'Phiên bản 11/13/2025',
+        dear: 'Kính gửi người tham gia,',
+        intro: 'Chúng tôi mời bạn tham gia vào một nghiên cứu do các nhà nghiên cứu tại Trường Y khoa UMass Chan thực hiện. Mục đích của nghiên cứu này là tìm hiểu cách con người hành xử và tương tác trong các tình huống mô phỏng sự lây lan của bệnh truyền nhiễm, sử dụng ứng dụng được tạo ra bằng công nghệ Epidemica do Phòng thí nghiệm Colubri phát triển (https://co-labo.org/).',
+        duration: 'Nghiên cứu dự kiến kéo dài hai tuần và sự tham gia của bạn là hoàn toàn tự nguyện. Bạn có thể từ chối hoặc dừng lại bất kỳ lúc nào bằng cách chọn tùy chọn "Rời khỏi Nghiên cứu" hoặc "Rời khỏi Trò chơi" trong ứng dụng, đồng thời dữ liệu của bạn cũng sẽ bị xóa khỏi hệ thống.',
+        ifYouAgree: 'Nếu bạn đồng ý tham gia:',
+        li1: 'Bạn sẽ tham gia vào một trò chơi mô phỏng tình huống bùng phát dịch bệnh, trò chơi này sẽ diễn ra trong vòng Mười bốn ngày.',
+        li2: 'Ứng dụng sẽ hiển thị trạng thái sức khỏe mô phỏng của bạn trên màn hình chính. Trạng thái này có thể thay đổi tùy thuộc vào sự lây lan của mầm bệnh ảo trong suốt quá trình diễn ra trò chơi.',
+        li3: 'Bạn sẽ được yêu cầu trả lời các bản khảo sát ẩn danh về thái độ đối với các bệnh truyền nhiễm cũng như các biện pháp can thiệp nhằm hạn chế sự lây lan của dịch bệnh—cả trong đời thực lẫn trong bối cảnh trò chơi.',
+        li4: 'Bạn sẽ được yêu cầu đưa ra một lựa chọn hàng ngày thông qua ứng dụng về việc có thực hiện cách ly ảo hay không. Lựa chọn này sẽ không gây bất kỳ ảnh hưởng nào đến các hoạt động thường nhật của bạn ngoài đời thực; nó chỉ thiết lập một trạng thái nội bộ trong ứng dụng, qua đó tác động đến sự lây lan của mầm bệnh ảo.',
+        li5: 'Bạn sẽ tương tác với những người tham gia khác thông qua các tín hiệu nhận diện khoảng cách ẩn danh sử dụng công nghệ Bluetooth.',
+        privacy: 'Sẽ không có bất kỳ thông tin nhận dạng nào (chẳng hạn như tên, email hoặc vị trí GPS của bạn) được thu thập. Thay vào đó, ứng dụng của bạn sẽ được gán một mã ngẫu nhiên (UUID) mà không thể truy vết ngược lại để xác định danh tính của bạn. Các phản hồi và dữ liệu tương tác của bạn sẽ được lưu trữ một cách an toàn và chỉ được sử dụng cho các mục đích nghiên cứu. Chúng tôi sẽ nỗ lực giới hạn quyền truy cập vào thông tin của bạn, chỉ cho phép các thành viên được ủy quyền trong nhóm nghiên cứu được tiếp cận. Tuy nhiên, chúng tôi không thể đảm bảo sự riêng tư một cách tuyệt đối. Trường Y UMass Chan—bao gồm Hội đồng Đánh giá Thể chế (IRB) và các bộ phận tuân thủ quy định—có thể truy cập vào dữ liệu của bạn khi cần thiết.',
+        compensationHeading: 'Chế độ bồi hoàn:',
+        compensationText: 'Nghiên cứu này có thể cung cấp chế độ bồi hoàn cho việc tham gia dưới hình thức tín chỉ học tập hoặc các ưu đãi khác.',
+        contact: 'Nếu quý vị có bất kỳ câu hỏi nào về nghiên cứu này, quý vị có thể liên hệ với các Điều tra viên chính là Tiến sĩ Pei Yee Woh tại địa chỉ peiyee.w@vinuni.edu.vn hoặc Tiến sĩ Andres Colubri tại địa chỉ Andres.Colubri@umassmed.edu.',
+        thanks: 'Xin chân thành cảm ơn quý vị đã cân nhắc tham gia nghiên cứu này.',
+        copyright: 'Bản quyền 2025-26 Colubri Lab (https://co-labo.org/)',
+      }
+    };
+
+    function applyLanguage(lang) {
+      const t = translations[lang];
+      if (!t) return;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key] !== undefined) el.innerHTML = t[key];
+      });
+      document.querySelectorAll('.consent-lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      });
+      document.documentElement.lang = lang;
+      localStorage.setItem('epigames-lang', lang);
+    }
+
+    document.querySelectorAll('.consent-lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
+    });
+
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const savedLang = localStorage.getItem('epigames-lang');
+    applyLanguage(urlLang || savedLang || 'en');
+    </script>
+
   </body>
 </html>
