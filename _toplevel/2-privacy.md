@@ -5,7 +5,7 @@ permalink: /privacy
 
 ## PRIVACY NOTICE FOR EPIDEMICA APPS
 
-**Date of latest revision: June 25, 2025**
+**Date of latest revision: April 7, 2026**
 
 We take your privacy seriously and want you to know how we collect, use, share, and protect your information. This Privacy Notice (Notice) describes how we may collect, store, use, and share information about you and your usage of an Epidemica-based mobile application (app).
 
@@ -88,9 +88,18 @@ We protect your data through:
 
 Some technologies, such as web browsers or mobile devices, provide a setting that when turned on sends a Do Not Track (DNT) signal when browsing a website or app. Our app does not respond to Do Not Track signals, as there is no standard method of interpreting such signals across devices.
 
-### How long will we retain your information?
+### Data Retention and Deletion
 
-We retain your anonymized data only as long as needed for the purposes described in this notice. We may also retain your anonymized data if legally required or to fulfill a legitimate interest.
+**Data Retention:** We retain your anonymized data only as long as needed for the purposes described in this notice. We may also retain your anonymized data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.
+
+**Data Deletion:** We provide all users of Epidemica apps with the ability to delete their data at any time.
+
+* **In-App Deletion:** You can request the deletion of your data directly within any Epidemica app. The specific mechanism depends on the app. In the case of the Epigames app, this is done by selecting the **"Leave Game"** option in the side menu of the app. Upon selecting this, you will be asked for confirmation. Once confirmed, your user data will be permanently removed from our active databases within 5 business days.
+* **Manual Request:** If you have uninstalled the app or are unable to access the in-app feature, you may request data deletion by contacting us at [contact@epidemica.info](mailto:contact@epidemica.info). Please provide sufficient information for us to find your data. In the case of the Epigames app, this information comprises a join code and your 4-digit user ID within the app. We will process your request and delete your data within the same timeframe.
+
+Please note that once data is deleted, it cannot be recovered, and your progress within the app will be permanently lost.
+
+### How long will we retain your information?
 
 ### How will you be notified if our Privacy Notice changes?
 
