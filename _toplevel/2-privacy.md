@@ -99,8 +99,6 @@ Some technologies, such as web browsers or mobile devices, provide a setting tha
 
 Please note that once data is deleted, it cannot be recovered, and your progress within the app will be permanently lost.
 
-### How long will we retain your information?
-
 ### How will you be notified if our Privacy Notice changes?
 
 We reserve the right to change, modify, or otherwise amend this Notice at our sole discretion and at any time as we deem circumstances warrant. The date of the most recent revision is posted at the top. Continued use of the app after changes are made constitutes acceptance of those changes.
