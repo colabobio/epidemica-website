@@ -1,3 +1,38 @@
+/* Tutorial box */
+.tutorial-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+	background: #4a90c4;
+	color: #fff;
+	padding: 20px 40px;
+	border-radius: 12px;
+	max-width: 860px;
+	margin: 0 auto;
+	font-family: Inter;
+	font-size: 16px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.tutorial-link {
+	display: inline-block;
+	background: #fff;
+	color: #4a90c4;
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 10px 24px;
+	border-radius: 8px;
+	text-decoration: none;
+	white-space: nowrap;
+	flex-shrink: 0;
+	transition: background 0.15s, color 0.15s;
+}
+.tutorial-link:hover {
+	background: #e8f2fb;
+}
+
 /* Language switcher */
 .lang-switcher {
 	display: flex;

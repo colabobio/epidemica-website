@@ -92,6 +92,12 @@
     		</div>
     		<div class="spacer2">
     		</div>
+    		<div class="tutorial-box">
+      			<span data-i18n="tutorialText">Open the tutorial for more information about playing the epigame!</span>
+      			<a class="tutorial-link" id="tutorial-link" href="/epigames/vinuepi26/tutorial/" data-i18n="tutorialLink">Open Tutorial</a>
+    		</div>
+    		<div class="spacer2">
+    		</div>
     		<div class="about-section">
       			<div class="heading2">
         				<div class="epigame-section-container">
@@ -163,6 +169,8 @@ const translations = {
     contactText: 'For questions about the VinUni 2026 epigame, please feel free to contact:<br><br><strong><span class="burgundy-text">VinUni Study Team:</span></strong><br>Dr. Pei Yee Woh, College of Health Sciences, VinUniversity (<a>peiyee.w@vinuni.edu.vn</a>)<br><br><strong><span class="burgundy-text">Scientific Collaboration:</span></strong><br>Dr. Andrés Colubri, Department of Genomics and Computational Biology, UMass Chan Medical School (<a>andres.colubri@umassmed.edu</a>)',
     footerTitle: 'Ready to play?',
     footerSubtitle: 'Download and install the Epigames app',
+    tutorialText: 'Open the tutorial for more information about playing the epigame!',
+    tutorialLink: 'Open Tutorial',
   },
   vi: {
     heroTitle: 'Epigames tại<br>Đại học VinUni',
@@ -185,6 +193,8 @@ const translations = {
     contactText: 'Nếu có câu hỏi về epigame VinUni 2026, vui lòng liên hệ:<br><br><strong><span class="burgundy-text">Nhóm nghiên cứu VinUni:</span></strong><br>TS. Woh Pei Yee, Trường Khoa học Sức khỏe, Đại học VinUniversity (<a>peiyee.w@vinuni.edu.vn</a>)<br><br><strong><span class="burgundy-text">Hợp tác khoa học:</span></strong><br>TS. Andrés Colubri, Khoa Hệ gen và Sinh học Tính toán, Đại học Y khoa UMass Chan (<a>andres.colubri@umassmed.edu</a>)',
     footerTitle: 'Sẵn sàng chơi chưa?',
     footerSubtitle: 'Tải và cài đặt ứng dụng Epigames',
+    tutorialText: 'Mở hướng dẫn để biết thêm thông tin về cách chơi epigame!',
+    tutorialLink: 'Mở Hướng dẫn',
   }
 };
 
@@ -202,6 +212,8 @@ function applyLanguage(lang) {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('lang-btn-active', btn.getAttribute('data-lang') === lang);
   });
+  const tutorialLink = document.getElementById('tutorial-link');
+  if (tutorialLink) tutorialLink.href = `/epigames/vinuepi26/tutorial/?lang=${lang}`;
   localStorage.setItem('epigames-lang', lang);
 }
 
