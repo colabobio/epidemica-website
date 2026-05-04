@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epigames Messaging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/assets/css/minimal.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <meta property="og:title" content="Epigames Messaging">
+    <meta content="Daily messages for Epigames participants" name="description">
+    <meta content="Daily messages for Epigames participants" property="og:description">
+    <meta content="http://localhost:4000/assets/images/logo.png" name="thumbnail" />
+    <meta content="http://localhost:4000/assets/images/logo.png" property="og:image" />
+    <meta content="Epidemica" property="og:site_name" />
+    <meta content="summary" name="twitter:card" />
+
+    <style>
+      .message-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 2rem;
+        gap: 16px;
+      }
+      .message-lang-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .message-lang-label {
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        color: #555;
+        white-space: nowrap;
+      }
+      .message-lang-switcher {
+        display: flex;
+        align-items: center;
+        border: 2px solid #001e4a;
+        border-radius: 8px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .message-lang-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px 20px;
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #001e4a;
+        letter-spacing: 0.04em;
+        transition: background 0.15s, color 0.15s;
+      }
+      .message-lang-btn:hover {
+        background: #eef2ff;
+      }
+      .message-lang-btn.active {
+        background: #001e4a;
+        color: #fff;
+      }
+      .message-lang-divider {
+        width: 2px;
+        align-self: stretch;
+        background: #001e4a;
+        flex-shrink: 0;
+      }
+      body.layout-minimal main {
+        margin-top: 1.5rem;
+      }
+      footer.message-footer {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1.5rem 2rem;
+        font-size: 14px;
+        color: #666;
+      }
+      @media (max-width: 480px) {
+        .message-lang-label { display: none; }
+        .message-lang-btn { padding: 8px 14px; font-size: 14px; }
+      }
+    </style>
+
+  </head>
+  <body class="layout-minimal">
+
+    <header class="message-header">
+      <div class="message-lang-controls">
+        <span class="message-lang-label" data-i18n="selectLang">Select language:</span>
+        <div class="message-lang-switcher">
+          <button class="message-lang-btn" data-lang="en">English</button>
+          <div class="message-lang-divider"></div>
+          <button class="message-lang-btn" data-lang="vi">Tiếng Việt</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 data-i18n="title">Welcome to Epigames!</h2>
+
+      <p data-i18n="enjoyed">We hope you have enjoyed the first day of the experiment so far 🤩</p>
+
+      <p data-i18n="intro">A few quick notes for your information:</p>
+
+      <ul>
+        <li data-i18n="li1">The quarantine decision will start tomorrow at noon.</li>
+        <li data-i18n="li2">Make sure to write down you 4-digit user ID so you can claim prizes at the end of the epigame. It is under the statistics screen.</li>
+        <li data-i18n="li3">You should have received a survey earlier today. If you missed it, you can still complete it using <a href="https://forms.gle/HhCJyCxYBBcpucY78">this link.</a></li>
+        <li data-i18n="li4">Contact the student organizing team if you experience any issues. We apologize for any glitches, the app is a research project 🔬 It's work in progress and your participation it is very important to make it better.</li>
+      </ul>
+
+      <p data-i18n="thankyou">Thank you so much for being part of the epigames study at VinUni 🙏</p>
+
+    </main>
+
+    <script>
+    const translations = {
+      en: {
+        selectLang: 'Select language:',
+        title: 'Welcome to Epigames!',
+        enjoyed: 'We hope you have enjoyed the first day of the experiment so far 🤩',
+        intro: 'A few quick notes for your information:',
+        li1: 'The quarantine decision will start tomorrow at noon.',
+        li2: 'Make sure to write down you 4-digit user ID so you can claim prizes at the end of the epigame. It is under the statistics screen.',
+        li3: 'You should have received a survey earlier today. If you missed it, you can still complete it using <a href="https://forms.gle/HhCJyCxYBBcpucY78">this link.',
+        li4: 'Contact the student organizing team if you experience any issues. We apologize for any glitches, the app is a research project 🔬 It is work in progress and your participation it is very important to make it better.',
+        thankyou: 'Thank you so much for being part of the epigames study at VinUni 🙏',
+      },
+      vi: {
+        selectLang: 'Chọn ngôn ngữ:',
+        title: 'Chào mừng đến với Epigames!',
+        enjoyed: 'Chúng tôi hy vọng bạn đã có những trải nghiệm thú vị trong ngày đầu tiên của cuộc thử nghiệm này 🤩',
+        intro: 'Một vài lưu ý nhanh dành cho bạn:',
+        li1: 'Quyết định cách ly sẽ bắt đầu có hiệu lực từ 12 giờ trưa ngày mai.',
+        li2: 'Hãy nhớ ghi lại Mã người dùng (User ID) gồm 4 chữ số của bạn để có thể nhận giải thưởng khi kết thúc Epigame. Bạn có thể tìm thấy mã này trong màn hình Thống kê.',
+        li3: 'Bạn lẽ ra đã nhận được một bản khảo sát vào đầu ngày hôm nay. Nếu bạn lỡ bỏ qua, bạn vẫn có thể hoàn thành nó thông qua <a href="https://forms.gle/HhCJyCxYBBcpucY78">liên kết này.',
+        li4: 'Hãy liên hệ với đội ngũ sinh viên tổ chức nếu bạn gặp bất kỳ vấn đề nào. Chúng tôi xin lỗi vì những trục trặc có thể xảy ra, ứng dụng này hiện vẫn đang là một dự án nghiên cứu 🔬 Đây là một sản phẩm đang trong quá trình hoàn thiện, và sự tham gia của bạn đóng vai trò vô cùng quan trọng giúp chúng tôi cải thiện ứng dụng tốt hơn.',
+        thankyou: 'Xin chân thành cảm ơn bạn đã tham gia vào nghiên cứu Epigames tại VinUni 🙏',
+      }
+    };
+
+    function applyLanguage(lang) {
+      const t = translations[lang];
+      if (!t) return;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key] !== undefined) el.innerHTML = t[key];
+      });
+      document.querySelectorAll('.message-lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      });
+      document.documentElement.lang = lang;
+      localStorage.setItem('epigames-lang', lang);
+    }
+
+    document.querySelectorAll('.message-lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
+    });
+
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const savedLang = localStorage.getItem('epigames-lang');
+    applyLanguage(urlLang || savedLang || 'en');
+    </script>
+
+  </body>
+</html>
