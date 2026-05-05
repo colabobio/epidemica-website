@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epigames Messaging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/assets/css/minimal.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <meta property="og:title" content="Epigames Messaging">
+    <meta content="Daily messages for Epigames participants" name="description">
+    <meta content="Daily messages for Epigames participants" property="og:description">
+    <meta content="http://localhost:4000/assets/images/logo.png" name="thumbnail" />
+    <meta content="http://localhost:4000/assets/images/logo.png" property="og:image" />
+    <meta content="Epidemica" property="og:site_name" />
+    <meta content="summary" name="twitter:card" />
+
+    <style>
+      .message-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 2rem;
+        gap: 16px;
+      }
+      .message-lang-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .message-lang-label {
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        color: #555;
+        white-space: nowrap;
+      }
+      .message-lang-switcher {
+        display: flex;
+        align-items: center;
+        border: 2px solid #001e4a;
+        border-radius: 8px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .message-lang-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px 20px;
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #001e4a;
+        letter-spacing: 0.04em;
+        transition: background 0.15s, color 0.15s;
+      }
+      .message-lang-btn:hover {
+        background: #eef2ff;
+      }
+      .message-lang-btn.active {
+        background: #001e4a;
+        color: #fff;
+      }
+      .message-lang-divider {
+        width: 2px;
+        align-self: stretch;
+        background: #001e4a;
+        flex-shrink: 0;
+      }
+      body.layout-minimal main {
+        margin-top: 1.5rem;
+      }
+      footer.message-footer {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1.5rem 2rem;
+        font-size: 14px;
+        color: #666;
+      }
+      @media (max-width: 480px) {
+        .message-lang-label { display: none; }
+        .message-lang-btn { padding: 8px 14px; font-size: 14px; }
+      }
+    </style>
+
+  </head>
+  <body class="layout-minimal">
+
+    <header class="message-header">
+      <div class="message-lang-controls">
+        <span class="message-lang-label" data-i18n="selectLang">Select language:</span>
+        <div class="message-lang-switcher">
+          <button class="message-lang-btn" data-lang="en">English</button>
+          <div class="message-lang-divider"></div>
+          <button class="message-lang-btn" data-lang="vi">Tiếng Việt</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 data-i18n="title">The Epigame @ VinUni: Day 2!</h2>
+
+      <p data-i18n="underway">With the epigame underway in its second way, we have a few more updates to share with you!</p>
+
+      <ul>
+        <li data-i18n="li1">You should have received another survey today in the afternoon (there will be no more surveys until the last day of the epigame). If you missed it, you can still complete it using <a href="https://forms.gle/39uMyxGie6AwwSMc9">this link.</a></li>
+        <li data-i18n="li2">Are you up for a challenge? If you get sick, you can use the sequencing tool in the shop to get a piece of the virus DNA 🧬 How to use it is up to you, but you can team up with other players to figure out the full sequence 🧠 Read the tutorial for more details!</li>
+      </ul>
+
+      <p data-i18n="thankyou">As always, thank you so much for being part of the epigame at VinUni ❤️</p>
+
+    </main>
+
+    <script>
+    const translations = {
+      en: {
+        selectLang: 'Select language:',
+        title: 'The Epigame @ VinUni: Day 2!',
+        underway: 'With the epigame underway in its second way, we have a few more updates to share with you!',
+        li1: 'You should have received another survey today in the afternoon (there will be no more surveys until the last day of the epigame). If you missed it, you can still complete it using <a href="https://forms.gle/39uMyxGie6AwwSMc9">this link.</a>',
+        li2: 'Are you up for a challenge? If you get sick, you can use the sequencing tool in the shop to get a piece of the virus DNA 🧬 How to use it is up to you, but you can team up with other players to figure out the full sequence 🧠 Read the tutorial in the app for more details!',
+        thankyou: 'As always, thank you so much for being part of the epigame at VinUni ❤️',
+      },
+      vi: {
+        selectLang: 'Chọn ngôn ngữ:',
+        title: 'The Epigame @ VinUni: Ngày thứ 2!',
+        underway: 'Với epigame đang được thực hiện trong ngày thứ hai, chúng tôi có một số cập nhật nữa để chia sẻ với bạn!',
+        li1: 'Bạn nên đã nhận được khảo sát khác hôm nay vào buổi chiều (không còn khảo sát nào khác cho đến ngày cuối cùng của epigame). Nếu bạn đã bỏ lỡ, bạn vẫn có thể hoàn thành nó bằng cách sử dụng <a href="https://forms.gle/39uMyxGie6AwwSMc9">liên kết này.</a>',
+        li2: 'Bạn có sẵn sàng cho một thử thách không? Nếu bạn ốm, bạn có thể sử dụng công cụ trình tự trong cửa hàng để lấy một mảnh DNA của virus 🧬 Cách sử dụng nó là do bạn quyết định, nhưng bạn có thể hợp tác với những người chơi khác để tìm ra trình tự hoàn chỉnh 🧠 Hãy đọc hướng dẫn trong ứng dụng để biết thêm chi tiết!',
+        thankyou: 'Luôn luôn, xin cảm ơn bạn rất nhiều vì đã trở thành một phần của epigame tại VinUni ❤️',
+      }
+    };
+
+    function applyLanguage(lang) {
+      const t = translations[lang];
+      if (!t) return;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key] !== undefined) el.innerHTML = t[key];
+      });
+      document.querySelectorAll('.message-lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      });
+      document.documentElement.lang = lang;
+      localStorage.setItem('epigames-lang', lang);
+    }
+
+    document.querySelectorAll('.message-lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
+    });
+
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const savedLang = localStorage.getItem('epigames-lang');
+    applyLanguage(urlLang || savedLang || 'en');
+    </script>
+
+  </body>
+</html>
