@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epigames Messaging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/assets/css/minimal.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <meta property="og:title" content="Epigames Messaging">
+    <meta content="Daily messages for Epigames participants" name="description">
+    <meta content="Daily messages for Epigames participants" property="og:description">
+    <meta content="http://localhost:4000/assets/images/logo.png" name="thumbnail" />
+    <meta content="http://localhost:4000/assets/images/logo.png" property="og:image" />
+    <meta content="Epidemica" property="og:site_name" />
+    <meta content="summary" name="twitter:card" />
+
+    <style>
+      .message-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 2rem;
+        gap: 16px;
+      }
+      .message-lang-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .message-lang-label {
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        color: #555;
+        white-space: nowrap;
+      }
+      .message-lang-switcher {
+        display: flex;
+        align-items: center;
+        border: 2px solid #001e4a;
+        border-radius: 8px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .message-lang-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px 20px;
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #001e4a;
+        letter-spacing: 0.04em;
+        transition: background 0.15s, color 0.15s;
+      }
+      .message-lang-btn:hover {
+        background: #eef2ff;
+      }
+      .message-lang-btn.active {
+        background: #001e4a;
+        color: #fff;
+      }
+      .message-lang-divider {
+        width: 2px;
+        align-self: stretch;
+        background: #001e4a;
+        flex-shrink: 0;
+      }
+      body.layout-minimal main {
+        margin-top: 1.5rem;
+      }
+      footer.message-footer {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1.5rem 2rem;
+        font-size: 14px;
+        color: #666;
+      }
+      @media (max-width: 480px) {
+        .message-lang-label { display: none; }
+        .message-lang-btn { padding: 8px 14px; font-size: 14px; }
+      }
+    </style>
+
+  </head>
+  <body class="layout-minimal">
+
+    <header class="message-header">
+      <div class="message-lang-controls">
+        <span class="message-lang-label" data-i18n="selectLang">Select language:</span>
+        <div class="message-lang-switcher">
+          <button class="message-lang-btn" data-lang="en">English</button>
+          <div class="message-lang-divider"></div>
+          <button class="message-lang-btn" data-lang="vi">Tiếng Việt</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 data-i18n="title">The Epigame @ VinUni: Day 5 🔥🔥🔥</h2>
+      <p data-i18n="challenge">This notice is to remind you of the 🧬 <strong>SEQUENCING CHALLENGE</strong> 🧬 in the epigame. This is optional but if you take up the challenge, you can unlock a special final reward!</p>
+      <p data-i18n="fasta">Those players who get sick from the disease can use the sequencing item from the shop (which is free) to get a piece of the virus genome. The fragment comes in a text format called FASTA used in bioinformatics.</p>
+      <p data-i18n="collaborate">Since each player only has one fragemnt, you need to collaborate with others to assemble the complete genome. You can share the FASTA files with your teammates in any way you want.</p>
+      <p data-i18n="assembling">You can find the solution by looking at how these fragments overlap and the form the full sequence. Not easy, but it is a challenge!</p>
+      <p data-i18n="checker_app">If you think you have found the solution, you can upload it to <strong>SEQUENCING.EPIDEMICA.INFO</strong></p>
+    </main>
+
+    <script>
+    const translations = {
+      en: {
+        selectLang: 'Select language:',
+        title: 'The Epigame @ VinUni: Day 5 🔥🔥🔥',
+        challenge: 'This notice is to remind you of the 🧬 <strong>SEQUENCING CHALLENGE</strong> 🧬 in the epigame. This is optional but if you take up the challenge, you can unlock a special final reward!',
+        fasta: 'Those players who get sick from the disease can use the sequencing item from the shop (which is free) to get a piece of the virus genome. The fragment comes in a text format called FASTA used in bioinformatics.',
+        collaborate: 'Since each player only has one fragemnt, you need to collaborate with others to assemble the complete genome. You can share the FASTA files with your teammates in any way you want.',
+        assembling: 'You can find the solution by looking at how these fragments overlap and the form the full sequence. Not easy, but it is a challenge!',
+        checker_app: 'If you think you have found the solution, you can upload it to <strong>SEQUENCING.EPIDEMICA.INFO</strong>'
+      },
+      vi: {
+        selectLang: 'Chọn ngôn ngữ:',
+        title: 'The Epigame @ VinUni: Ngày thứ 5 🔥🔥🔥',
+        challenge: 'Thông báo này nhằm nhắc bạn về 🧬 <strong>THỬ THÁCH GIẢI MÃ GEN</strong> 🧬 trong epigame. Đây là thử thách tùy chọn nhưng nếu bạn tham gia, bạn có thể mở khóa phần thưởng đặc biệt cuối cùng!',
+        fasta: 'Những người chơi bị bệnh có thể sử dụng vật phẩm giải mã gen trong cửa hàng (miễn phí) để nhận một mảnh của bộ gen virus. Mảnh này ở định dạng văn bản gọi là FASTA được sử dụng trong tin sinh học.',
+        collaborate: 'Vì mỗi người chơi chỉ có một mảnh, bạn cần hợp tác với những người khác để lắp ráp bộ gen hoàn chỉnh. Bạn có thể chia sẻ các tệp FASTA với đồng đội của mình bằng bất kỳ cách nào bạn muốn.',
+        assembling: 'Bạn có thể tìm giải pháp bằng cách xem xét cách các mảnh này chồng lên nhau và hình thành chuỗi đầy đủ. Không dễ, nhưng đó là một thử thách!',
+        checker_app: 'Nếu bạn nghĩ rằng mình đã tìm ra giải pháp, bạn có thể tải nó lên <strong>SEQUENCING.EPIDEMICA.INFO</strong>'
+      }
+    };
+
+    function applyLanguage(lang) {
+      const t = translations[lang];
+      if (!t) return;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key] !== undefined) el.innerHTML = t[key];
+      });
+      document.querySelectorAll('.message-lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      });
+      document.documentElement.lang = lang;
+      localStorage.setItem('epigames-lang', lang);
+    }
+
+    document.querySelectorAll('.message-lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
+    });
+
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const savedLang = localStorage.getItem('epigames-lang');
+    applyLanguage(urlLang || savedLang || 'en');
+    </script>
+
+  </body>
+</html>
