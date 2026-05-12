@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epigames Messaging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="/assets/css/global.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/assets/css/minimal.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <meta property="og:title" content="Epigames Messaging">
+    <meta content="Daily messages for Epigames participants" name="description">
+    <meta content="Daily messages for Epigames participants" property="og:description">
+    <meta content="http://localhost:4000/assets/images/logo.png" name="thumbnail" />
+    <meta content="http://localhost:4000/assets/images/logo.png" property="og:image" />
+    <meta content="Epidemica" property="og:site_name" />
+    <meta content="summary" name="twitter:card" />
+
+    <style>
+      .message-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 2rem;
+        gap: 16px;
+      }
+      .message-lang-controls {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .message-lang-label {
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        color: #555;
+        white-space: nowrap;
+      }
+      .message-lang-switcher {
+        display: flex;
+        align-items: center;
+        border: 2px solid #001e4a;
+        border-radius: 8px;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .message-lang-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px 20px;
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: #001e4a;
+        letter-spacing: 0.04em;
+        transition: background 0.15s, color 0.15s;
+      }
+      .message-lang-btn:hover {
+        background: #eef2ff;
+      }
+      .message-lang-btn.active {
+        background: #001e4a;
+        color: #fff;
+      }
+      .message-lang-divider {
+        width: 2px;
+        align-self: stretch;
+        background: #001e4a;
+        flex-shrink: 0;
+      }
+      body.layout-minimal main {
+        margin-top: 1.5rem;
+      }
+      footer.message-footer {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1.5rem 2rem;
+        font-size: 14px;
+        color: #666;
+      }
+      .fasta-block {
+        background: #f4f6f9;
+        border-left: 4px solid #4a90c4;
+        border-radius: 6px;
+        font-family: monospace;
+        font-size: 14px;
+        padding: 12px 16px;
+        margin: 12px 0;
+        white-space: pre-wrap;
+        word-break: break-all;
+        color: #222;
+      }
+      @media (max-width: 480px) {
+        .message-lang-label { display: none; }
+        .message-lang-btn { padding: 8px 14px; font-size: 14px; }
+      }
+    </style>
+
+  </head>
+  <body class="layout-minimal">
+
+    <header class="message-header">
+      <div class="message-lang-controls">
+        <span class="message-lang-label" data-i18n="selectLang">Select language:</span>
+        <div class="message-lang-switcher">
+          <button class="message-lang-btn" data-lang="en">English</button>
+          <div class="message-lang-divider"></div>
+          <button class="message-lang-btn" data-lang="vi">Tiếng Việt</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 data-i18n="title">🧬 The Epigame @ VinUni: The Sequencing Challenge</h2>
+
+      <p data-i18n="intro">The Epigame @ VinUni is heading into its final days! ⏱️</p>
+
+      <p data-i18n="introBody">But the Sequencing Challenge is still live, and we want to make sure everyone has a fair shot at unlocking the final mystery. If you're wondering how to crack the code, here are some more hints:</p>
+
+      <h3 data-i18n="step1Heading">1. Acquire the Tool</h3>
+      <p data-i18n="step1Body">The sequencing tool is available for free in the shop. However, it will only appear in the shop if your avatar is currently sick.</p>
+
+      <h3 data-i18n="step2Heading">2. Understand the FASTA Format</h3>
+      <p data-i18n="step2Body">Once used, the tool generates a fragment of the pathogen's genome in FASTA format. It will look something like this:</p>
+      <div class="fasta-block">&gt;total_seq_len:400
+gcaatctagtaggattacctaataatatttgcctgcaaaagacatctaatcagatattgaagccaaagctgatttcatac</div>
+      <p data-i18n="step2Header"><strong>The Header:</strong> The line starting with <code>&gt;</code> tells you the total length of the full genome, which is 400 nucleotides.</p>
+      <p data-i18n="step2Seq"><strong>The Sequence:</strong> The letters (<code>gcaa...</code>) represent the specific nucleotides in your fragment.</p>
+
+      <h3 data-i18n="step3Heading">3. Export Your Data</h3>
+      <p data-i18n="step3Body">To get this fragment off your phone for analysis, use the <strong>"Share To Analyze"</strong> button. You can send it to yourself or your team via email, cloud storage, or messaging apps.</p>
+
+      <h3 data-i18n="step4Heading">4. The Power of Collaboration 🤝</h3>
+      <p data-i18n="step4Body">Here is the catch: your fragment is only about 80 nucleotides long and is pulled from a random location in the genome. To reconstruct the full sequence, you must collaborate with other players!</p>
+
+      <h3 data-i18n="step5Heading">5. Assemble the Puzzle</h3>
+      <p data-i18n="step5Body">Since fragments are generated from random positions, they will overlap. Think of it like shredding a long sentence into small strips of paper — you can reconstruct the original message by finding where the words overlap.</p>
+      <p data-i18n="step5Goal"><strong>Goal:</strong> Gather enough fragments from different players and find a way to align and combine them into one continuous sequence.</p>
+
+      <h3 data-i18n="step6Heading">6. Claim Your Reward</h3>
+      <p data-i18n="step6Intro">Once you believe you have the full sequence:</p>
+      <ol>
+        <li data-i18n="step6li1">Go to <strong>SEQUENCING.EPIDEMICA.INFO</strong>.</li>
+        <li data-i18n="step6li2">Enter the game join code: <strong>vinuepi26</strong>.</li>
+        <li data-i18n="step6li3">Paste your reconstructed sequence.</li>
+      </ol>
+      <p data-i18n="step6Note">But note that you will be able to paste your reconstructed sequence only when there are 3 days or fewer remaining of the epigame. So you still have time to work on the puzzle 😀</p>
+      <p data-i18n="step6Reward">If your sequence is at least 90% accurate, you will unlock a special reward QR code!</p>
+
+      <h3 data-i18n="step7Heading">7. More to Come</h3>
+      <p data-i18n="step7Body">Don't worry if you find the sequencing tough — we have a few more surprises in store before the Epigame concludes.</p>
+
+      <p data-i18n="closing">Thank you for your continued participation and good luck, researchers!</p>
+    </main>
+
+    <script>
+    const translations = {
+      en: {
+        selectLang: 'Select language:',
+        title: '🧬 The Epigame @ VinUni: The Sequencing Challenge',
+        intro: 'The Epigame @ VinUni is heading into its final days! ⏱️',
+        introBody: "But the Sequencing Challenge is still live, and we want to make sure everyone has a fair shot at unlocking the final mystery. If you're wondering how to crack the code, here are some more hints:",
+        step1Heading: '1. Acquire the Tool',
+        step1Body: 'The sequencing tool is available for free in the shop. However, it will only appear in the shop if your avatar is currently sick.',
+        step2Heading: '2. Understand the FASTA Format',
+        step2Body: "Once used, the tool generates a fragment of the pathogen's genome in FASTA format. It will look something like this:",
+        step2Header: '<strong>The Header:</strong> The line starting with <code>&gt;</code> tells you the total length of the full genome, which is 400 nucleotides.',
+        step2Seq: '<strong>The Sequence:</strong> The letters (<code>gcaa...</code>) represent the specific nucleotides in your fragment.',
+        step3Heading: '3. Export Your Data',
+        step3Body: 'To get this fragment off your phone for analysis, use the <strong>"Share To Analyze"</strong> button. You can send it to yourself or your team via email, cloud storage, or messaging apps.',
+        step4Heading: '4. The Power of Collaboration 🤝',
+        step4Body: 'Here is the catch: your fragment is only about 80 nucleotides long and is pulled from a random location in the genome. To reconstruct the full sequence, you must collaborate with other players!',
+        step5Heading: '5. Assemble the Puzzle',
+        step5Body: 'Since fragments are generated from random positions, they will overlap. Think of it like shredding a long sentence into small strips of paper — you can reconstruct the original message by finding where the words overlap.',
+        step5Goal: '<strong>Goal:</strong> Gather enough fragments from different players and find a way to align and combine them into one continuous sequence.',
+        step6Heading: '6. Claim Your Reward',
+        step6Intro: 'Once you believe you have the full sequence:',
+        step6li1: 'Go to <strong>SEQUENCING.EPIDEMICA.INFO</strong>.',
+        step6li2: 'Enter the game join code: <strong>vinuepi26</strong>.',
+        step6li3: 'Paste your reconstructed sequence.',
+        step6Note: 'But note that you will be able to paste your reconstructed sequence only when there are 3 days or fewer remaining of the epigame. So you still have time to work on the puzzle 😀',
+        step6Reward: 'If your sequence is at least 90% accurate, you will unlock a special reward QR code!',
+        step7Heading: '7. More to Come',
+        step7Body: "Don't worry if you find the sequencing tough — we have a few more surprises in store before the Epigame concludes.",
+        closing: 'Thank you for your continued participation and good luck, researchers!',
+      },
+      vi: {
+        selectLang: 'Chọn ngôn ngữ:',
+        title: '🧬 Epigame tại VinUni: Thử Thách Giải Trình Tự Gen',
+        intro: 'Epigame tại VinUni đang bước vào những ngày cuối cùng! ⏱️',
+        introBody: 'Nhưng Thử Thách Giải Trình Tự Gen vẫn đang diễn ra, và chúng tôi muốn đảm bảo mọi người đều có cơ hội công bằng để khám phá bí ẩn cuối cùng. Nếu bạn đang băn khoăn không biết phải bắt đầu từ đâu, đây là một số gợi ý thêm:',
+        step1Heading: '1. Lấy Công Cụ',
+        step1Body: 'Công cụ giải trình tự gen có thể được lấy miễn phí trong cửa hàng (shop). Tuy nhiên, công cụ này chỉ xuất hiện trong cửa hàng khi nhân vật của bạn đang trong trạng thái bệnh.',
+        step2Heading: '2. Hiểu Định Dạng FASTA',
+        step2Body: 'Sau khi sử dụng, công cụ sẽ tạo ra một đoạn trình tự từ bộ gen của mầm bệnh theo định dạng FASTA. Kết quả sẽ trông như sau:',
+        step2Header: '<strong>Dòng tiêu đề:</strong> Dòng bắt đầu bằng <code>&gt;</code> cho biết tổng chiều dài của bộ gen đầy đủ, ở đây là 400 nucleotide.',
+        step2Seq: '<strong>Trình tự:</strong> Các chữ cái (<code>gcaa...</code>) đại diện cho các nucleotide cụ thể trong đoạn trình tự của bạn.',
+        step3Heading: '3. Xuất Dữ Liệu',
+        step3Body: 'Để đưa đoạn trình tự này ra khỏi điện thoại để phân tích, hãy sử dụng nút <strong>"Share To Analyze" (Chia sẻ để Phân tích)</strong>. Bạn có thể gửi cho bản thân hoặc đội của mình qua email, lưu trữ đám mây hoặc ứng dụng nhắn tin.',
+        step4Heading: '4. Sức Mạnh Của Sự Hợp Tác 🤝',
+        step4Body: 'Điểm mấu chốt là: đoạn trình tự của bạn chỉ dài khoảng 80 nucleotide và được lấy từ một vị trí ngẫu nhiên trong bộ gen. Để tái tạo lại toàn bộ trình tự, bạn phải hợp tác với những người chơi khác!',
+        step5Heading: '5. Lắp Ghép Câu Đố',
+        step5Body: 'Vì các đoạn trình tự được tạo ra từ các vị trí ngẫu nhiên, chúng sẽ có phần chồng lên nhau. Hãy hình dung như việc cắt nhỏ một câu dài thành nhiều mảnh giấy nhỏ — bạn có thể tái tạo lại thông điệp gốc bằng cách tìm ra những chỗ các từ trùng nhau.',
+        step5Goal: '<strong>Mục tiêu:</strong> Thu thập đủ các đoạn trình tự từ những người chơi khác nhau và tìm cách căn chỉnh, ghép nối chúng lại thành một trình tự liên tục hoàn chỉnh.',
+        step6Heading: '6. Nhận Phần Thưởng',
+        step6Intro: 'Khi bạn tin rằng mình đã có trình tự đầy đủ:',
+        step6li1: 'Truy cập <strong>SEQUENCING.EPIDEMICA.INFO</strong>.',
+        step6li2: 'Nhập mã tham gia trò chơi: <strong>vinuepi26</strong>.',
+        step6li3: 'Dán trình tự bạn đã tái tạo vào.',
+        step6Note: 'Lưu ý rằng bạn chỉ có thể dán trình tự đã tái tạo khi còn 3 ngày hoặc ít hơn trong epigame. Vì vậy bạn vẫn còn thời gian để giải câu đố 😀',
+        step6Reward: 'Nếu trình tự của bạn đạt độ chính xác ít nhất 90%, bạn sẽ mở khóa được một mã QR phần thưởng đặc biệt!',
+        step7Heading: '7. Còn Nhiều Điều Thú Vị Phía Trước',
+        step7Body: 'Đừng lo lắng nếu bạn thấy việc giải trình tự gen còn khó — chúng tôi vẫn còn một vài bất ngờ nữa trước khi Epigame kết thúc.',
+        closing: 'Cảm ơn sự tham gia liên tục của các bạn và chúc may mắn, các nhà nghiên cứu!',
+      }
+    };
+
+    function applyLanguage(lang) {
+      const t = translations[lang];
+      if (!t) return;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key] !== undefined) el.innerHTML = t[key];
+      });
+      document.querySelectorAll('.message-lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      });
+      document.documentElement.lang = lang;
+      localStorage.setItem('epigames-lang', lang);
+    }
+
+    document.querySelectorAll('.message-lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => applyLanguage(btn.getAttribute('data-lang')));
+    });
+
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const savedLang = localStorage.getItem('epigames-lang');
+    applyLanguage(urlLang || savedLang || 'en');
+    </script>
+
+  </body>
+</html>
