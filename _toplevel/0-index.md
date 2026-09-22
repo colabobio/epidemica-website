@@ -10,7 +10,7 @@ additional_css: homepage.css
       <h2>What is <span class="highlight-text">Epidemica</span>?</h2>
     </div>
     <div class="answer">
-      <p>Epidemica is a modular infrastructure for building mobile apps that collect high-resolution, multi-modal epidemiological data and deliver interventions. It is developed by the Colubri Lab at UMass Chan Medical School, Epidemica's goal is to enable researchers to rapidly design, implement, and deploy mobile applications that integrate proximity sensing (via the [Herald API](https://heraldprox.io/)), behavioral tracking, digital contact tracing, and biological reporting.</p>
+      <p>Epidemica is a modular infrastructure for building mobile apps that collect high-resolution, multi-modal epidemiological data and deliver interventions. It is developed by the Colubri Lab at UMass Chan Medical School, Epidemica's goal is to enable researchers to rapidly design, implement, and deploy mobile applications that integrate proximity sensing (via the <a href="https://heraldprox.io/" target="_blank">Herald API</a>), behavioral tracking, digital contact tracing, and biological reporting.</p>
       <p>Epidemica is available under the Apache-2.0 license at 
       <a href="https://github.com/colabobio/epidemica" target="_blank">https://github.com/colabobio/epidemica</a></p>
       <div class="diagram-container">
