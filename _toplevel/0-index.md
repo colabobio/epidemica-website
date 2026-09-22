@@ -4,128 +4,63 @@ permalink: /
 additional_css: homepage.css
 ---
 
-<div class="hero-title">
-  <h1>What if playing a game on your phone could <span class="highlight-text">help scientists understand how diseases spread</span>—and even prevent the next pandemic?</h1>
-</div>
-
-<div class="main-sections-wrapper">
-<div class="introducing-section">
-  <div class="introducing-content">
-    <h2>Introducing</h2>
-    <div class="epigames-showcase">
-      <img src="/assets/images/epigames.png" alt="Epigames App" class="epigames-image">
-      <p class="epigames-description">a new kind of app built on the Epidemica platform from the Colubri Lab at the University of Massachusetts Chan Medical School, co-creators and developers of the award-winning Operation Outbreak app.</p>
-      <a href="/about" class="learn-more-btn">Learn more about Epidemica</a>
+<div class="qa-container">
+  <div class="qa-item">
+    <div class="question">
+      <h2>What is <span class="highlight-text">Epidemica</span>?</h2>
+    </div>
+    <div class="answer">
+      <p>Epidemica is a modular infrastructure for building mobile apps that collect high-resolution, multi-modal epidemiological data and deliver interventions. It is developed by the Colubri Lab at UMass Chan Medical School, Epidemica's goal is to enable researchers to rapidly design, implement, and deploy mobile applications that integrate proximity sensing, behavioral tracking, digital contact tracing, and biological reporting.</p>
+      <p>Epidemica is available under the Apache-2.0 license at 
+      <a href="https://github.com/colabobio/epidemica" target="_blank">https://github.com/colabobio/epidemica</a></p>
+      <div class="diagram-container">
+        <img src="/assets/images/epidemica-diagram.png" alt="Epidemica Platform Architecture" class="epidemica-diagram">
+      </div>
     </div>
   </div>
-</div>
 
-<div class="gameplay-section">
-  <div class="gameplay-container">
-    <div class="gameplay-image">
-      <img src="/assets/images/epigames-app.webp" alt="Epigames App Interface" class="app-interface-image">
+  <div class="qa-item">
+    <div class="question">
+      <h2>What is unique about Epidemica?</h2>
     </div>
-    <div class="gameplay-text">
-      <p class="gameplay-main">You'll make decisions, interact with others, and see the spread of a digital "pathogen" play out in front of your eyes.</p>
-      <p class="gameplay-sub">But don't worry—there's no real virus involved. Just a unique opportunity to be part of cutting-edge science while having fun.</p>
+    <div class="answer">
+      <p>A central innovation of Epidemica is its pathogen transmission model library. This library allows researchers to design and execute realistic synthetic outbreaks—both virtually and in physical environments—offering a powerful framework for stress-testing public health policies, evaluating behavioral interventions, and advancing experimental epidemiology. The platform's simulation capabilities will be paired with a flexible system for designing field epidemiological studies, with configurable gamification options to be integrated with the transmission library.</p>
     </div>
   </div>
-</div>
 
-<div class="how-it-works-section">
-  <h2>How it works</h2>
-  <div class="steps-container">
-    <div class="step">
-      <img src="/assets/images/epigames-how-1.png" alt="Download and Join" class="step-image">
-      <p>Download Epigames, enter the join code and join a simulated outbreak together with other participants</p>
+  <div class="qa-item">
+    <div class="question">
+      <h2>Who is leading the project?</h2>
     </div>
-    <div class="step">
-      <img src="/assets/images/epigames-how-2.png" alt="Make Decisions" class="step-image">
-      <p>Make decisions about who to interact with, how to protect yourself, and how to earn points.</p>
-    </div>
-    <div class="step">
-      <img src="/assets/images/epigames-how-3.png" alt="Watch Outcomes" class="step-image">
-      <p>Watch your actions shape the outcome.</p>
+    <div class="answer">
+      <p>The lead of the project, Dr. Andrés Colubri, is an assistant professor in the Genomics and Computational Biology department at UMass Chan, with multidisciplinary background in mathematics, arts, and technology. Dr. Colubri has been proposing novel approaches to infectious disease research and response for several years.</p>
     </div>
   </div>
-</div>
-</div>
 
-<div class="privacy-section">
-  <div class="privacy-container">
-    <div class="privacy-content">
-      <h2>Designed for your privacy</h2>
-      <h3>Epigames is built with privacy and security at its core:</h3>
-      <ul class="privacy-list">
-        <li>No personal or identifiable information is collected.</li>
-        <li>Your phone communicates only with nearby devices via anonymous Bluetooth signals.</li>
-        <li>All data is securely stored using encrypted, cloud-based infrastructure.</li>
-      </ul>
-      <p class="privacy-control">You are always in control and can leave the simulated outbreak at any time.</p>
+  <div class="qa-item">
+    <div class="question">
+      <h2>What are epidemic games (epigames)?</h2>
     </div>
-    <div class="privacy-image">
-      <img src="/assets/images/epigames-privacy.png" alt="Privacy and Security Features" class="privacy-illustration">
+    <div class="answer">
+      <p>Epigames are real-world gamified experiments where participants experience various epidemiological scenarios—for example, the transmission of a hypothetical pathogen—as part of their daily routines. Their development has been closely related to Epidemica's, but they should be considered to be separate projects (i.e.: Epidemica is a framework or platform to create mobile apps for epidemiology studies, Epigames is an example of one such apps).</p>
     </div>
   </div>
-</div>
 
-<div class="upcoming-event-section">
-  <h2>Upcoming Event</h2>
-  <div class="event-container">
-    <div class="event-image">
-      <img src="/assets/images/epigames-vinuni.webp" alt="VinUni Epugame" class="upcoming-event-illustration">
-    </div>
-    <div class="event-content">
-      <h3>VinUni 2026 Epigame</h3>
-      <p>This will be a two-week campus-wide epidemic game conducted at <a href="https://vinuni.edu.vn/" target="_blank">VinUniversity</a>. This study is conducted under VinUniversity research oversight. Participants (students, staff, and faculty) will receive information about a fictional outbreak unfolding around them through the Epigames app. Each day, they will decide whether to adopt protective measures, such as voluntary quarantine, and earn points based on their decisions. The resulting data will contribute to research on transmission of infectious diseases through contact networks and the influence of human behavior.</p>
-      <a href="/epigames/vinuepi26" class="event-btn">Learn more about the VinUni Epigame</a>
-    </div>
-  </div>
-</div>
 
-<div class="contact-section">
-  <p class="contact-info"><strong>Questions/Concerns?</strong> Please feel free to contact the Principal Investigator, Dr. Andres Colubri (<a href="mailto:Andres.Colubri@umassmed.edu">Andres.Colubri@umassmed.edu</a>)</p>
-</div>
-
-<div class="cta-section">
-  <div class="download-container">
-    <div class="download-left">
-      <img src="/assets/images/epigames-download.png" alt="Download Epigames" class="download-image">
+  <div class="qa-item">
+    <div class="question">
+      <h2>What is Operation Outbreak and how is it related to Epidemica?</h2>
     </div>
-    <div class="download-right">
-      <div class="qr-codes">
-        <div class="qr-code-item" id="ios-download">
-          <a href="https://apps.apple.com/us/app/epigames/id6746726345" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/app-store-qr.png" alt="Download on App Store" class="qr-code">
-          </a>
+    <div class="answer">
+      <p>With collaborators at the Broad Institute of Harvard and MIT, Dr. Colubri created the <a href="https://operationoutbreak.org/" target="_blank">Operation Outbreak</a> (OO) project, a predecessor to the Epidemica platform, back in 2018. The OO app spreads a digital pathogen between participants' smartphones via Bluetooth, enabling deeply engaging experiential learning experiences about pandemics in schools, colleges, and conferences. OO has been deployed in over 150 educational institutions involving more than 10,000 students. Another relevant project is <a href="https://gten.massgeneral.org/projects/travel-healthy-app/" target="_blank">Travel Healthy</a> (TH), a mobile app for participatory surveillance by U.S. international travelers that generates high resolution data regarding travel-related illness. TH, launched in 2023 and conducted in a close partnership between the Colubri Lab and Massachusetts General Hospital Travelers' Advice and Immunization Center, was nominated for the UX Design Awards in 2024. The work on OO and TH, and later Epigames, served as the main motivaton for Epidemica, after the realization that projects like these would benefit from a common digital infraestructure.</p>
+      <div class="project-images">
+        <div class="project-image-container">
+          <img src="/assets/images/travel-healthy.webp" alt="Travel Healthy App" class="project-image">
         </div>
-        <div class="qr-code-item" id="android-download">
-          <a href="https://play.google.com/store/apps/details?id=info.epidemica.epigamez" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/google-play-qr.png" alt="Get it on Google Play" class="qr-code">
-          </a>
+        <div class="project-image-container">
+          <img src="/assets/images/operation-outbreak.webp" alt="Operation Outbreak App" class="project-image">
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<script>
-  // Hide platform-specific download options based on device
-  const userAgent = navigator.userAgent;
-  
-  // Hide Google Play on iOS devices
-  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    const androidDownload = document.getElementById('android-download');
-    if (androidDownload) {
-      androidDownload.style.display = 'none';
-    }
-  }
-  
-  // Hide App Store on Android devices
-  if (/Android/.test(userAgent)) {
-    const iosDownload = document.getElementById('ios-download');
-    if (iosDownload) {
-      iosDownload.style.display = 'none';
-    }
-  }
-</script>
