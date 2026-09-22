@@ -69,7 +69,7 @@ additional_css: epigames.css
   </div>
 </div>
 
-<div class="upcoming-event-section">
+<!-- <div class="upcoming-event-section">
   <h2>Upcoming Event</h2>
   <div class="event-container">
     <div class="event-image">
@@ -81,7 +81,7 @@ additional_css: epigames.css
       <a href="/epigames/vinuepi26" class="event-btn">Learn more about the VinUni Epigame</a>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="contact-section">
   <p class="contact-info"><strong>Questions/Concerns?</strong> Please feel free to contact the Principal Investigator, Dr. Andres Colubri (<a href="mailto:Andres.Colubri@umassmed.edu">Andres.Colubri@umassmed.edu</a>)</p>
